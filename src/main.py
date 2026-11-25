@@ -1,18 +1,18 @@
-from loader import LoaderToPandas
+from load_trades import LoaderToPandas
 from pathlib import Path
-from loader import Source
+from load_trades import flatten_json
 
 def main():
     """ create an instance of LoaderToPandas and load data from /data """
-    source_csv = Source(Path('data/meridian_trades_small.csv'),"csv")
-    source_json = Source(Path('data/meridian_trades_small.json'),"json")
+    csv_path = Path("data/meridian_trades_small.csv")
+    json_path = Path("data/meridian_trades_small.json")
     try:
-        df_csv = LoaderToPandas(source_csv).load()
+        df_csv = LoaderToPandas(csv_path).load()
     except Exception as e:
         print(f"Error loading file, invalid or does not exist: {e}")
         return
     try:
-        df_json = LoaderToPandas(source_json).load()
+        df_json = LoaderToPandas(json_path).load()
     except Exception as e:
         print(f"Error loading file, invalid or does not exist: {e}")
         return

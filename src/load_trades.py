@@ -1,6 +1,8 @@
 import pandas as pd
 from pathlib import Path
+import json
 
+from pandas.core.internals.construction import dict_compat
 
 class LoaderToPandas:
     """Load a CSV or JSON file into a pandas DataFrame.
@@ -18,24 +20,29 @@ class LoaderToPandas:
             case '.csv':
                 return pd.read_csv(self.file_path)
             case '.json':
-                return pd.read_json(self.file_path)
+                json_data = json.loads(self.file_path.read_text()) # parse file into list of records (still nested)
+                return pd.DataFrame(flatten_json(json_data)) # flatten the json data and turn into dataframe
             case _:
                 raise Exception (f"Invalid file type: {self.file_path.suffix.lower()} from Path: {self.file_path}, needs JSON or CSV as input") # not needed but good to have 
           
-
-def normalize_column_names(df_csv: pd.DataFrame, df_json: pd.DataFrame) -> pd.DataFrame: # to do later LIST of dataframes
+# once file is read, data becomes list of dictionaries
+def flatten_json(json_records: list[dict]) -> list[dict]:
     """ Normalize the column names of the dataframe
-    args: df_csv, df_json
-    returns: df 
-        normalized column names 
+    args: list[dict]
+    returns: list[dict]
+        flattens nested json records into list of dictionaries
     """
-    print(" column names from csv file: ", df_csv.columns.tolist())
-    print(" column names from json file: ", df_json.columns.tolist())
-    for col in df_csv.columns:
-        if col not in df_json.columns:
-            print(f"Column {col} not found in json file")
-        else:
-            print(f"Column {col} found in json file")
-    for col in df_json.columns:
-        if col not in df_csv.columns:
-            print(f"Column {col} not found in csv file")
+    flattened_records = [] #completed flattened records stored here
+    for record in json_records:
+        already_flattened_record = {} 
+        for key, value in record.items(): 
+                if isinstance(value, dict): # isinstance tell apart dict and str (true when dict)
+                    already_flattened_record.update(value) # is a dictionary, need to flatten 
+                else:
+                    already_flattened_record[key] = value # store directly, not dictionary
+        flattened_records.append(already_flattened_record)
+    print(f'Count of flattened records from : {len(flattened_records)}, expected {len(json_records)}')
+    return flattened_records # return the list of flattened records
+
+  
+  
