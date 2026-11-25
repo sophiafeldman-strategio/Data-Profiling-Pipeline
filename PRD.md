@@ -35,3 +35,8 @@ from a Meridian product owner.
 - Handling of missing or unreadable input files.
 - A formatted report summarising your findings.
 - An open pull request your pair programming partner and Nelli as reviewers.
+
+# Libraries
+
+
+# Functions 

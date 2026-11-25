@@ -2,8 +2,8 @@ import unittest
 from pathlib import Path
 from load_trades import LoaderToPandas
 
-# data located at ROOT/data/... (parents[1] to access data folder needed for tests)
-ROOT = Path(__file__).resolve().parents[1]
+# sample files live in tests/data, next to this file
+DATA = Path(__file__).resolve().parent / "data"
 EXPECTED_TYPES = {
     "trade_id": "object",
     "instrument_id": "object",
@@ -20,8 +20,8 @@ EXPECTED_TYPES = {
 class TestLoadTrades(unittest.TestCase):
     ''' Test the load_trades to ensure data matches expected types and column names for both json (post flattening) and csv'''
     def test_records_match_names_and_types(self):
-        df_csv = LoaderToPandas(ROOT / "data/meridian_trades_small.csv").load()
-        df_json = LoaderToPandas(ROOT / "data/meridian_trades_small.json").load()
+        df_csv = LoaderToPandas(DATA / "meridian_trades_small.csv").load()
+        df_json = LoaderToPandas(DATA / "meridian_trades_small.json").load()
 
         self.assertEqual(list(df_csv.columns), list(df_json.columns))
         for record in (df_csv, df_json): 

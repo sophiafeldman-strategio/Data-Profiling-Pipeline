@@ -13,9 +13,9 @@ python src/main.py
 Run `Main.py` profiler outputs to `/output/summary_stats.md` for user review 
 
 # Data 
-`input files: data/meridian_trades_small.csv`
-`data/meridian_trades_small.json`
-`data/data_info/SCHEMA.md`
+`input files: tests/data/meridian_trades_small.csv`
+`tests/data/meridian_trades_small.json`
+`data_info/SCHEMA.md`
 
 *Note: data is synthetic*
 
@@ -26,17 +26,20 @@ Run `Main.py` profiler outputs to `/output/summary_stats.md` for user review
 │   ├── main.py            # loads data, combines it, writes the report
 │   ├── load_trades.py     # reads the CSV and JSON files
 │   ├── transform_df.py    # combines the two datasets
-│   ├── profiler.py        # data quality checks
-│   └── tests.py
-├── data/
-│   ├── meridian_trades_small.csv
-│   ├── meridian_trades_small.json
-│   └── data_info/         # schema and field notes
+│   └── profiler.py        # data quality checks
+├── tests/
+│   ├── tests.py
+│   └── data/
+│       ├── meridian_trades_small.csv
+│       └── meridian_trades_small.json
+├── data_info/             # schema and field notes
+│   ├── SCHEMA.md
+│   ├── DATA_DOCUMENTATION.md
+│   └── meridian_reference_data.csv
 ├── output/
 │   └── summary_stats.md   # profiling report
-├── tests/
-│   └── tests.py
 ├── requirements.txt
+├── PRD.md
 └── README.md
 ```
 
