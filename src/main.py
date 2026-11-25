@@ -1,13 +1,12 @@
 from load_trades import LoaderToPandas
 from pathlib import Path
-from load_trades import flatten_json
 from transform_df import concat_df
 from profiler import summary_stats
 
 def main():
-    """ create an instance of LoaderToPandas and load data from /data """
-    csv_path = Path("data/meridian_trades_small.csv")
-    json_path = Path("data/meridian_trades_small.json")
+    """ create an instance of LoaderToPandas and load data from /tests/data """
+    csv_path = Path("tests/data/meridian_trades_small.csv")
+    json_path = Path("tests/data/meridian_trades_small.json")
     try:
         df_csv = LoaderToPandas(csv_path).load()
     except Exception as e:

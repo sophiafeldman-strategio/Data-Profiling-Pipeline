@@ -37,6 +37,6 @@ from a Meridian product owner.
 - An open pull request your pair programming partner and Nelli as reviewers.
 
 # Libraries
+- pandas >= 2.3, listed in `requirements.txt`. 
+- Python standard library: `json` to parse the trade file, `pathlib` for file paths, `datetime` for the report date, and `unittest` for the load test.
 
-
-# Functions 
