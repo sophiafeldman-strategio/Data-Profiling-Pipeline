@@ -2,7 +2,17 @@ import pandas as pd
 from pathlib import Path
 import json
 
-from pandas.core.internals.construction import dict_compat
+COLUMN_MAP = {
+    "tradeReference": "trade_id",
+    "securityCode": "instrument_id",
+    "securityType": "instrument_type",
+    "executionDate": "trade_date",
+    "buyingFirm": "buyer",
+    "sellingFirm": "seller",
+    "units": "quantity",
+    "executionPrice": "price",
+    "settlementStatus": "trade_status",
+}
 
 class LoaderToPandas:
     """Load a CSV or JSON file into a pandas DataFrame.
@@ -21,10 +31,11 @@ class LoaderToPandas:
                 return pd.read_csv(self.file_path)
             case '.json':
                 json_data = json.loads(self.file_path.read_text()) # parse file into list of records (still nested)
-                return pd.DataFrame(flatten_json(json_data)) # flatten the json data and turn into dataframe
+                return pd.DataFrame(flatten_json(json_data)).rename(columns=COLUMN_MAP) # flatten the json data and turn into dataframe
             case _:
                 raise Exception (f"Invalid file type: {self.file_path.suffix.lower()} from Path: {self.file_path}, needs JSON or CSV as input") # not needed but good to have 
-          
+
+
 # once file is read, data becomes list of dictionaries
 def flatten_json(json_records: list[dict]) -> list[dict]:
     """ Normalize the column names of the dataframe
