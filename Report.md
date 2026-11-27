@@ -1,57 +1,63 @@
 # Meridian trade data quality report
 
 Prepared by Sophia Feldman for Meridian Capital Markets.
-Source: the combined CSV and JSON blotter profiled in `output/summary_stats.md` (2,000 rows, 9 columns).
+Source: the CSV and JSON blotters combined (2,000 rows), checked against the 30 securities in `data_info/meridian_reference_data.csv`.
 
-The NA count and the blank count are the same in every column below (121 cells). Do not add those two numbers together. Treat them as one missing-value problem until you confirm whether each cell is a pandas NA, an empty string, or both.
+## Can this file be used?
 
-## Completeness
+**No.** The overall score is **86.2** out of 100. Do not use this file for analysis, past trends, or a forecasting model until every category is at least 90. Consistency is the category below that bar.
 
-A record is incomplete when a field needed to identify or value the trade is missing.
+The overall score is a weighted average of the checks, not a plain average of the five categories. The weight is how hard it is to use a row when that field is bad.
 
-- `instrument_id` is missing on 88 rows (8.8%). Those rows cannot be tied to a security.
-- `buyer` is missing on 11 rows and `seller` is missing on 22 rows. The trade still has an id, but one side of the trade is unnamed.
-- `trade_id`, `trade_date`, `quantity`, and `price` are populated on every row.
-- No cell is a Python `None`. The gaps are pandas missing values and blank strings.
+| Weight | Fields | Why |
+| ---: | --- | --- |
+| 3 | Trade id, instrument id, price | Without these you cannot name the trade, name the security, or say what it was worth. |
+| 2 | Trade date, quantity, buyer, seller | The row can still be priced. A missing date, size, or party blocks the timeline, the volume, or who traded. |
+| 1 | Instrument type, trade status | These are labels. The instrument id already names the security. |
 
-8.8% of rows are incomplete on the required fields, and every one of those failures is a missing `instrument_id`.
+Buyer and seller are 2, not 3. A missing party blocks settlement. It does not block a price history.
 
-## Consistency
+| Category | Score | Against the 90 bar |
+| --- | ---: | --- |
+| Completeness | 96.7 | Meets |
+| Consistency | 25.0 | Below |
+| Accuracy | 98.6 | Meets |
+| Timeliness | 90.4 | Meets |
+| Validity | 100.0 | Meets |
+| Overall (weighted) | 86.2 |  |
 
-The same kind of fact is not stored the same way, and some trade ids are reused.
+## What failed
 
-- Trade dates use four patterns. 1,808 dates (90.4%) are `YYYY-MM-DD`. 64 use dots (`YYYY.MM.DD`), 68 use dashes as `DD-MM-YYYY` or `MM-DD-YYYY`, and 60 use slashes. Nothing falls outside those four patterns.
-- The two-digit dates can be read as day-first or month-first. A date such as `05-06-2024` is not one calendar day until the source says which part is the month.
-- 1,048 trade ids occur more than once. 882 rows are exact copies of another row. The other 166 repeated ids are the same id on rows that differ in at least one column. Those 166 are not safe to treat as duplicates or as distinct trades without a business rule.
+**Consistency is 25 because the same trade id is on more than one row.** All 2,000 rows fail that check. They are not all the same kind of repeat.
 
-## Accuracy
+1,764 rows (88.2%) are an exact copy of another row. Where a trade id appears once in the CSV and once in the JSON, the two rows match. The JSON does not add a field the CSV is missing. Keeping both copies only inflates the file. A sum of volume, an average price, or a count of trades will be too high until the extra copy is dropped.
 
-These checks can show that a value is implausible. They cannot prove the original blotter was wrong.
+The other 236 rows (11.8%) share a trade id but are not the same trade. Those ids were already reused inside one blotter for a different security, date, party, or price. They should not be merged into one record. Merging them would mix two trades. They need a new id, or they need to be left out of any total.
 
-- 46 prices are zero or negative (2.3% of rows). The price column ranges from -497.46 to 499.76. A traded price at or below zero should be reviewed before it is used.
-- Quantity ranges from 167 to 49,952, which is a plausible share count on its own. This profile does not compare quantity or price to the reference data.
+Instrument type still matches the reference security on every row, which is why the category is 25 rather than 0.
 
-## Timeliness
+**The other categories clear 90.** Completeness is 96.7: trade id is always present, instrument id is present on 91.2% of rows, and buyer and seller are rarely blank. Accuracy is 98.6 because 97.7% of prices are above zero and every quantity is above zero. Timeliness is 90.4: that share of dates is `YYYY-MM-DD` inside 1 Jan 2025 to 30 Jun 2026. Validity is 100. Every filled instrument id is one of the 30 reference securities, and no row gives that security a different type.
 
-Every row has a trade date, so the file is not missing dates. The dates are not in one format, so a sort or a "latest date" calculation will be wrong for the 192 rows that are not `YYYY-MM-DD` until those dates are parsed.
+A blank instrument id fails completeness. A filled id that is not on the reference list would fail validity. This file has the first problem and not the second.
 
-## Validity
+## Next steps
 
-A value is invalid when it breaks a rule for that field, even if the cell is filled in.
+The file is close to usable. Four of the five categories already clear 90. The work that unlocks analysis is the duplicate trade ids. After that cleanup, the same pipeline can total volume, average price, and count trades by security and by month.
 
-- Prices at or below zero fail a basic price rule (46 rows).
-- Dates that are not `YYYY-MM-DD` fail a single-format rule (192 rows). The ambiguous two-digit dates are the more serious subset because the day and month can be swapped.
-- `instrument_type` has 3 distinct values and `trade_status` has 5. This profile does not check those values against an allowed list.
+1. **Drop the exact copies.** Remove 1,764 rows that repeat another row in full. Where the CSV and the JSON describe the same trade, keep one row. Nothing is lost. Sums and averages stop counting the same trade twice.
+2. **Merge only when the two rows are the same trade and one of them fills a blank.** If the security, date, and price match and one file has a buyer or a seller the other is missing, keep the filled value. On this file that case did not occur: one CSV row and one JSON row with the same id were already identical. There is nothing to merge.
+3. **Set aside the 236 rows that share an id but are different trades.** Give them a new id, or leave them out of totals. Do not merge them. A merged row would mix two securities or two prices under one trade.
+4. **Re-score the cleaned file.** Consistency should move off 0 once each remaining trade id appears once. The file is ready for historical totals only when every category is at least 90.
+5. **Then run the history.** Sum quantity, average price, and count trades by security and by month. Leave out rows that still have no instrument id, a price at or below zero, or a date that is not `YYYY-MM-DD`. Those are a small share of the file. They should not sit inside a trend.
 
 ## User story
 
-As a Meridian product owner, I want a profiling report of the combined trade blotter so that I can see which trades are incomplete, inconsistent, or invalid before the data is used for reporting. I want a full picture of the data's reliability and quality before using the data for analysis. 
+As a Meridian product owner, I want a weighted score of the combined blotter, checked against the instrument list, so I can see whether the file is fit for analysis before anyone builds a trend or a model on it.
 
 ### Acceptance criteria
 
-- The pipeline loads the CSV and the JSON blotter and combines them into one table.
-- The report states row count, column types, missing values, duplicate rows, and repeated trade ids.
-- Missing values are split into pandas NA, Python `None`, and blank text.
-- The report lists prices at or below zero and counts each trade-date pattern.
-- A missing or unreadable input file stops that load and prints an error instead of writing a partial profile.
-- The findings are grouped under completeness, consistency, accuracy, timeliness, and validity.
+- The pipeline loads both blotters, combines them, and scores completeness, consistency, accuracy, timeliness, and validity.
+- Trade id, instrument id, and price use weight 3. Date, quantity, buyer, and seller use weight 2. Instrument type and trade status use weight 1.
+- The file is not marked ready unless every category is at least 90.
+- A filled instrument id that is not on the reference list fails validity.
+- A missing or unreadable input file stops the load and prints an error.
