@@ -8,6 +8,10 @@ user = "Sophia Feldman"
 company_name = "Strategio"
 client_name = "Meridian Capital"
 IMPORTANT_COLUMNS = ["trade_id", "instrument_id", "trade_date", "quantity", "price"]
+ALLOWED_VALUES = {
+    "instrument_type": {"Equity", "ETF", "Bond"},
+    "trade_status": {"EXECUTED", "SETTLED", "CANCELLED", "PENDING", "REJECTED"},
+}
 DATE_PATTERNS = [
     ("YYYY-MM-DD", r"^\d{4}-\d{2}-\d{2}$"),
     ("YYYY.MM.DD", r"^\d{4}\.\d{2}\.\d{2}$"),
@@ -26,31 +30,19 @@ def _percent(count: int, total: int) -> str:
     return f"{count / total:.1%}"
 
 
-def _none_mask(series: pd.Series) -> pd.Series:
-    """ Helper function: builds a yes/no column(series) for null values, returns True when cell contains a None value 
-    Args: Pandas Series
-    Returns: Pandas Series (yes/no for null values)
-    """
-    return pd.Series([value is None for value in series], index=series.index)
-
-
-def _blank_mask(series: pd.Series) -> pd.Series:
-    """ Helper function: builds a yes/no column(series) for blank values, returns True when cell contains an empty string
-    Args: Pandas Series
-    Returns: Pandas Series (yes/no for blank values)
-    """
+def _missing_mask(series: pd.Series) -> pd.Series:
+    """True where a cell is missing or blank. NA, None, and empty text count as the same gap."""
     if series.dtype != object:
-        return pd.Series(False, index=series.index) # numeric columns cannot be blank
-    return series.notna() & series.astype(str).str.strip().eq("") # text columns can be blank, strip whitespace and check for empty string (true when equal to "" & cell is present)
+        return series.isna()
+    blank = series.notna() & series.astype(str).str.strip().eq("")
+    return series.isna() | blank
 
 
-def _empty_counts(series: pd.Series) -> tuple[int, int, int]:
-    """ Helper function: count the number of none_mask, _blank_mask and isna values in a series.
-    Args: Pandas Series
-    Returns: tuple of ints for na, none, blank counts """
-    none = _none_mask(series)
-    na = series.isna() & ~none # na only, NOT none  (isna true for none and NaN)
-    return int(na.sum()), int(none.sum()), int(_blank_mask(series).sum()) # returns the sum of na, none and blank values in a series
+def invalid_category_count(series: pd.Series, allowed: set[str]) -> int:
+    """Count non-empty values that are not in the allowed set."""
+    present = series.dropna().astype(str).str.strip()
+    present = present[present.ne("")]
+    return int((~present.isin(allowed)).sum())
 
 
 def summary_stats(df: DataFrame) -> Path:
@@ -65,51 +57,48 @@ def summary_stats(df: DataFrame) -> Path:
     numeric = df.select_dtypes(include="number")
     ranges = numeric.agg(["min", "max"]).T if not numeric.empty else pd.DataFrame() #Transpose the result to get column names as index
 
-    # Initialize the NA, None, and blank totals. Numeric columns show min and max; other columns show a unique count.
-    na_total = none_total = blank_total = 0
+    # Missing means NA, None, or blank text. Numeric columns show min and max; other columns show a unique count.
+    missing_total = 0
     column_rows = []
     for column in df.columns:
-        na_count, none_count, blank_count = _empty_counts(df[column])
-        na_total += na_count
-        none_total += none_count
-        blank_total += blank_count
+        missing = _missing_mask(df[column])
+        missing_count = int(missing.sum())
+        missing_total += missing_count
         if column in ranges.index:
             low = ranges.loc[column, "min"]
             high = ranges.loc[column, "max"]
             values = f"{low:g} to {high:g}"
         else:
-            values = f"{df[column].nunique(dropna=True)} unique"
+            values = f"{df.loc[~missing, column].nunique()} unique"
         column_rows.append(
-            f"| {column} | {df[column].dtype} | {na_count} | {none_count} | {blank_count} | {values} |"
+            f"| {column} | {df[column].dtype} | {missing_count} | {values} |"
         )
 
-    # Build the summary table for the dataframe
     summary_table = "\n".join(
         [
-            "| Column | Type | NA | Null | Blank | Values |",
-            "| --- | --- | ---: | ---: | ---: | --- |",
+            "| Column | Type | Missing | Values |",
+            "| --- | --- | ---: | --- |",
             *column_rows,
         ]
     )
 
-    # Initialize, then count missing rows for each required column.
-    missing_rows = [] # list count of missing rows for each column
-    incomplete_masks = [] # list: the boolean mask for each column
+    missing_rows = []
+    incomplete_masks = []
     for column in IMPORTANT_COLUMNS:
-        na_count, none_count, blank_count = _empty_counts(df[column])
-        empty = df[column].isna() | _none_mask(df[column]) | _blank_mask(df[column])
-        incomplete_masks.append(empty)
+        missing = _missing_mask(df[column])
+        missing_count = int(missing.sum())
+        incomplete_masks.append(missing)
         missing_rows.append(
-            f"| {column} | {na_count} | {none_count} | {blank_count} | {_percent(int(empty.sum()), row_count)} |"
+            f"| {column} | {missing_count} | {_percent(missing_count, row_count)} |"
         )
     incomplete_rows = int(pd.concat(incomplete_masks, axis=1).any(axis=1).sum())
 
     missing_table = "\n".join(
         [
-            "| Column | NA | Null | Blank | Share of rows empty |",
-            "| --- | ---: | ---: | ---: | ---: |",
+            "| Column | Missing | Share of rows |",
+            "| --- | ---: | ---: |",
             *missing_rows,
-            f"| Any of these columns |  |  |  | {_percent(incomplete_rows, row_count)} |",
+            f"| Any of these columns | {incomplete_rows} | {_percent(incomplete_rows, row_count)} |",
         ]
     )
 
@@ -133,6 +122,21 @@ def summary_stats(df: DataFrame) -> Path:
             *date_rows,
         ]
     )
+    allowed_rows = []
+    for column, allowed in ALLOWED_VALUES.items():
+        if column not in df:
+            continue
+        invalid = invalid_category_count(df[column], allowed)
+        allowed_rows.append(
+            f"| {column} | {', '.join(sorted(allowed))} | {invalid} | {_percent(invalid, row_count)} |"
+        )
+    allowed_table = "\n".join(
+        [
+            "| Column | Allowed values | Outside the list | Share of rows |",
+            "| --- | --- | ---: | ---: |",
+            *allowed_rows,
+        ]
+    )
     # Count repeated trade ids and duplicate rows
     repeated_ids = int(df["trade_id"].duplicated().sum()) if "trade_id" in df else 0
     duplicate_rows = int(df.duplicated().sum())
@@ -152,15 +156,13 @@ Prepared for client: {client_name}
 | Columns | {df.shape[1]} |
 | Duplicate rows | {duplicate_rows} |
 | Repeated trade ids | {repeated_ids} |
-| NA cells | {na_total} |
-| Null cells | {none_total} |
-| Blank strings | {blank_total} |
+| Missing cells | {missing_total} |
 
 {summary_table}
 
 ## Missing values in required trade fields
 
-NA is a pandas missing value. Null is a Python None. Blank is an empty string. A row is incomplete when any required field is one of the three.
+A cell is missing when it is empty or has no value. A row is incomplete when any required field is missing.
 
 {missing_table}
 
@@ -173,6 +175,10 @@ Prices at or below zero: {invalid_prices} ({_percent(invalid_prices, row_count)}
 {len(dates)} non-empty dates. The two-digit patterns can be read as day-first or month-first, so they are counted separately from the ISO dates.
 
 {date_table}
+
+## Values outside the allowed lists
+
+{allowed_table}
 
 Repeated trade ids minus identical rows: {repeated_ids - duplicate_rows}. Those ids appear more than once, but the copies are not the same across every column.
 """
