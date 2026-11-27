@@ -26,15 +26,15 @@ SRC = Path(__file__).resolve().parent.parent / "src"
 if str(SRC) not in sys.path:
     sys.path.insert(0, str(SRC))
 
-from load_trades import LoaderToPandas
+from load_trades import load_trades
 from profiler import ALLOWED_VALUES, REFERENCE_PATH, WEIGHT, invalid_category_count, load_reference, quality_scores
 from transform_df import concat_df
 
 class TestLoadTrades(unittest.TestCase):
     """ Test the load_trades to ensure data matches expected types and column names for both json (post flattening) and csv"""
     def test_records_match_column_names_and_types(self):
-        df_csv = LoaderToPandas(DATA / "meridian_trades_small.csv").load()
-        df_json = LoaderToPandas(DATA / "meridian_trades_small.json").load()
+        df_csv = load_trades(DATA / "meridian_trades_small.csv")
+        df_json = load_trades(DATA / "meridian_trades_small.json")
 
         print(f"csv columns: {list(df_csv.columns)}")
         print(f"json columns: {list(df_json.columns)}")
@@ -48,7 +48,7 @@ class TestLoadTrades(unittest.TestCase):
     def test_invalid_file_type_raises(self):
         """ Test the load_trades to ensure an exception is raised for invalid file types"""
         with self.assertRaises(Exception) as caught:
-            LoaderToPandas(Path("trades.txt")).load() # try txt (invalid file type)
+            load_trades(Path("trades.txt")) # try txt (invalid file type)
         print(f"invalid file type raised: {caught.exception}")
         self.assertIn("Invalid file type", str(caught.exception))
 
@@ -57,7 +57,7 @@ class TestLoadTrades(unittest.TestCase):
             empty = Path(directory) / "empty.csv"
             empty.write_text("")
             with self.assertRaises(EmptyDataError) as caught:
-                LoaderToPandas(empty).load()
+                load_trades(empty)
             print(f"empty csv raised: {caught.exception}")
 
     def test_broken_json_raises(self):
@@ -65,7 +65,7 @@ class TestLoadTrades(unittest.TestCase):
             broken = Path(directory) / "broken.json"
             broken.write_text("{")
             with self.assertRaises(json.JSONDecodeError) as caught:
-                LoaderToPandas(broken).load()
+                load_trades(broken)
             print(f"broken json raised: {caught.exception}")
 
 

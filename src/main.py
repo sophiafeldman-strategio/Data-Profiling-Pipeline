@@ -1,4 +1,4 @@
-from load_trades import LoaderToPandas
+from load_trades import load_trades
 from pathlib import Path
 from transform_df import concat_df
 from profiler import REFERENCE_PATH, write_summary_stats
@@ -10,17 +10,17 @@ with open('config.properties', 'rb') as config_file:
     config_properties.load(config_file)
 
 def main():
-    """ create an instance of LoaderToPandas and load data from /tests/data """
+    """ load data from /tests/data """
 # -------------- load the data from the csv and json files (from config.properties)--------------
     csv_path = Path(config_properties.get('csv_path').data)
     json_path = Path(config_properties.get('json_path').data)
     try:
-        df_csv = LoaderToPandas(csv_path).load()
+        df_csv = load_trades(csv_path)
     except Exception as e:
         print(f"Error loading file, invalid or does not exist: {e}")
         return
     try:
-        df_json = LoaderToPandas(json_path).load()
+        df_json = load_trades(json_path)
     except Exception as e:
         print(f"Error loading file, invalid or does not exist: {e}")
         return
