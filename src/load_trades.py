@@ -2,7 +2,9 @@ import pandas as pd
 from pathlib import Path
 import json
 
-COLUMN_MAP = {
+
+# ---- using csv as desired column names, the column map is for json normalization and column name standardization ----------
+COLUMN_MAP_JSON = {
     "tradeReference": "trade_id",
     "securityCode": "instrument_id",
     "securityType": "instrument_type",
@@ -25,30 +27,36 @@ def load_trades(file_path: Path) -> pd.DataFrame:
             return pd.read_csv(file_path)
         case '.json':
             json_data = json.loads(file_path.read_text()) # parse file into list of records (still nested)
-            return pd.DataFrame(flatten_json(json_data)).rename(columns=COLUMN_MAP) # flatten the json data and turn into dataframe
+            flatten_dictonaries(json_data) 
+            df = pd.DataFrame(json_data)
+            return rename_columns(df, COLUMN_MAP_JSON)
         case _:
             raise Exception (f"Invalid file type: {file_path.suffix.lower()} from Path: {file_path}, needs JSON or CSV as input") # not needed but good to have 
 
 
-# once file is read, data becomes list of dictionaries
-def flatten_json(json_records: list[dict]) -> list[dict]:
-    """ Normalize the column names of the dataframe
-    args: list[dict]
-    returns: list[dict]
-        flattens nested json records into list of dictionaries
+def rename_columns(df: pd.DataFrame, column_map: dict[str, str]) -> pd.DataFrame:
+    """Rename matching columns one at a time on this DataFrame.
+    Each inplace rename replaces that column's label. The row data stays put.
     """
-    flattened_records = [] #completed flattened records stored here
-    for record in json_records:
-        already_flattened_record = {} 
-        for key, value in record.items(): 
-                if isinstance(value, dict): # isinstance tell apart dict and str (true when dict)
-                    already_flattened_record.update(value) # is a dictionary, need to flatten 
-                else:
-                    already_flattened_record[key] = value # store directly, not dictionary
-        flattened_records.append(already_flattened_record)
-    print(f'Count of flattened records from : {len(flattened_records)}, expected {len(json_records)}')
-    return flattened_records # return the list of flattened records
+    for old_name, new_name in column_map.items():
+        if old_name in df.columns:
+            df.rename(columns={old_name: new_name}, inplace=True)
+    return df
 
-  
-  # revisit line 53 
-  # revisit how functions are named 
+
+# once file is read, data becomes list of dictionaries
+def flatten_dictonaries(dictonaries: list[dict]) -> None: 
+    """ Flatten the nested dictonary records into a list of flat dictionaries in place
+    args: list[dict]
+    returns: None (modifies in place to become flat dictionaries)
+    note: only handles one level of nesting
+    """
+    for i, nested_dict in enumerate(dictonaries):
+        flat = {} 
+        for key, value in nested_dict.items(): 
+                if isinstance(value, dict): # isinstance tell apart dict and str (true when dict)
+                    flat.update(value) # flatten one level, add all keys in bulk
+                else:
+                    flat[key] = value # store directly, already at top level (not dictionary)
+        dictonaries[i] = flat
+    print(f'Count of flattened dictonaries from : {len(dictonaries)}')
