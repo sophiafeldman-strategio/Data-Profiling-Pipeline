@@ -211,7 +211,7 @@ def quality_scores(df: DataFrame, reference: DataFrame) -> dict:
     return scores
 
 
-def summary_stats(df: DataFrame, reference_path: Path = REFERENCE_PATH) -> Path:
+def write_summary_stats(df: DataFrame, reference_path: Path = REFERENCE_PATH) -> Path:
     """Write the stakeholder profile and the column counts to output/summary_stats.md.
 
     The top of the file is the weighted score and the reason for each weight.

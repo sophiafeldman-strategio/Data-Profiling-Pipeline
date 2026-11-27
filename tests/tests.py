@@ -10,15 +10,15 @@ from pandas.errors import EmptyDataError
 # sample files live in tests/data, next to this file
 DATA = Path(__file__).resolve().parent / "data"
 EXPECTED_TYPES = {
-    "trade_id": "object",
-    "instrument_id": "object",
-    "instrument_type": "object",
-    "trade_date": "object",
-    "buyer": "object",
-    "seller": "object",
+    "trade_id": "str",
+    "instrument_id": "str",
+    "instrument_type": "str",
+    "trade_date": "str",
+    "buyer": "str",
+    "seller": "str",
     "quantity": "int64",
     "price": "float64",
-    "trade_status": "object",
+    "trade_status": "str",
 }
 
 
@@ -36,9 +36,12 @@ class TestLoadTrades(unittest.TestCase):
         df_csv = LoaderToPandas(DATA / "meridian_trades_small.csv").load()
         df_json = LoaderToPandas(DATA / "meridian_trades_small.json").load()
 
+        print(f"csv columns: {list(df_csv.columns)}")
+        print(f"json columns: {list(df_json.columns)}")
         self.assertEqual(list(df_csv.columns), list(df_json.columns))
-        for record in (df_csv, df_json): 
+        for record in (df_csv, df_json):
             actual = {column: str(dtype) for column, dtype in record.dtypes.items()}
+            print(f"actual types: {actual}")
             # compare record types to expected types
             self.assertEqual(actual, EXPECTED_TYPES)
 
@@ -46,21 +49,24 @@ class TestLoadTrades(unittest.TestCase):
         """ Test the load_trades to ensure an exception is raised for invalid file types"""
         with self.assertRaises(Exception) as caught:
             LoaderToPandas(Path("trades.txt")).load() # try txt (invalid file type)
+        print(f"invalid file type raised: {caught.exception}")
         self.assertIn("Invalid file type", str(caught.exception))
 
     def test_empty_csv_raises(self):
         with tempfile.TemporaryDirectory() as directory:
             empty = Path(directory) / "empty.csv"
             empty.write_text("")
-            with self.assertRaises(EmptyDataError):
+            with self.assertRaises(EmptyDataError) as caught:
                 LoaderToPandas(empty).load()
+            print(f"empty csv raised: {caught.exception}")
 
     def test_broken_json_raises(self):
         with tempfile.TemporaryDirectory() as directory:
             broken = Path(directory) / "broken.json"
             broken.write_text("{")
-            with self.assertRaises(json.JSONDecodeError):
+            with self.assertRaises(json.JSONDecodeError) as caught:
                 LoaderToPandas(broken).load()
+            print(f"broken json raised: {caught.exception}")
 
 
 class TestAllowedValues(unittest.TestCase):
@@ -69,14 +75,12 @@ class TestAllowedValues(unittest.TestCase):
             "instrument_type": ["Equity", "Option", "Bond"],
             "trade_status": ["EXECUTED", "NOPE", "SETTLED"],
         })
-        self.assertEqual(
-            invalid_category_count(frame["instrument_type"], ALLOWED_VALUES["instrument_type"]),
-            1,
-        )
-        self.assertEqual(
-            invalid_category_count(frame["trade_status"], ALLOWED_VALUES["trade_status"]),
-            1,
-        )
+        type_count = invalid_category_count(frame["instrument_type"], ALLOWED_VALUES["instrument_type"])
+        status_count = invalid_category_count(frame["trade_status"], ALLOWED_VALUES["trade_status"])
+        print(f"invalid instrument_type count: {type_count}")
+        print(f"invalid trade_status count: {status_count}")
+        self.assertEqual(type_count, 1)
+        self.assertEqual(status_count, 1)
 
 
 class TestReferenceData(unittest.TestCase):
@@ -85,7 +89,10 @@ class TestReferenceData(unittest.TestCase):
     def test_reference_file_is_the_instrument_master(self):
         """The reference file is the 30-security list."""
         reference = load_reference(Path(__file__).resolve().parents[1] / "data_info" / "meridian_reference_data.csv")
-        self.assertEqual(reference["instrument_id"].nunique(), 30)
+        unique_ids = reference["instrument_id"].nunique()
+        print(f"unique instrument ids: {unique_ids}")
+        print(f"MRCX present: {'MRCX' in set(reference['instrument_id'])}")
+        self.assertEqual(unique_ids, 30)
         self.assertIn("MRCX", set(reference["instrument_id"]))
 
     def test_unknown_id_and_type_mismatch_are_counted(self):
@@ -103,6 +110,9 @@ class TestReferenceData(unittest.TestCase):
             "trade_status": ["EXECUTED", "EXECUTED", "EXECUTED"],
         })
         scores = quality_scores(frame, reference)
+        print(f"unknown_instrument: {scores['unknown_instrument']}")
+        print(f"type_mismatch: {scores['type_mismatch']}")
+        print(f"overall: {scores['overall']}")
         self.assertEqual(scores["unknown_instrument"], 1)
         self.assertEqual(scores["type_mismatch"], 1)
         weighted = sum(check["weight"] * check["score"] for check in scores["checks"]) / sum(check["weight"] for check in scores["checks"])
@@ -111,6 +121,7 @@ class TestReferenceData(unittest.TestCase):
     def test_price_and_ids_weigh_more_than_labels(self):
         """Trade id, instrument id, and price weigh 3. Buyer and seller weigh 2. Instrument type weighs 1. Ensure weights are as expected.
         Reference weights are defined in profiler.py"""
+        print(f"weights: {WEIGHT}")
         self.assertEqual(WEIGHT["trade_id"], 3)
         self.assertEqual(WEIGHT["instrument_id"], 3)
         self.assertEqual(WEIGHT["price"], 3)
@@ -132,6 +143,8 @@ class TestConcat(unittest.TestCase):
         first = pd.DataFrame({"trade_id": ["a"]})
         second = pd.DataFrame({"trade_id": ["b"]})
         combined = concat_df([first, second])
+        print(f"combined trade_id: {list(combined['trade_id'])}")
+        print(f"combined index: {list(combined.index)}")
         self.assertEqual(list(combined["trade_id"]), ["a", "b"])
         self.assertEqual(list(combined.index), [0, 1])
 
