@@ -1,14 +1,11 @@
 import json
+import sys
 import tempfile
 import unittest
 from pathlib import Path
 
 import pandas as pd
 from pandas.errors import EmptyDataError
-
-from load_trades import LoaderToPandas
-from profiler import ALLOWED_VALUES, REFERENCE_PATH, WEIGHT, invalid_category_count, load_reference, quality_scores
-from transform_df import concat_df
 
 # sample files live in tests/data, next to this file
 DATA = Path(__file__).resolve().parent / "data"
@@ -24,6 +21,14 @@ EXPECTED_TYPES = {
     "trade_status": "object",
 }
 
+
+SRC = Path(__file__).resolve().parent.parent / "src"
+if str(SRC) not in sys.path:
+    sys.path.insert(0, str(SRC))
+
+from load_trades import LoaderToPandas
+from profiler import ALLOWED_VALUES, REFERENCE_PATH, WEIGHT, invalid_category_count, load_reference, quality_scores
+from transform_df import concat_df
 
 class TestLoadTrades(unittest.TestCase):
     """ Test the load_trades to ensure data matches expected types and column names for both json (post flattening) and csv"""
