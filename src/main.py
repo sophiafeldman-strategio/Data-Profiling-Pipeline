@@ -2,11 +2,17 @@ from load_trades import LoaderToPandas
 from pathlib import Path
 from transform_df import concat_df
 from profiler import REFERENCE_PATH, summary_stats
+from jproperties import Properties
+
+# Use Properties to load the csv and json paths from config.properties
+config_properties = Properties()
+with open('config.properties', 'rb') as config_file:
+    config_properties.load(config_file)
 
 def main():
     """ create an instance of LoaderToPandas and load data from /tests/data """
-    csv_path = Path("tests/data/meridian_trades_small.csv")
-    json_path = Path("tests/data/meridian_trades_small.json")
+    csv_path = Path(config_properties.get('csv_path').data)
+    json_path = Path(config_properties.get('json_path').data)
     try:
         df_csv = LoaderToPandas(csv_path).load()
     except Exception as e:
