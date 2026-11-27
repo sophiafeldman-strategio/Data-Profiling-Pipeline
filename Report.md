@@ -1,11 +1,11 @@
 # Meridian trade data quality report
 
 Prepared by Sophia Feldman for Meridian Capital Markets.
-Source: the CSV and JSON blotters combined (2,000 rows), checked against the 30 securities in `data_info/meridian_reference_data.csv`.
+Source: two copies of the same trade file, saved with different column names. Combined, that is 2,000 rows. Each trade was also checked against Meridian's list of 30 securities.
 
 ## Can this file be used?
 
-**No.** The overall score is **86.2** out of 100. Do not use this file for analysis, past trends, or a forecasting model until every category is at least 90. Consistency is the category below that bar.
+**No.** The overall score is **86.8** out of 100. Do not use this file for analysis, past trends, or a forecasting model until every category is at least 90. Consistency is the category below that bar.
 
 The overall score is a weighted average of the checks, not a plain average of the five categories. The weight is how hard it is to use a row when that field is bad.
 
@@ -20,21 +20,21 @@ Buyer and seller are 2, not 3. A missing party blocks settlement. It does not bl
 | Category | Score | Against the 90 bar |
 | --- | ---: | --- |
 | Completeness | 96.7 | Meets |
-| Consistency | 25.0 | Below |
+| Consistency | 53.6 | Below |
 | Accuracy | 98.6 | Meets |
 | Timeliness | 90.4 | Meets |
 | Validity | 100.0 | Meets |
-| Overall (weighted) | 86.2 |  |
+| Overall (weighted) | 86.8 |  |
 
 ## What failed
 
-**Consistency is 25 because the same trade id is on more than one row.** All 2,000 rows fail that check. They are not all the same kind of repeat.
+**Consistency is 53.6 because repeated trades are two different problems, and both are scored.**
 
-1,764 rows (88.2%) are an exact copy of another row. Where a trade id appears once in the CSV and once in the JSON, the two rows match. The JSON does not add a field the CSV is missing. Keeping both copies only inflates the file. A sum of volume, an average price, or a count of trades will be too high until the extra copy is dropped.
+1,764 rows fail “Is this row the only copy of this exact trade?” They come from loading both copies of the file. Where the same trade appears once in each copy, the rows match. The second copy adds nothing. Keeping both makes a sum of volume, an average price, or a count of trades too high. Drop the extra copy.
 
-The other 236 rows (11.8%) share a trade id but are not the same trade. Those ids were already reused inside one blotter for a different security, date, party, or price. They should not be merged into one record. Merging them would mix two trades. They need a new id, or they need to be left out of any total.
+400 rows fail “Does this trade id describe only one trade?” The same id is on two trades that differ in security, date, party, or price. Those are not extra copies. Do not drop one, and do not merge them. Give the second trade a new id, or leave it out of totals.
 
-Instrument type still matches the reference security on every row, which is why the category is 25 rather than 0.
+A row can fail both questions when an id has an exact copy and also a second, different trade. Instrument type still matches the reference security on every row.
 
 **The other categories clear 90.** Completeness is 96.7: trade id is always present, instrument id is present on 91.2% of rows, and buyer and seller are rarely blank. Accuracy is 98.6 because 97.7% of prices are above zero and every quantity is above zero. Timeliness is 90.4: that share of dates is `YYYY-MM-DD` inside 1 Jan 2025 to 30 Jun 2026. Validity is 100. Every filled instrument id is one of the 30 reference securities, and no row gives that security a different type.
 
@@ -44,10 +44,10 @@ A blank instrument id fails completeness. A filled id that is not on the referen
 
 The file is close to usable. Four of the five categories already clear 90. The work that unlocks analysis is the duplicate trade ids. After that cleanup, the same pipeline can total volume, average price, and count trades by security and by month.
 
-1. **Drop the exact copies.** Remove 1,764 rows that repeat another row in full. Where the CSV and the JSON describe the same trade, keep one row. Nothing is lost. Sums and averages stop counting the same trade twice.
-2. **Merge only when the two rows are the same trade and one of them fills a blank.** If the security, date, and price match and one file has a buyer or a seller the other is missing, keep the filled value. On this file that case did not occur: one CSV row and one JSON row with the same id were already identical. There is nothing to merge.
-3. **Set aside the 236 rows that share an id but are different trades.** Give them a new id, or leave them out of totals. Do not merge them. A merged row would mix two securities or two prices under one trade.
-4. **Re-score the cleaned file.** Consistency should move off 0 once each remaining trade id appears once. The file is ready for historical totals only when every category is at least 90.
+1. **Drop the exact copies.** Remove 1,764 rows that repeat another row in full. Where the same trade appears in both copies, keep one row. Nothing is lost. Sums and averages stop counting the same trade twice.
+2. **Merge only when the two rows are the same trade and one of them fills a blank.** If the security, date, and price match and one copy has a buyer or a seller the other is missing, keep the filled value. On this file that case did not occur: the same trade in both copies was already identical. There is nothing to merge.
+3. **Set aside the 400 rows whose trade id describes more than one trade.** Give the second trade a new id, or leave it out of totals. Do not merge them. A merged row would mix two securities or two prices under one trade.
+4. **Re-score the cleaned file.** The file is ready for historical totals only when every category is at least 90.
 5. **Then run the history.** Sum quantity, average price, and count trades by security and by month. Leave out rows that still have no instrument id, a price at or below zero, or a date that is not `YYYY-MM-DD`. Those are a small share of the file. They should not sit inside a trend.
 
 ## User story

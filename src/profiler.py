@@ -173,21 +173,28 @@ def quality_scores(df: DataFrame, reference: DataFrame) -> dict:
     type_mismatch = known & df["instrument_type"].astype(str).ne(instrument.map(ref_type))
     iso = df["trade_date"].astype(str).str.strip().str.match(r"^\d{4}-\d{2}-\d{2}$")
     parsed = pd.to_datetime(df["trade_date"], format="%Y-%m-%d", errors="coerce")
+    # An exact copy matches another row on every column. A shared id with different
+    # columns is a second trade, even when one of those rows is also a copy.
+    exact_copy = df.duplicated(keep=False)
+    distinct_rows = df.drop_duplicates()
+    conflicting_ids = distinct_rows.loc[distinct_rows["trade_id"].duplicated(keep=False), "trade_id"]
+    different_trade = df["trade_id"].isin(set(conflicting_ids))
 
     # Each check is a category, the field whose weight it uses, a label, and the rows that pass.
     rows = [
-        ("completeness", "trade_id", "Trade id is present", ~_missing_mask(df["trade_id"])),
-        ("completeness", "instrument_id", "Instrument id is present", ~blank_id),
-        ("completeness", "buyer", "Buyer is present", ~_missing_mask(df["buyer"])),
-        ("completeness", "seller", "Seller is present", ~_missing_mask(df["seller"])),
-        ("accuracy", "price", "Price is above zero", df["price"].notna() & (df["price"] > 0)),
-        ("accuracy", "quantity", "Quantity is above zero", df["quantity"].notna() & (df["quantity"] > 0)),
-        ("timeliness", "trade_date", "Date is YYYY-MM-DD inside the window", iso & parsed.between(TRADE_WINDOW_START, TRADE_WINDOW_END)),
-        ("consistency", "trade_id", "Trade id is used on one row", ~df["trade_id"].duplicated(keep=False)),
-        ("consistency", "instrument_type", "Type matches the reference security", ~type_mismatch),
-        ("validity", "instrument_id", "Filled instrument id is on the reference list", ~unknown),
-        ("validity", "instrument_type", "Instrument type is Equity, ETF, or Bond", df["instrument_type"].astype(str).isin(ALLOWED_VALUES["instrument_type"])),
-        ("validity", "trade_status", "Trade status is on the allowed list", df["trade_status"].astype(str).isin(ALLOWED_VALUES["trade_status"])),
+        ("completeness", "trade_id", "Does the row have a trade id?", ~_missing_mask(df["trade_id"])),
+        ("completeness", "instrument_id", "Does the row have an instrument id?", ~blank_id),
+        ("completeness", "buyer", "Does the row have a buyer?", ~_missing_mask(df["buyer"])),
+        ("completeness", "seller", "Does the row have a seller?", ~_missing_mask(df["seller"])),
+        ("accuracy", "price", "Is the price above zero?", df["price"].notna() & (df["price"] > 0)),
+        ("accuracy", "quantity", "Is the quantity above zero?", df["quantity"].notna() & (df["quantity"] > 0)),
+        ("timeliness", "trade_date", "Is the date YYYY-MM-DD and inside 2025-01-01 to 2026-06-30?", iso & parsed.between(TRADE_WINDOW_START, TRADE_WINDOW_END)),
+        ("consistency", "trade_id", "Is this row the only copy of this exact trade?", ~exact_copy),
+        ("consistency", "trade_id", "Does this trade id describe only one trade?", ~different_trade),
+        ("consistency", "instrument_type", "Does the instrument type match the reference security?", ~type_mismatch),
+        ("validity", "instrument_id", "Is a filled instrument id on the reference list?", ~unknown),
+        ("validity", "instrument_type", "Is the instrument type Equity, ETF, or Bond?", df["instrument_type"].astype(str).isin(ALLOWED_VALUES["instrument_type"])),
+        ("validity", "trade_status", "Is the trade status on the allowed list?", df["trade_status"].astype(str).isin(ALLOWED_VALUES["trade_status"])),
     ]
     checks = [
         {"category": category, "field": field, "check": label, "weight": WEIGHT[field], "score": _rate(passed)}
@@ -198,6 +205,8 @@ def quality_scores(df: DataFrame, reference: DataFrame) -> dict:
     scores["checks"] = checks
     scores["unknown_instrument"] = int(unknown.sum())
     scores["type_mismatch"] = int(type_mismatch.sum())
+    scores["exact_copy"] = int(exact_copy.sum())
+    scores["different_trade"] = int(different_trade.sum())
     scores["below_threshold"] = [category for category in CATEGORIES if scores[category] < SCORE_THRESHOLD]
     return scores
 
@@ -285,9 +294,11 @@ The overall score weights each check by how hard it is to use the row without th
 {score_rows}
 | Overall (weighted) | {scores['overall']:.1f} |  |
 
-| Category | Check | Weight | Rows passing |
+| Category | Question | Weight | Rows passing |
 | --- | --- | ---: | ---: |
 {check_rows}
+
+Two repeat problems are scored separately. {scores['exact_copy']} rows are an exact copy of another row: same id and same trade, so the extra row can be dropped. {scores['different_trade']} rows use a trade id that also appears on a different trade. Those rows are not extra copies. Dropping or merging them would mix two trades. A row can be counted in both when an id has a copy and also a second, different trade.
 
 Filled instrument ids not on the reference list of {reference['instrument_id'].nunique()} securities: {scores['unknown_instrument']}. Rows whose type disagrees with that security: {scores['type_mismatch']}.
 
