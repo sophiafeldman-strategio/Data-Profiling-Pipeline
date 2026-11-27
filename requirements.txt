@@ -1,1 +1,2 @@
 pandas >= 2.3
+jproperties >= 2.1.1
