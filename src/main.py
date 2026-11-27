@@ -1,7 +1,7 @@
 from load_trades import LoaderToPandas
 from pathlib import Path
 from transform_df import concat_df
-from profiler import summary_stats
+from profiler import REFERENCE_PATH, summary_stats
 
 def main():
     """ create an instance of LoaderToPandas and load data from /tests/data """
@@ -25,7 +25,7 @@ def main():
     print(f' df_json shape is: {df_json.shape} and type: {type(df_json)}')
     df = concat_df([df_csv, df_json])
     print(f' New df shape is: {df.shape}')
-    print(summary_stats(df))
+    print(summary_stats(df, REFERENCE_PATH))
 
         
 if __name__ == "__main__":

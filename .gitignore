@@ -1,0 +1,5 @@
+src/__pycache__/load_trades.cpython-313.pyc
+src/__pycache__/profiler.cpython-313.pyc
+src/__pycache__/transform_df.cpython-313.pyc
+tests/__pycache__/tests.cpython-313.pyc
+.DS_Store
