@@ -1,0 +1,1001 @@
+trade_id,instrument_id,instrument_type,trade_date,buyer,seller,quantity,price,trade_status
+TRD-95BEFC3F0E,TRDX,ETF,2026-03-26,Vantage Securities Inc,Meridian Prime Brokers,35599,405.71,SETTLED
+TRD-E58A908067,FNDX,Bond,2025-05-15,Sterling Market Partners,Redstone Financial Corp,36377,475.5,PENDING
+TRD-044DA46C97,MRCX,Equity,2025-03-02,Vantage Securities Inc,Everest Capital Group,9076,69.16,PENDING
+TRD-60EFFFF685,BRCX,Bond,2025-03-04,Sterling Market Partners,,5403,352.81,EXECUTED
+TRD-16C916D492,CPXT,Equity,10-06-2025,Colborne Capital LLC,Vantage Securities Inc,22241,390.27,PENDING
+TRD-431E030969,STRM,ETF,2025-04-20,Vantage Securities Inc,Claridge Securities,38293,470.61,CANCELLED
+TRD-8A4C365F43,TRDX,ETF,04/04/2025,Solaris Brokerage LLC,Atlas Trading Group,22563,383.35,REJECTED
+TRD-17CF298023,DRVX,Bond,2025-03-09,Solaris Brokerage LLC,Harlow Securities,35098,242.02,PENDING
+TRD-1D1141C4CF,HLWS,Equity,2026-02-16,Fairview Financial Inc,Crestwood Financial Group,36870,151.09,PENDING
+TRD-730E0352A3,CPXT,Equity,02-23-2026,Redstone Financial Corp,Westgate Securities,28221,119.62,SETTLED
+TRD-DFA976811E,CPXT,Equity,2025-08-13,Nexus Capital Markets,Everest Capital Group,12444,465.32,SETTLED
+TRD-600243700D,ORNM,ETF,2025-11-27,Fairview Financial Inc,Atlas Trading Group,3497,247.39,SETTLED
+TRD-BE134C3FDC,CRWD,Equity,2025-11-09,Nexus Capital Markets,Irongate Trading Co,27708,308.19,REJECTED
+TRD-0A06B999BA,ANLX,Equity,2026-05-08,Altus Capital LLC,Solaris Brokerage LLC,22178,355.71,REJECTED
+TRD-0D3DA1920C,MRCX,Equity,2025-02-04,Solaris Brokerage LLC,Colborne Capital LLC,31235,211.71,REJECTED
+TRD-B728B95D4A,DRVX,Bond,2025-08-19,Thornfield Brokers Inc,Solaris Brokerage LLC,25934,25.16,SETTLED
+TRD-98F44B37E9,PNTP,Bond,2025-04-29,Vantage Securities Inc,Solaris Brokerage LLC,34055,306.98,SETTLED
+TRD-720749BCFB,,ETF,2026-02-27,Harlow Securities,Solaris Brokerage LLC,14042,309.36,CANCELLED
+TRD-56A76D1EE2,EVST,Equity,2025-06-19,Westgate Securities,Claridge Securities,34292,296.26,CANCELLED
+TRD-A264E34228,FNDX,Bond,2026-04-03,Altus Capital LLC,Pinnacle Trade Partners,37758,335.27,CANCELLED
+TRD-44F032756E,STRM,ETF,2025-07-01,Colborne Capital LLC,Bluehaven Trading LLC,24459,104.8,SETTLED
+TRD-02DB98CB8C,FRVW,ETF,2025-05-10,Everest Capital Group,Redstone Financial Corp,18335,73.88,EXECUTED
+TRD-CE69226904,CLRG,Equity,2025-11-04,Bluehaven Trading LLC,Nexus Capital Markets,2120,220.22,CANCELLED
+TRD-B5C67EA2F2,ALTF,Equity,2025-10-22,Meridian Prime Brokers,Irongate Trading Co,2632,-190.81,PENDING
+TRD-9F9AE9FA37,MXCP,Equity,2026-04-23,Nexus Capital Markets,Westgate Securities,41485,144.7,REJECTED
+TRD-94E3AB7E4C,GLDT,ETF,2026-05-23,Fairview Financial Inc,Nexus Capital Markets,12092,257.37,PENDING
+TRD-087E259A8A,ATLS,Equity,2026-02-26,Crestwood Financial Group,Westgate Securities,34863,140.53,CANCELLED
+TRD-D8B86F9115,ANLX,Equity,03-24-2026,Everest Capital Group,Colborne Capital LLC,32294,380.95,CANCELLED
+TRD-17439B7672,INFX,Equity,2025-07-31,Altus Capital LLC,Atlas Trading Group,27100,355.72,PENDING
+TRD-66C0F27BCF,WGTS,Bond,2025-04-03,Irongate Trading Co,Crestwood Financial Group,37056,57.21,PENDING
+TRD-E01C0C2D64,VNTS,Equity,2025-09-11,Vantage Securities Inc,Everest Capital Group,31113,298.41,SETTLED
+TRD-D99EA7794C,ALTF,Equity,2025-02-04,Harlow Securities,Everest Capital Group,12589,364.89,EXECUTED
+TRD-DF2C24213D,TRDX,ETF,2025-10-30,Orion Market Makers,Harlow Securities,32431,58.86,PENDING
+TRD-7579F81DDC,ORNM,ETF,13/02/2025,Harlow Securities,Sterling Market Partners,40140,94.12,CANCELLED
+TRD-4389E16174,MXCP,Equity,2025-02-09,Pinnacle Trade Partners,Westgate Securities,49489,274.51,SETTLED
+TRD-624DC18178,ORNM,ETF,2025-07-30,Crestwood Financial Group,Harlow Securities,24204,301.55,SETTLED
+TRD-CCF668CBEE,HLWS,Equity,06-08-2025,Everest Capital Group,Westgate Securities,26871,481.23,CANCELLED
+TRD-8C389A7449,ANLX,Equity,2025-04-13,Orion Market Makers,Harlow Securities,35443,19.33,EXECUTED
+TRD-A0CA340D22,GLDT,ETF,2026-05-01,Solaris Brokerage LLC,Meridian Prime Brokers,16748,225.69,SETTLED
+TRD-7221BB2DE7,CLRG,Equity,2025-08-04,Thornfield Brokers Inc,Everest Capital Group,2815,462.34,CANCELLED
+TRD-7F5A66CA37,CLRG,Equity,2026-04-13,Bluehaven Trading LLC,Fairview Financial Inc,35587,258.93,EXECUTED
+TRD-FE592592FE,MXCP,Equity,2026-06-11,Vantage Securities Inc,Pinnacle Trade Partners,1459,344.63,REJECTED
+TRD-1DDC4B29F0,INFX,Equity,2025-06-07,Sterling Market Partners,Redstone Financial Corp,48267,-304.22,REJECTED
+TRD-B462A61218,GLDT,ETF,2025-11-27,Claridge Securities,,17778,354.89,REJECTED
+TRD-6B9A0DC778,FRVW,ETF,2025-10-13,Solaris Brokerage LLC,Claridge Securities,42043,200.62,EXECUTED
+TRD-94E3AB7E4C,STRM,ETF,2026-01-31,Everest Capital Group,Westgate Securities,10442,314.72,EXECUTED
+TRD-541203B267,STRM,ETF,2025-05-30,Vantage Securities Inc,Altus Capital LLC,38015,85.15,REJECTED
+TRD-E5DD7C093B,ALTF,Equity,2025-11-10,Irongate Trading Co,Meridian Prime Brokers,26467,85.79,SETTLED
+TRD-92A536F98F,SLRS,ETF,2026-02-20,Vantage Securities Inc,Meridian Prime Brokers,39524,157.94,SETTLED
+TRD-95249CBB88,TRNF,Bond,2025-12-16,,Vantage Securities Inc,43406,495.08,EXECUTED
+TRD-A7475CF2CB,PNTP,Bond,25/11/2025,Orion Market Makers,Claridge Securities,34807,274.73,REJECTED
+TRD-94D75BEC2E,SLRS,ETF,2025-04-09,Colborne Capital LLC,Crestwood Financial Group,41783,391.24,PENDING
+TRD-67781353FA,VNTS,Equity,2025-12-24,Fairview Financial Inc,Crestwood Financial Group,9886,477.35,SETTLED
+TRD-C2CC4DD4A6,WGTS,Bond,2025-10-20,Vantage Securities Inc,Sterling Market Partners,366,143.5,EXECUTED
+TRD-80644CAA17,CLBN,Equity,2025.04.06,Meridian Prime Brokers,Everest Capital Group,11166,15.15,CANCELLED
+TRD-BE4DFE1246,CPXT,Equity,2025-03-26,Nexus Capital Markets,Vantage Securities Inc,18564,294.9,REJECTED
+TRD-E31362A253,CRWD,Equity,2026-02-12,Colborne Capital LLC,Irongate Trading Co,18117,312.22,EXECUTED
+TRD-600E5A5BBB,ATLS,Equity,2025-10-30,Sterling Market Partners,Irongate Trading Co,4595,75.68,EXECUTED
+TRD-E9C25B6AF9,DRVX,Bond,2025-06-29,Bluehaven Trading LLC,Sterling Market Partners,41159,10.63,CANCELLED
+TRD-FA7A24BF89,RDST,Equity,2026-04-29,Thornfield Brokers Inc,Crestwood Financial Group,5321,171.13,EXECUTED
+TRD-358FF24BFF,ATLS,Equity,2025-03-11,Claridge Securities,Crestwood Financial Group,23229,143.9,PENDING
+TRD-3A836A1DF6,IGTC,ETF,2025-07-19,Vantage Securities Inc,Bluehaven Trading LLC,19000,49.28,PENDING
+TRD-C6D50095EE,FRVW,ETF,2026-01-01,Westgate Securities,Altus Capital LLC,24555,36.51,PENDING
+TRD-C4430CB222,FRVW,ETF,2025-08-03,Bluehaven Trading LLC,Redstone Financial Corp,34360,352.47,EXECUTED
+TRD-9A9FE42B0A,DRVX,Bond,2026-01-28,Thornfield Brokers Inc,Altus Capital LLC,23047,33.7,REJECTED
+TRD-8542FFEED9,ALTF,Equity,2025-10-23,Bluehaven Trading LLC,Everest Capital Group,14155,64.48,REJECTED
+TRD-224FFE5FD8,TRNF,Bond,2026-03-19,Vantage Securities Inc,Westgate Securities,39536,350.0,SETTLED
+TRD-D64FBCC472,HLWS,Equity,2026-03-31,Altus Capital LLC,Redstone Financial Corp,29375,228.53,PENDING
+TRD-2C45143A12,TRDX,ETF,2026-05-11,Crestwood Financial Group,Vantage Securities Inc,46843,238.4,PENDING
+TRD-1834AAE907,CRWD,Equity,2025-06-02,Pinnacle Trade Partners,Redstone Financial Corp,923,395.82,PENDING
+TRD-B509852A0F,GLDT,ETF,18/04/2026,Orion Market Makers,Westgate Securities,24918,63.36,REJECTED
+TRD-CC080DEC4B,MXCP,Equity,2025-10-23,Pinnacle Trade Partners,Redstone Financial Corp,16063,74.36,EXECUTED
+TRD-8FFA9BC231,TRDX,ETF,2025-02-10,,Solaris Brokerage LLC,22343,78.77,EXECUTED
+TRD-7601DE4BAA,GLDT,ETF,2026-05-21,Fairview Financial Inc,Thornfield Brokers Inc,38633,72.77,REJECTED
+TRD-7967F8F9F4,,ETF,2026-06-04,Altus Capital LLC,Nexus Capital Markets,27646,381.23,REJECTED
+TRD-DC83BDCF46,BLHV,Bond,2026-03-25,Nexus Capital Markets,Vantage Securities Inc,4046,401.11,SETTLED
+TRD-809F41DFEB,TRDX,ETF,2025-01-19,Pinnacle Trade Partners,Everest Capital Group,14883,156.08,PENDING
+TRD-E1EC520F73,DRVX,Bond,2025-10-18,Nexus Capital Markets,Altus Capital LLC,42764,257.58,EXECUTED
+TRD-AB5A0D8B47,,Equity,2026-06-01,Colborne Capital LLC,Claridge Securities,10549,218.84,PENDING
+TRD-1B4AE6C365,CRWD,Equity,2025-08-22,Redstone Financial Corp,Sterling Market Partners,17734,313.21,REJECTED
+TRD-2EDDE19CBB,PNTP,Bond,2025-10-23,Altus Capital LLC,Bluehaven Trading LLC,40764,342.45,EXECUTED
+TRD-9DE1773C1F,NXCM,Bond,2025-08-05,,Harlow Securities,26181,377.01,REJECTED
+TRD-D007BA4A58,CLBN,Equity,04-03-2025,Orion Market Makers,Everest Capital Group,17194,413.35,PENDING
+TRD-BF53BC21D6,MXCP,Equity,2025-07-26,Sterling Market Partners,Orion Market Makers,17521,96.09,REJECTED
+TRD-C3F935E076,VNTS,Equity,2026-04-30,Harlow Securities,Claridge Securities,35194,355.26,SETTLED
+TRD-314619D8CA,GLDT,ETF,2025-04-08,Atlas Trading Group,Bluehaven Trading LLC,20647,495.86,PENDING
+TRD-3FE158E4CF,ATLS,Equity,05-20-2025,Nexus Capital Markets,Harlow Securities,24114,108.67,SETTLED
+TRD-D4E4760E10,BRCX,Bond,2025-01-10,Fairview Financial Inc,Crestwood Financial Group,21697,336.75,REJECTED
+TRD-3F2EA58D0E,SLVR,ETF,2025-09-18,Vantage Securities Inc,Harlow Securities,5059,298.08,EXECUTED
+TRD-078DA7FDC2,,ETF,2025-10-03,Redstone Financial Corp,Colborne Capital LLC,8686,324.96,SETTLED
+TRD-BCBF071161,FRVW,ETF,2025-10-07,Crestwood Financial Group,Colborne Capital LLC,15727,372.6,SETTLED
+TRD-EED9A8A454,ATLS,Equity,2026-02-28,Vantage Securities Inc,Harlow Securities,28027,484.25,CANCELLED
+TRD-D2456A4A85,VNTS,Equity,2026-01-03,Meridian Prime Brokers,Irongate Trading Co,29450,285.62,SETTLED
+TRD-840DEE7E2A,BRCX,Bond,2025-01-10,Nexus Capital Markets,Claridge Securities,3130,426.88,SETTLED
+TRD-224FFE5FD8,BLHV,Bond,2025-01-06,Irongate Trading Co,Thornfield Brokers Inc,40434,398.87,PENDING
+TRD-15FCCBF11E,ATLS,Equity,2025-06-14,Claridge Securities,Solaris Brokerage LLC,787,26.02,SETTLED
+TRD-D63B9FCD1B,,ETF,2025-08-03,Vantage Securities Inc,Nexus Capital Markets,10512,447.72,REJECTED
+TRD-CF1118A435,TRNF,Bond,2026-02-26,Irongate Trading Co,Claridge Securities,25696,95.09,CANCELLED
+TRD-85AE53856A,,Equity,2025-12-02,Claridge Securities,Colborne Capital LLC,41909,480.12,SETTLED
+TRD-F2BC1E3164,SLVR,ETF,2025-01-03,Crestwood Financial Group,Irongate Trading Co,11090,396.49,PENDING
+TRD-1091780F1B,CLRG,Equity,2025-06-06,Nexus Capital Markets,Thornfield Brokers Inc,44383,239.93,EXECUTED
+TRD-9599987927,ORNM,ETF,2026-04-06,Atlas Trading Group,Irongate Trading Co,44814,421.44,REJECTED
+TRD-36B4DDD0EF,TRNF,Bond,2025-06-05,Crestwood Financial Group,Vantage Securities Inc,12553,10.85,CANCELLED
+TRD-EC327EE0B4,IGTC,ETF,2025-01-10,Bluehaven Trading LLC,Altus Capital LLC,43626,443.81,EXECUTED
+TRD-E49B69AA4D,SLRS,ETF,2025-05-22,Pinnacle Trade Partners,Meridian Prime Brokers,18998,180.77,CANCELLED
+TRD-28A525B5A7,MXCP,Equity,2025-01-04,Sterling Market Partners,Thornfield Brokers Inc,33686,107.04,CANCELLED
+TRD-732E29A7B9,CPXT,Equity,2025-12-09,Nexus Capital Markets,Sterling Market Partners,12539,133.42,EXECUTED
+TRD-87E17F2117,FNDX,Bond,2026-01-08,Claridge Securities,Crestwood Financial Group,24126,162.25,PENDING
+TRD-278F0F38CB,FNDX,Bond,2025-01-15,Redstone Financial Corp,Nexus Capital Markets,34557,164.49,EXECUTED
+TRD-802FEB1AA0,FNDX,Bond,2025-07-09,Colborne Capital LLC,Irongate Trading Co,43788,268.47,SETTLED
+TRD-9A479601F5,EVST,Equity,2025-07-24,Irongate Trading Co,Solaris Brokerage LLC,42467,407.88,REJECTED
+TRD-471FB3FEAA,MRCX,Equity,2026-03-07,Pinnacle Trade Partners,Nexus Capital Markets,10474,149.77,EXECUTED
+TRD-A6A07A35CF,BLHV,Bond,2026-04-17,Harlow Securities,Irongate Trading Co,47679,124.07,PENDING
+TRD-58CF2A0691,SLVR,ETF,2026-05-27,Everest Capital Group,Atlas Trading Group,29269,79.45,PENDING
+TRD-EEB64013F4,STRM,ETF,2026-03-15,Fairview Financial Inc,Redstone Financial Corp,38548,45.87,SETTLED
+TRD-473E87B42D,ANLX,Equity,2025-08-09,Sterling Market Partners,Fairview Financial Inc,42979,484.88,REJECTED
+TRD-91E1FAA52F,,ETF,2026-02-16,Solaris Brokerage LLC,Colborne Capital LLC,22334,155.15,CANCELLED
+TRD-078DA7FDC2,HLWS,Equity,2026-05-10,Fairview Financial Inc,Redstone Financial Corp,46975,293.69,SETTLED
+TRD-53A9CDDD0E,CLRG,Equity,2026-03-12,Crestwood Financial Group,Solaris Brokerage LLC,44759,131.05,SETTLED
+TRD-1F1DB04526,BLHV,Bond,2025-04-21,Crestwood Financial Group,Atlas Trading Group,19785,458.1,SETTLED
+TRD-886A2A792F,BLHV,Bond,12/02/2026,Bluehaven Trading LLC,Irongate Trading Co,22157,346.53,SETTLED
+TRD-ABE0E419C6,NXCM,Bond,2025-01-14,Claridge Securities,Fairview Financial Inc,39968,394.3,EXECUTED
+TRD-7B3A0F77B2,VNTS,Equity,01/03/2025,Orion Market Makers,Irongate Trading Co,32173,113.54,PENDING
+TRD-5FDF44EDFB,TRNF,Bond,2026-03-30,Fairview Financial Inc,Pinnacle Trade Partners,27707,483.2,REJECTED
+TRD-842B767C3C,HLWS,Equity,2026-01-04,Redstone Financial Corp,Solaris Brokerage LLC,33177,406.69,SETTLED
+TRD-01B4EC963A,DRVX,Bond,12-14-2025,Irongate Trading Co,Thornfield Brokers Inc,36839,302.3,PENDING
+TRD-D8C78BB9B0,FRVW,ETF,2026-05-31,Altus Capital LLC,Thornfield Brokers Inc,48125,307.86,PENDING
+TRD-62A2DBA598,BRCX,Bond,2026-02-14,Orion Market Makers,Thornfield Brokers Inc,13373,213.1,SETTLED
+TRD-061D741D4D,FRVW,ETF,2025-12-17,Sterling Market Partners,Bluehaven Trading LLC,16889,404.6,REJECTED
+TRD-F0679E9D65,TRDX,ETF,10-16-2025,Colborne Capital LLC,Vantage Securities Inc,18132,177.75,REJECTED
+TRD-71C4D64937,IGTC,ETF,2026-02-16,Crestwood Financial Group,Westgate Securities,29437,47.23,PENDING
+TRD-A626C92546,PNTP,Bond,2025-01-08,Westgate Securities,Thornfield Brokers Inc,15001,289.93,EXECUTED
+TRD-F4C3838EE8,FRVW,ETF,2025-06-12,Redstone Financial Corp,Orion Market Makers,736,307.93,REJECTED
+TRD-0ADB2712E9,IGTC,ETF,2025-10-03,Bluehaven Trading LLC,Vantage Securities Inc,46403,378.54,CANCELLED
+TRD-28C9776ACF,WGTS,Bond,2025-11-17,Claridge Securities,Pinnacle Trade Partners,49083,483.03,SETTLED
+TRD-9E59139687,SLVR,ETF,2025-05-13,Nexus Capital Markets,Everest Capital Group,44383,38.26,REJECTED
+TRD-6993FD49FB,,ETF,2025-05-09,Pinnacle Trade Partners,Crestwood Financial Group,2211,359.35,PENDING
+TRD-1C56EDF126,,Equity,2026-06-22,Fairview Financial Inc,Nexus Capital Markets,7005,214.27,SETTLED
+TRD-6F19E692A0,VNTS,Equity,03/12/2025,Sterling Market Partners,Harlow Securities,31171,375.03,SETTLED
+TRD-8AFEEA740F,BRCX,Bond,2025-03-14,Orion Market Makers,Westgate Securities,37999,443.65,EXECUTED
+TRD-3CCE17E7B5,INFX,Equity,2025-08-29,Crestwood Financial Group,Redstone Financial Corp,45565,456.5,PENDING
+TRD-B18EB7FCC6,PNTP,Bond,2026-02-27,Meridian Prime Brokers,Harlow Securities,49674,49.38,EXECUTED
+TRD-304F1CEE0A,ANLX,Equity,2025-04-28,Crestwood Financial Group,Everest Capital Group,36232,18.49,EXECUTED
+TRD-1EF5A55D19,RDST,Equity,2025-03-19,Crestwood Financial Group,Harlow Securities,28789,-74.58,REJECTED
+TRD-8B203D2132,CLBN,Equity,2026-03-18,Altus Capital LLC,Orion Market Makers,42256,295.52,SETTLED
+TRD-40399D775B,IGTC,ETF,2025-11-17,Orion Market Makers,Atlas Trading Group,35473,437.45,PENDING
+TRD-F57A8EBD7A,,Bond,2026-03-16,Pinnacle Trade Partners,Thornfield Brokers Inc,41674,129.35,PENDING
+TRD-B880601DA3,,Equity,2026-06-06,Altus Capital LLC,Nexus Capital Markets,35856,278.03,EXECUTED
+TRD-6B325852DC,CPXT,Equity,2025-08-15,Everest Capital Group,Claridge Securities,16670,244.82,EXECUTED
+TRD-BED8E4394D,FNDX,Bond,2026-06-04,Altus Capital LLC,Fairview Financial Inc,42450,188.98,PENDING
+TRD-A1E018DE61,CLRG,Equity,2025.09.25,Harlow Securities,Thornfield Brokers Inc,28195,401.0,PENDING
+TRD-72A464E075,FRVW,ETF,2025-06-10,Irongate Trading Co,Nexus Capital Markets,29145,404.2,PENDING
+TRD-C9D89294DA,WGTS,Bond,2026-01-24,Pinnacle Trade Partners,Solaris Brokerage LLC,19537,492.78,PENDING
+TRD-926C96B79A,STRM,ETF,2025-05-10,Crestwood Financial Group,Everest Capital Group,44992,74.7,SETTLED
+TRD-7453A804AC,ALTF,Equity,2025-04-24,Vantage Securities Inc,Bluehaven Trading LLC,24365,232.42,EXECUTED
+TRD-7F34F005DA,HLWS,Equity,2025-03-01,Meridian Prime Brokers,Colborne Capital LLC,10675,425.07,REJECTED
+TRD-26FE032AD4,TRDX,ETF,2026-02-22,Meridian Prime Brokers,Sterling Market Partners,38476,97.92,EXECUTED
+TRD-E4197B7BEF,TRDX,ETF,04-12-2025,Everest Capital Group,Westgate Securities,48921,237.72,CANCELLED
+TRD-963AE853CC,PNTP,Bond,2025-05-21,Nexus Capital Markets,Fairview Financial Inc,14671,208.33,REJECTED
+TRD-7AA01BB9AA,INFX,Equity,2026-01-04,Fairview Financial Inc,Colborne Capital LLC,37567,411.08,EXECUTED
+TRD-15AB3AADB0,ANLX,Equity,2026-02-22,Solaris Brokerage LLC,Nexus Capital Markets,32677,10.5,EXECUTED
+TRD-9534ED20AB,,Equity,2025-07-30,Nexus Capital Markets,Bluehaven Trading LLC,32907,438.43,REJECTED
+TRD-29F0AE163D,WGTS,Bond,2026.01.15,Nexus Capital Markets,Pinnacle Trade Partners,21823,14.24,SETTLED
+TRD-FD9F87C26B,CLRG,Equity,2025-12-31,Atlas Trading Group,Pinnacle Trade Partners,2357,408.09,EXECUTED
+TRD-85F40B1B1C,FNDX,Bond,2026-02-15,Everest Capital Group,Irongate Trading Co,18436,44.99,REJECTED
+TRD-DA5066911A,,Equity,2025-04-13,Everest Capital Group,Solaris Brokerage LLC,35263,396.87,REJECTED
+TRD-CB0B5EB98E,PNTP,Bond,2025-03-13,Harlow Securities,Irongate Trading Co,42713,448.11,REJECTED
+TRD-232E1E6070,MXCP,Equity,2025-04-25,Solaris Brokerage LLC,Altus Capital LLC,20901,340.43,REJECTED
+TRD-6D5327CE5B,CPXT,Equity,2025-08-20,Nexus Capital Markets,Everest Capital Group,14233,385.85,REJECTED
+TRD-EA012F4C56,SLRS,ETF,2025-09-15,Pinnacle Trade Partners,Vantage Securities Inc,3904,90.01,EXECUTED
+TRD-FFB336289F,BRCX,Bond,2025-03-10,Thornfield Brokers Inc,Westgate Securities,44204,180.06,PENDING
+TRD-8627577100,FNDX,Bond,2026-02-14,Colborne Capital LLC,Everest Capital Group,27171,241.72,REJECTED
+TRD-60518A5149,TRDX,ETF,2026-04-15,Nexus Capital Markets,Everest Capital Group,19070,325.73,PENDING
+TRD-55CAB9F3BA,NXCM,Bond,2025-05-12,Orion Market Makers,Sterling Market Partners,38520,397.6,PENDING
+TRD-91D9EB83BD,CLRG,Equity,2025-02-14,Thornfield Brokers Inc,Sterling Market Partners,49397,19.88,EXECUTED
+TRD-0457B79809,FRVW,ETF,2026-04-15,Redstone Financial Corp,Sterling Market Partners,38943,55.1,PENDING
+TRD-CA0346E9BB,TRDX,ETF,2025-03-06,Bluehaven Trading LLC,Atlas Trading Group,12312,493.71,SETTLED
+TRD-03A7BA1061,WGTS,Bond,2025-02-04,Orion Market Makers,Crestwood Financial Group,34930,10.62,REJECTED
+TRD-D933E8C9DB,VNTS,Equity,2025-07-29,Westgate Securities,Meridian Prime Brokers,24345,24.32,SETTLED
+TRD-7CC7535203,TRNF,Bond,2025-03-30,Colborne Capital LLC,Nexus Capital Markets,26709,156.53,CANCELLED
+TRD-BCA28E2791,IGTC,ETF,2025-11-02,,Fairview Financial Inc,24984,275.47,PENDING
+TRD-C0DE4056EF,GLDT,ETF,2025-09-14,Solaris Brokerage LLC,Vantage Securities Inc,4626,20.68,EXECUTED
+TRD-D479742441,BRCX,Bond,05-10-2026,Fairview Financial Inc,Everest Capital Group,40512,376.13,CANCELLED
+TRD-F76E71502F,STRM,ETF,2026-04-08,Meridian Prime Brokers,Vantage Securities Inc,18027,267.94,CANCELLED
+TRD-7AF20B3849,CLRG,Equity,2025-01-13,Redstone Financial Corp,Altus Capital LLC,39196,384.5,PENDING
+TRD-5D66F3F89C,STRM,ETF,2026-04-05,Crestwood Financial Group,Claridge Securities,35977,160.72,CANCELLED
+TRD-A2F9014EDC,BLHV,Bond,06-12-2025,Atlas Trading Group,Claridge Securities,24831,299.48,REJECTED
+TRD-2B459E4235,CRWD,Equity,2025-01-10,Meridian Prime Brokers,Sterling Market Partners,13292,301.19,PENDING
+TRD-8E10F81A9B,TRDX,ETF,2025-04-02,Thornfield Brokers Inc,,21412,293.01,REJECTED
+TRD-5AF747BC4F,BRCX,Bond,2025-06-11,Westgate Securities,Orion Market Makers,3739,97.54,PENDING
+TRD-0E95B789A8,CPXT,Equity,2025-03-01,Harlow Securities,Westgate Securities,39816,351.46,SETTLED
+TRD-ED41A41145,NXCM,Bond,2025-09-09,Harlow Securities,Everest Capital Group,29228,41.61,REJECTED
+TRD-135AAF2005,EVST,Equity,2025.04.20,Meridian Prime Brokers,Vantage Securities Inc,12557,436.07,PENDING
+TRD-03FA977A40,,Bond,2025-11-16,Sterling Market Partners,Redstone Financial Corp,20940,270.69,PENDING
+TRD-3C2CCB24D7,,Equity,2025-09-20,Orion Market Makers,Bluehaven Trading LLC,26277,474.72,EXECUTED
+TRD-08DCEE0C37,RDST,Equity,2025-08-30,Crestwood Financial Group,Atlas Trading Group,40667,-430.03,EXECUTED
+TRD-89B00C696A,HLWS,Equity,2026-01-17,Harlow Securities,Pinnacle Trade Partners,32733,197.46,REJECTED
+TRD-01DC11881E,DRVX,Bond,2025-09-25,Westgate Securities,Crestwood Financial Group,7357,179.93,PENDING
+TRD-5695F438F5,CPXT,Equity,2025-01-10,Pinnacle Trade Partners,Colborne Capital LLC,13151,226.63,PENDING
+TRD-4CF42B5E80,INFX,Equity,2025-07-09,Solaris Brokerage LLC,Sterling Market Partners,34028,213.9,CANCELLED
+TRD-BD01BB5E9B,MRCX,Equity,2026-02-05,Nexus Capital Markets,Colborne Capital LLC,37610,451.31,REJECTED
+TRD-46899A4ADD,VNTS,Equity,2025-05-07,Sterling Market Partners,Fairview Financial Inc,11374,313.38,EXECUTED
+TRD-1333576D7B,FNDX,Bond,2025-01-31,Altus Capital LLC,Vantage Securities Inc,36203,209.25,REJECTED
+TRD-D75296FD6E,FRVW,ETF,2026-05-19,Everest Capital Group,Vantage Securities Inc,25552,406.21,REJECTED
+TRD-1EFBED51AD,BLHV,Bond,2026-04-22,Pinnacle Trade Partners,Meridian Prime Brokers,15077,473.73,CANCELLED
+TRD-0B3CF91526,FNDX,Bond,2025-11-10,Nexus Capital Markets,Thornfield Brokers Inc,23362,332.46,CANCELLED
+TRD-208A7D44C9,NXCM,Bond,2025-08-08,Redstone Financial Corp,Thornfield Brokers Inc,23502,427.98,SETTLED
+TRD-2E28D8F766,CLRG,Equity,2026-02-08,Crestwood Financial Group,Orion Market Makers,6385,218.27,REJECTED
+TRD-9D95E78D5B,PNTP,Bond,2025-10-12,Harlow Securities,Crestwood Financial Group,12401,338.76,SETTLED
+TRD-EE9FA8B85C,ATLS,Equity,2026-03-26,Orion Market Makers,Sterling Market Partners,7292,175.86,PENDING
+TRD-F19DE4E65C,MXCP,Equity,2026-01-25,Thornfield Brokers Inc,Westgate Securities,31113,110.94,SETTLED
+TRD-F66B07ED4E,NXCM,Bond,2025-10-19,Meridian Prime Brokers,Westgate Securities,1703,382.42,EXECUTED
+TRD-8627577100,RDST,Equity,2026-02-20,Colborne Capital LLC,Nexus Capital Markets,15476,30.56,PENDING
+TRD-C657CF3C9B,BLHV,Bond,02-20-2026,Fairview Financial Inc,Sterling Market Partners,35527,464.19,SETTLED
+TRD-60AC7E8DFE,ATLS,Equity,2026-03-19,Altus Capital LLC,Atlas Trading Group,2530,94.77,SETTLED
+TRD-AA56736E4E,MXCP,Equity,2025-12-26,Sterling Market Partners,Altus Capital LLC,17116,140.0,EXECUTED
+TRD-61B4821E23,SLVR,ETF,2026-04-30,Vantage Securities Inc,Thornfield Brokers Inc,28745,479.32,PENDING
+TRD-01DD699D9F,MRCX,Equity,2025-03-05,Solaris Brokerage LLC,Orion Market Makers,23820,373.03,PENDING
+TRD-A53C6E8FBF,PNTP,Bond,2025-04-28,Orion Market Makers,Westgate Securities,9991,499.27,REJECTED
+TRD-13F11FC005,CLRG,Equity,2026.01.24,Sterling Market Partners,Fairview Financial Inc,39151,415.36,REJECTED
+TRD-EE3688E903,BLHV,Bond,2025-06-30,Pinnacle Trade Partners,Sterling Market Partners,28168,74.79,PENDING
+TRD-8100043418,INFX,Equity,05-03-2025,Solaris Brokerage LLC,Claridge Securities,27526,-355.43,SETTLED
+TRD-06C7085D7A,EVST,Equity,2025-08-31,Westgate Securities,Orion Market Makers,43762,273.59,SETTLED
+TRD-048661CA4D,ATLS,Equity,2025-12-09,Claridge Securities,Nexus Capital Markets,1187,223.77,CANCELLED
+TRD-1B5A749410,EVST,Equity,2026-06-28,Atlas Trading Group,Orion Market Makers,39653,306.18,SETTLED
+TRD-2A2E34D29C,NXCM,Bond,2025-04-16,Colborne Capital LLC,Fairview Financial Inc,38593,351.43,EXECUTED
+TRD-E0444EF3D3,ALTF,Equity,2025-05-03,Everest Capital Group,Thornfield Brokers Inc,14622,260.88,SETTLED
+TRD-A9FC7E4CAA,DRVX,Bond,2025-03-04,Crestwood Financial Group,Nexus Capital Markets,17356,299.8,CANCELLED
+TRD-03AFB19BBE,STRM,ETF,2026-04-14,Bluehaven Trading LLC,Thornfield Brokers Inc,3140,295.24,CANCELLED
+TRD-39D4714D35,CLBN,Equity,2025-08-04,Sterling Market Partners,Thornfield Brokers Inc,21012,117.97,CANCELLED
+TRD-ED6F1151F2,IGTC,ETF,2026-01-10,Pinnacle Trade Partners,Claridge Securities,48192,438.78,CANCELLED
+TRD-47A754474D,CLRG,Equity,2025-06-01,Vantage Securities Inc,Colborne Capital LLC,21204,166.69,EXECUTED
+TRD-56899FC68D,DRVX,Bond,2026-06-02,Nexus Capital Markets,Redstone Financial Corp,15909,163.84,REJECTED
+TRD-29BA5B12F9,CPXT,Equity,2026-05-24,Claridge Securities,Irongate Trading Co,37905,181.52,EXECUTED
+TRD-F550CD9BC8,SLRS,ETF,2026-03-27,Redstone Financial Corp,Pinnacle Trade Partners,32849,298.2,PENDING
+TRD-D58FB31EF7,ORNM,ETF,2025-04-03,Harlow Securities,Atlas Trading Group,19834,326.01,CANCELLED
+TRD-57FF27CA28,CRWD,Equity,2025-10-26,Atlas Trading Group,Pinnacle Trade Partners,21493,194.65,CANCELLED
+TRD-E0D52529D8,BLHV,Bond,2026-06-13,Colborne Capital LLC,Thornfield Brokers Inc,10048,40.47,REJECTED
+TRD-19085F4998,EVST,Equity,2026-06-27,Solaris Brokerage LLC,Westgate Securities,185,499.76,EXECUTED
+TRD-35CAFEB5E3,DRVX,Bond,2025-05-30,Crestwood Financial Group,Claridge Securities,31679,476.0,CANCELLED
+TRD-32C5D5123C,ALTF,Equity,2026-06-15,Irongate Trading Co,Redstone Financial Corp,3828,230.77,SETTLED
+TRD-B5521A71E2,DRVX,Bond,2025-08-12,Vantage Securities Inc,Altus Capital LLC,25100,479.92,PENDING
+TRD-F87165140B,WGTS,Bond,2025-12-15,Bluehaven Trading LLC,Redstone Financial Corp,29510,422.26,SETTLED
+TRD-EF1BAD84A9,STRM,ETF,17/10/2025,Harlow Securities,Westgate Securities,21640,277.67,EXECUTED
+TRD-31B014C506,ORNM,ETF,2025-06-10,Thornfield Brokers Inc,Orion Market Makers,40832,372.81,REJECTED
+TRD-552C48C1B0,IGTC,ETF,2025-05-22,Solaris Brokerage LLC,Atlas Trading Group,20720,296.5,SETTLED
+TRD-575230F799,ALTF,Equity,2025.10.27,Harlow Securities,Nexus Capital Markets,11239,36.85,REJECTED
+TRD-85D895A3AF,CLRG,Equity,2025-07-01,Sterling Market Partners,Claridge Securities,6891,417.8,CANCELLED
+TRD-8CA9D5CB0E,ANLX,Equity,2025-06-26,Altus Capital LLC,Redstone Financial Corp,19292,424.71,PENDING
+TRD-5D4C4423EE,VNTS,Equity,2025.03.10,Solaris Brokerage LLC,Nexus Capital Markets,47840,204.3,REJECTED
+TRD-E2C67175D0,DRVX,Bond,2025-02-18,Bluehaven Trading LLC,Atlas Trading Group,29004,135.41,REJECTED
+TRD-6361D03DF4,SLRS,ETF,2026-03-13,Colborne Capital LLC,Nexus Capital Markets,32685,123.45,SETTLED
+TRD-BA82FF9761,CPXT,Equity,2025-06-23,Altus Capital LLC,Redstone Financial Corp,21589,273.25,CANCELLED
+TRD-3C99FF35C4,HLWS,Equity,2025-12-05,Colborne Capital LLC,Claridge Securities,8789,99.95,REJECTED
+TRD-FA3DB7D139,,ETF,07-11-2025,Sterling Market Partners,Altus Capital LLC,44594,220.01,CANCELLED
+TRD-95B48914C1,DRVX,Bond,2025-06-18,Irongate Trading Co,Nexus Capital Markets,16480,355.36,SETTLED
+TRD-17BAA44195,TRDX,ETF,2025-11-30,Westgate Securities,Irongate Trading Co,23047,172.01,REJECTED
+TRD-9B6639C030,MRCX,Equity,2025-01-08,Nexus Capital Markets,Harlow Securities,32502,167.67,REJECTED
+TRD-BE02E393DD,MXCP,Equity,2026-01-20,Solaris Brokerage LLC,Atlas Trading Group,33718,95.73,SETTLED
+TRD-DC841AC79F,ALTF,Equity,2026-01-18,Fairview Financial Inc,Atlas Trading Group,25595,204.21,EXECUTED
+TRD-E667FC488F,ANLX,Equity,2026-01-26,Atlas Trading Group,Fairview Financial Inc,37429,379.12,REJECTED
+TRD-7F6A1F4704,GLDT,ETF,2026-04-01,Westgate Securities,Altus Capital LLC,33072,169.69,EXECUTED
+TRD-A9300D4C69,,Equity,2025-02-08,Harlow Securities,Altus Capital LLC,6505,184.0,CANCELLED
+TRD-F89E97196A,CLBN,Equity,2025-11-21,Nexus Capital Markets,Crestwood Financial Group,43730,385.76,EXECUTED
+TRD-88BD62CCE6,SLRS,ETF,2025-10-27,Westgate Securities,Claridge Securities,34129,180.85,REJECTED
+TRD-298D4BFB02,ANLX,Equity,04/07/2025,Meridian Prime Brokers,Bluehaven Trading LLC,41616,38.66,PENDING
+TRD-B62983E211,CRWD,Equity,2025-12-14,Orion Market Makers,Bluehaven Trading LLC,12230,203.19,PENDING
+TRD-2F83EF4655,MXCP,Equity,2026-03-28,Colborne Capital LLC,Crestwood Financial Group,30336,99.58,EXECUTED
+TRD-061D741D4D,CLRG,Equity,2026-01-21,Everest Capital Group,Atlas Trading Group,48954,233.56,SETTLED
+TRD-58F46862D5,TRDX,ETF,06-06-2025,Colborne Capital LLC,Crestwood Financial Group,7029,332.86,PENDING
+TRD-1EF15F1F70,DRVX,Bond,2026-01-13,Westgate Securities,Orion Market Makers,6273,256.21,CANCELLED
+TRD-650B25768A,WGTS,Bond,2025-04-06,Claridge Securities,Bluehaven Trading LLC,41035,392.56,EXECUTED
+TRD-B168D49324,SLRS,ETF,2025-03-29,Meridian Prime Brokers,Harlow Securities,23807,238.31,CANCELLED
+TRD-DEEDE8D714,MRCX,Equity,2025-10-29,Solaris Brokerage LLC,Claridge Securities,47705,152.06,EXECUTED
+TRD-480767B730,IGTC,ETF,2025-09-20,Fairview Financial Inc,Pinnacle Trade Partners,28695,78.14,SETTLED
+TRD-3B43F23DBE,NXCM,Bond,2026-04-09,Claridge Securities,Thornfield Brokers Inc,15228,71.42,CANCELLED
+TRD-24E43E0E55,FNDX,Bond,2025-04-12,Redstone Financial Corp,Westgate Securities,9869,471.38,SETTLED
+TRD-48249E05FC,TRNF,Bond,2026-02-26,Westgate Securities,Meridian Prime Brokers,9907,444.19,CANCELLED
+TRD-E48BD905DB,STRM,ETF,2025-01-27,Bluehaven Trading LLC,Pinnacle Trade Partners,31760,29.25,CANCELLED
+TRD-02E9B0C345,TRNF,Bond,2025-07-18,Colborne Capital LLC,Irongate Trading Co,30722,-364.48,CANCELLED
+TRD-CBFEF77F13,FRVW,ETF,2025-07-25,Solaris Brokerage LLC,Redstone Financial Corp,2714,19.63,SETTLED
+TRD-2654B806FA,VNTS,Equity,2026-06-12,Everest Capital Group,Claridge Securities,13405,153.03,CANCELLED
+TRD-3753C9B0BE,VNTS,Equity,2025-06-25,Claridge Securities,Bluehaven Trading LLC,17878,360.73,SETTLED
+TRD-13860DF808,CLBN,Equity,2025-10-17,Vantage Securities Inc,Thornfield Brokers Inc,8595,477.15,PENDING
+TRD-35E009648C,FNDX,Bond,2025-12-06,Everest Capital Group,Atlas Trading Group,28874,112.66,SETTLED
+TRD-5BF299F0DE,ORNM,ETF,2025-10-02,Thornfield Brokers Inc,Fairview Financial Inc,11689,51.76,CANCELLED
+TRD-FF9103A006,EVST,Equity,2025-05-25,Bluehaven Trading LLC,Nexus Capital Markets,35678,355.82,CANCELLED
+TRD-E9AAC53986,GLDT,ETF,2025-02-04,Fairview Financial Inc,Everest Capital Group,24311,435.42,REJECTED
+TRD-3B43F23DBE,STRM,ETF,2025-04-06,Sterling Market Partners,Westgate Securities,45153,487.98,REJECTED
+TRD-39B9C588AC,TRNF,Bond,2025-05-18,Atlas Trading Group,Irongate Trading Co,37259,415.32,SETTLED
+TRD-B1F55FB1CE,FRVW,ETF,2026-01-12,Meridian Prime Brokers,Atlas Trading Group,12549,327.23,REJECTED
+TRD-2D4C24315C,MRCX,Equity,2025-05-10,Bluehaven Trading LLC,Harlow Securities,35564,142.32,REJECTED
+TRD-C4E7BE766B,MXCP,Equity,2025-06-11,Thornfield Brokers Inc,Fairview Financial Inc,45779,63.57,EXECUTED
+TRD-CA5ADB9C30,FNDX,Bond,2025-03-11,Solaris Brokerage LLC,Vantage Securities Inc,22171,174.6,EXECUTED
+TRD-EBD9E2C218,FNDX,Bond,2025-05-02,Fairview Financial Inc,Orion Market Makers,4941,475.59,REJECTED
+TRD-64B02046A2,SLRS,ETF,2025-12-21,Crestwood Financial Group,Sterling Market Partners,8310,275.26,CANCELLED
+TRD-624395BED3,BRCX,Bond,05-26-2026,Westgate Securities,Pinnacle Trade Partners,3174,14.01,PENDING
+TRD-1135C02837,GLDT,ETF,2025-03-30,Bluehaven Trading LLC,Westgate Securities,13084,116.5,SETTLED
+TRD-2DC3143073,IGTC,ETF,22/12/2025,Sterling Market Partners,Crestwood Financial Group,17943,143.15,EXECUTED
+TRD-A041AF879E,GLDT,ETF,2025-11-24,Vantage Securities Inc,Harlow Securities,2785,242.65,REJECTED
+TRD-ADA22FCEF9,RDST,Equity,2025-03-26,Harlow Securities,Bluehaven Trading LLC,5304,366.17,REJECTED
+TRD-CAA7946C82,TRNF,Bond,2025-10-30,Orion Market Makers,,8686,380.91,EXECUTED
+TRD-8C219AE0C8,IGTC,ETF,2026-02-03,Nexus Capital Markets,Irongate Trading Co,4105,-62.14,SETTLED
+TRD-347011A2A2,,Equity,2025-01-23,Everest Capital Group,Redstone Financial Corp,1118,339.02,CANCELLED
+TRD-B5F1A2D1B6,MRCX,Equity,2025-12-08,Everest Capital Group,Orion Market Makers,44950,268.29,SETTLED
+TRD-E24C69C634,TRNF,Bond,2025-04-25,Solaris Brokerage LLC,Nexus Capital Markets,37817,401.96,CANCELLED
+TRD-C99A2A8904,,Bond,2026-04-01,Claridge Securities,Atlas Trading Group,648,-112.16,REJECTED
+TRD-9DFCA5B872,INFX,Equity,2026-06-21,Solaris Brokerage LLC,Westgate Securities,19099,461.74,EXECUTED
+TRD-F8C618483C,,ETF,2026-03-19,Solaris Brokerage LLC,Thornfield Brokers Inc,41669,442.86,EXECUTED
+TRD-C5004CEB9A,STRM,ETF,2025-07-07,Atlas Trading Group,Solaris Brokerage LLC,19847,288.09,EXECUTED
+TRD-8D5A91A8C5,ORNM,ETF,2025-01-16,Everest Capital Group,Pinnacle Trade Partners,48058,123.37,PENDING
+TRD-3DA8D23C8B,WGTS,Bond,2025-06-16,Fairview Financial Inc,Bluehaven Trading LLC,22372,119.71,REJECTED
+TRD-7FD77B0536,,ETF,2026-05-04,Irongate Trading Co,Bluehaven Trading LLC,7768,433.18,REJECTED
+TRD-7B2CC8960F,CRWD,Equity,2025-02-15,Vantage Securities Inc,Meridian Prime Brokers,34499,241.99,SETTLED
+TRD-90B6A7E25D,BRCX,Bond,2026-04-19,Crestwood Financial Group,Altus Capital LLC,12447,156.71,CANCELLED
+TRD-95C4B07177,FRVW,ETF,2026-03-17,Fairview Financial Inc,Solaris Brokerage LLC,8636,427.44,PENDING
+TRD-CFB2A56795,INFX,Equity,2025.07.23,Meridian Prime Brokers,Everest Capital Group,20205,319.17,REJECTED
+TRD-061E9F0D96,DRVX,Bond,2026-04-06,Everest Capital Group,Fairview Financial Inc,8515,473.47,REJECTED
+TRD-59171FE305,EVST,Equity,2025-07-08,Redstone Financial Corp,Altus Capital LLC,1746,388.12,PENDING
+TRD-CA93657365,TRNF,Bond,2025-06-21,Redstone Financial Corp,Thornfield Brokers Inc,38015,326.49,SETTLED
+TRD-F1727A6F15,WGTS,Bond,12-12-2025,Thornfield Brokers Inc,Orion Market Makers,4805,31.23,EXECUTED
+TRD-30A42D28E5,CLRG,Equity,09-13-2025,Colborne Capital LLC,Harlow Securities,6531,83.78,REJECTED
+TRD-2684CC4931,EVST,Equity,2025-10-06,Nexus Capital Markets,Bluehaven Trading LLC,25657,165.47,PENDING
+TRD-3B6C57FEDA,STRM,ETF,04-15-2026,Vantage Securities Inc,Solaris Brokerage LLC,33330,146.59,CANCELLED
+TRD-EA2A0BA770,ATLS,Equity,2025-04-16,Pinnacle Trade Partners,Orion Market Makers,13881,137.74,SETTLED
+TRD-DB71FE226D,,Bond,2025-05-04,Colborne Capital LLC,Everest Capital Group,27028,225.96,PENDING
+TRD-FF35B5855E,BRCX,Bond,2025-10-16,Nexus Capital Markets,Sterling Market Partners,10375,86.26,CANCELLED
+TRD-F9ECC8073A,,Equity,01-10-2025,Thornfield Brokers Inc,Orion Market Makers,44678,115.56,SETTLED
+TRD-543F5BFFD5,BRCX,Bond,2025-06-20,Harlow Securities,Atlas Trading Group,37697,387.03,PENDING
+TRD-CFC5BF430A,TRDX,ETF,2025-10-03,Bluehaven Trading LLC,Crestwood Financial Group,33298,115.39,SETTLED
+TRD-4B2568575D,BRCX,Bond,2025-11-22,Atlas Trading Group,Fairview Financial Inc,44263,402.81,SETTLED
+TRD-343B9C50D3,RDST,Equity,2025-04-20,Orion Market Makers,Colborne Capital LLC,25436,31.31,CANCELLED
+TRD-CFEC5F26F6,ANLX,Equity,2026-05-22,Everest Capital Group,Harlow Securities,36129,115.47,REJECTED
+TRD-7D388C2EC8,,Equity,09-22-2025,Claridge Securities,,34077,394.85,CANCELLED
+TRD-90AE461D01,DRVX,Bond,2026-01-28,Colborne Capital LLC,Solaris Brokerage LLC,35867,246.69,PENDING
+TRD-14DACF05C7,GLDT,ETF,2025-06-11,Fairview Financial Inc,Colborne Capital LLC,8475,391.59,CANCELLED
+TRD-D2816FC65F,CPXT,Equity,2026-04-18,Westgate Securities,Bluehaven Trading LLC,34202,95.17,CANCELLED
+TRD-FDE6583760,HLWS,Equity,2026-05-09,Meridian Prime Brokers,Bluehaven Trading LLC,41269,55.69,CANCELLED
+TRD-9483272C4C,TRDX,ETF,2025-11-29,Everest Capital Group,Thornfield Brokers Inc,24916,247.55,EXECUTED
+TRD-3675666B0A,MRCX,Equity,2026-04-18,Thornfield Brokers Inc,Fairview Financial Inc,6968,227.19,PENDING
+TRD-C4D2421C4C,SLRS,ETF,2025.11.21,Fairview Financial Inc,Sterling Market Partners,26063,472.17,PENDING
+TRD-31B9C68AEB,VNTS,Equity,2025-06-06,Meridian Prime Brokers,Altus Capital LLC,20481,254.74,SETTLED
+TRD-DB842380B9,WGTS,Bond,05-20-2026,Redstone Financial Corp,Claridge Securities,44386,183.51,SETTLED
+TRD-BBC7220C3E,RDST,Equity,2026-05-04,Altus Capital LLC,Westgate Securities,29060,279.14,EXECUTED
+TRD-9154483254,,Equity,2025-04-29,Altus Capital LLC,Sterling Market Partners,47962,35.5,REJECTED
+TRD-C0D52DE8CC,FNDX,Bond,2025-08-09,Colborne Capital LLC,Meridian Prime Brokers,37426,387.17,REJECTED
+TRD-0F93CA6FC7,ANLX,Equity,2026-01-26,Redstone Financial Corp,Fairview Financial Inc,25739,210.51,PENDING
+TRD-4D25F27C8B,FRVW,ETF,2025.03.16,Atlas Trading Group,Everest Capital Group,43326,234.3,SETTLED
+TRD-DC8045EC56,CPXT,Equity,04-12-2026,Crestwood Financial Group,Pinnacle Trade Partners,27320,170.3,REJECTED
+TRD-01A8705E10,PNTP,Bond,2025-08-01,Orion Market Makers,Harlow Securities,30736,477.77,SETTLED
+TRD-863E965A6A,GLDT,ETF,2025-12-13,Pinnacle Trade Partners,Redstone Financial Corp,36269,230.49,REJECTED
+TRD-824D37AC3C,TRDX,ETF,2025-02-04,Colborne Capital LLC,Bluehaven Trading LLC,48839,425.55,SETTLED
+TRD-80A4628A34,ORNM,ETF,2025-02-16,Redstone Financial Corp,Colborne Capital LLC,27923,226.21,REJECTED
+TRD-F76F8AF03C,CPXT,Equity,2026-05-20,Atlas Trading Group,Bluehaven Trading LLC,34292,364.76,CANCELLED
+TRD-5ACDBD1E65,BLHV,Bond,2026-03-27,Meridian Prime Brokers,Nexus Capital Markets,1798,304.82,EXECUTED
+TRD-0699C29C4C,ANLX,Equity,2025-09-26,Vantage Securities Inc,Westgate Securities,29774,68.97,PENDING
+TRD-0687C86198,ANLX,Equity,2025-08-12,Westgate Securities,Pinnacle Trade Partners,32569,193.19,EXECUTED
+TRD-DEE2EEA29D,TRDX,ETF,2025-04-02,Altus Capital LLC,Pinnacle Trade Partners,15021,280.71,REJECTED
+TRD-90598EB105,PNTP,Bond,2025-06-13,Vantage Securities Inc,Westgate Securities,49432,366.39,PENDING
+TRD-C0BCF3E901,IGTC,ETF,2026.01.10,Bluehaven Trading LLC,Vantage Securities Inc,1626,39.48,SETTLED
+TRD-648F133A79,STRM,ETF,2025-07-25,Sterling Market Partners,Solaris Brokerage LLC,22069,49.04,EXECUTED
+TRD-35AC84B31B,BRCX,Bond,2025-05-22,,Harlow Securities,25378,273.42,REJECTED
+TRD-6A5BAB3463,,ETF,2026-01-19,Colborne Capital LLC,Orion Market Makers,6098,461.38,CANCELLED
+TRD-10E220414D,DRVX,Bond,2026-05-03,Orion Market Makers,Atlas Trading Group,12036,134.01,EXECUTED
+TRD-DB57FBD734,IGTC,ETF,2026-05-13,Orion Market Makers,Sterling Market Partners,18653,281.33,REJECTED
+TRD-1EFA31ACFB,VNTS,Equity,2026-02-08,Sterling Market Partners,Atlas Trading Group,20323,446.32,CANCELLED
+TRD-8E10F81A9B,HLWS,Equity,2025-04-01,Altus Capital LLC,Fairview Financial Inc,7098,373.85,SETTLED
+TRD-09DD199CF1,SLRS,ETF,2025-12-20,Vantage Securities Inc,Atlas Trading Group,39976,463.58,CANCELLED
+TRD-B6343B16AD,FRVW,ETF,2025-07-09,Claridge Securities,Crestwood Financial Group,10283,499.23,REJECTED
+TRD-B939FDA4A6,ATLS,Equity,2025-12-29,Solaris Brokerage LLC,Westgate Securities,22444,29.2,PENDING
+TRD-9F7C5EFF60,,Equity,2025-10-10,Colborne Capital LLC,Everest Capital Group,21000,270.38,REJECTED
+TRD-5BB4C2D85C,ORNM,ETF,2025-01-16,Crestwood Financial Group,Orion Market Makers,28382,10.15,EXECUTED
+TRD-BDCAEC850E,BLHV,Bond,2025-01-24,Vantage Securities Inc,Crestwood Financial Group,33783,178.93,REJECTED
+TRD-6FA927BA3B,FRVW,ETF,2025-02-12,Colborne Capital LLC,Redstone Financial Corp,5228,156.23,SETTLED
+TRD-976B001821,STRM,ETF,2026-03-21,Westgate Securities,Thornfield Brokers Inc,37536,50.99,PENDING
+TRD-029CF34DF7,EVST,Equity,2026-04-01,Irongate Trading Co,Pinnacle Trade Partners,16140,303.47,SETTLED
+TRD-EA3147F68B,SLRS,ETF,2025-07-22,Westgate Securities,Vantage Securities Inc,33238,307.42,REJECTED
+TRD-2EDDE19CBB,WGTS,Bond,2026-02-18,Everest Capital Group,Nexus Capital Markets,32071,132.91,EXECUTED
+TRD-17BEA0A650,,ETF,2025-11-29,Colborne Capital LLC,Redstone Financial Corp,38305,387.21,REJECTED
+TRD-F781D99316,PNTP,Bond,2025-11-28,Irongate Trading Co,Bluehaven Trading LLC,34349,-275.81,SETTLED
+TRD-11A06904D2,,Equity,2026-06-23,Colborne Capital LLC,,28734,122.76,PENDING
+TRD-613B7B92D1,SLVR,ETF,2025-01-19,Fairview Financial Inc,Altus Capital LLC,22483,227.14,CANCELLED
+TRD-2E4CF66ABB,INFX,Equity,2025-06-17,Irongate Trading Co,,39776,91.41,PENDING
+TRD-87E8FCCFF3,ATLS,Equity,2025-02-23,Altus Capital LLC,Solaris Brokerage LLC,9892,116.03,PENDING
+TRD-CF55A917F2,WGTS,Bond,2025-05-22,Crestwood Financial Group,Sterling Market Partners,48291,492.3,REJECTED
+TRD-5A317F4D4F,ALTF,Equity,2025-12-08,Harlow Securities,Claridge Securities,45942,460.23,EXECUTED
+TRD-3C79BA17F8,MRCX,Equity,2025-09-20,Atlas Trading Group,Harlow Securities,40332,23.48,PENDING
+TRD-16FCC9D5CB,DRVX,Bond,2025-09-03,Orion Market Makers,Crestwood Financial Group,5969,299.91,EXECUTED
+TRD-3C3E9D1599,,ETF,2026-04-05,,Solaris Brokerage LLC,535,286.51,PENDING
+TRD-424287AF7E,GLDT,ETF,2026-04-20,Solaris Brokerage LLC,Altus Capital LLC,35120,258.32,CANCELLED
+TRD-A45E36A4FA,CRWD,Equity,2025-01-02,Orion Market Makers,Vantage Securities Inc,37635,47.68,CANCELLED
+TRD-D92AE82F3A,CLBN,Equity,2025-06-08,Fairview Financial Inc,Colborne Capital LLC,2084,363.36,REJECTED
+TRD-90FB52A5FE,STRM,ETF,2026-03-17,Solaris Brokerage LLC,Pinnacle Trade Partners,30879,466.25,CANCELLED
+TRD-58F46862D5,CLRG,Equity,2025-11-16,Solaris Brokerage LLC,Fairview Financial Inc,8318,35.49,CANCELLED
+TRD-E0AD995395,STRM,ETF,02-13-2025,Vantage Securities Inc,Claridge Securities,45109,248.64,PENDING
+TRD-6773CFB511,CPXT,Equity,2026-06-24,Harlow Securities,Westgate Securities,44718,332.99,SETTLED
+TRD-5B56B8DDCE,ALTF,Equity,2025-03-22,Westgate Securities,Vantage Securities Inc,31861,150.59,EXECUTED
+TRD-3E697A02F0,VNTS,Equity,2026-03-22,Crestwood Financial Group,Fairview Financial Inc,26562,48.67,EXECUTED
+TRD-8B367C980B,FNDX,Bond,2026-05-19,Bluehaven Trading LLC,Harlow Securities,44659,35.27,SETTLED
+TRD-D43D39A75D,CRWD,Equity,2025-11-02,Sterling Market Partners,Meridian Prime Brokers,25308,350.82,PENDING
+TRD-76712E23E7,INFX,Equity,2025-04-10,Colborne Capital LLC,Irongate Trading Co,24619,290.39,PENDING
+TRD-E0ADAC5E21,BRCX,Bond,12-17-2025,Colborne Capital LLC,Redstone Financial Corp,15407,318.69,REJECTED
+TRD-A2F955E843,HLWS,Equity,2025-02-25,Harlow Securities,Sterling Market Partners,8063,259.11,PENDING
+TRD-0586119A53,CRWD,Equity,2025-11-12,Meridian Prime Brokers,Fairview Financial Inc,16014,477.29,EXECUTED
+TRD-9F7B17D6B7,CRWD,Equity,2025-01-31,,Atlas Trading Group,40960,485.74,EXECUTED
+TRD-CD5BFA2438,GLDT,ETF,2025-05-01,Everest Capital Group,Meridian Prime Brokers,26137,464.87,REJECTED
+TRD-FC386CD843,CLBN,Equity,2025-09-27,Vantage Securities Inc,Nexus Capital Markets,40692,298.09,EXECUTED
+TRD-4314406411,DRVX,Bond,2025-10-24,Colborne Capital LLC,Meridian Prime Brokers,45834,324.51,EXECUTED
+TRD-2716BE625D,MRCX,Equity,2025-10-14,Crestwood Financial Group,Harlow Securities,16764,42.8,REJECTED
+TRD-794949CEAA,WGTS,Bond,2026-04-12,Sterling Market Partners,Meridian Prime Brokers,12377,30.33,EXECUTED
+TRD-4320A56D31,MXCP,Equity,2025-12-24,Meridian Prime Brokers,Sterling Market Partners,33715,179.47,EXECUTED
+TRD-8BE5CD555F,NXCM,Bond,2025-03-22,Irongate Trading Co,Atlas Trading Group,7520,441.2,REJECTED
+TRD-EFE5AFB8FB,VNTS,Equity,2025-08-11,Bluehaven Trading LLC,Orion Market Makers,32392,187.44,EXECUTED
+TRD-73334403F3,BLHV,Bond,2026-06-18,Westgate Securities,Pinnacle Trade Partners,11292,164.97,SETTLED
+TRD-B9DC8A8537,FNDX,Bond,2026-01-20,Pinnacle Trade Partners,Irongate Trading Co,5359,127.52,REJECTED
+TRD-E7814267A6,ANLX,Equity,2025-08-31,Crestwood Financial Group,Nexus Capital Markets,23011,146.46,CANCELLED
+TRD-B980B873BA,,Equity,2026-03-17,Bluehaven Trading LLC,Everest Capital Group,49229,367.96,PENDING
+TRD-27AD1B41EC,,ETF,2025-10-26,Fairview Financial Inc,Meridian Prime Brokers,31913,82.9,PENDING
+TRD-B4F5357552,ANLX,Equity,2025-05-02,Vantage Securities Inc,Crestwood Financial Group,13636,496.86,EXECUTED
+TRD-C528C467AC,CLRG,Equity,2026-04-07,Solaris Brokerage LLC,Irongate Trading Co,37233,270.27,SETTLED
+TRD-A5C1BFFEE0,DRVX,Bond,2025-02-28,Thornfield Brokers Inc,Irongate Trading Co,19718,480.12,EXECUTED
+TRD-479464B5C8,INFX,Equity,2025-08-27,Atlas Trading Group,Harlow Securities,25620,160.26,SETTLED
+TRD-73C407D3F2,MRCX,Equity,06-19-2025,Irongate Trading Co,Sterling Market Partners,29219,412.29,CANCELLED
+TRD-C855A8611E,TRNF,Bond,2025-01-27,Harlow Securities,Pinnacle Trade Partners,1883,296.67,PENDING
+TRD-88BD62CCE6,EVST,Equity,2025-10-13,Pinnacle Trade Partners,Everest Capital Group,11176,249.1,SETTLED
+TRD-39DB7A8806,VNTS,Equity,17/06/2026,Irongate Trading Co,Sterling Market Partners,38156,399.21,SETTLED
+TRD-4CEA8F7EDB,ALTF,Equity,2025-08-17,Atlas Trading Group,Solaris Brokerage LLC,23186,468.48,SETTLED
+TRD-E95476662D,IGTC,ETF,2026-04-18,Vantage Securities Inc,Orion Market Makers,32263,259.46,CANCELLED
+TRD-ADBC567596,CPXT,Equity,2026-05-07,Fairview Financial Inc,Claridge Securities,19303,398.87,SETTLED
+TRD-F079DE1224,,ETF,2025-03-30,Sterling Market Partners,Colborne Capital LLC,13954,348.15,REJECTED
+TRD-021ECF3556,STRM,ETF,2026-03-23,Colborne Capital LLC,,28841,220.33,CANCELLED
+TRD-FDBBABD690,EVST,Equity,2026-06-14,Orion Market Makers,Westgate Securities,36220,412.21,EXECUTED
+TRD-A4FC0DD226,VNTS,Equity,2025-09-22,Claridge Securities,Altus Capital LLC,23549,-316.97,CANCELLED
+TRD-0687C86198,,Equity,2025-03-18,Atlas Trading Group,Solaris Brokerage LLC,22698,498.32,PENDING
+TRD-A1E3A54943,RDST,Equity,2025-03-19,Claridge Securities,Crestwood Financial Group,48219,398.83,PENDING
+TRD-03B3B772F6,ALTF,Equity,2026-03-30,Everest Capital Group,Thornfield Brokers Inc,36964,480.75,EXECUTED
+TRD-57BC6DDA79,BLHV,Bond,2025-06-10,Vantage Securities Inc,Bluehaven Trading LLC,20610,153.45,REJECTED
+TRD-C6EB0B4812,SLRS,ETF,2026-03-18,Meridian Prime Brokers,Nexus Capital Markets,13730,330.27,EXECUTED
+TRD-222D12BCF7,IGTC,ETF,2025-08-08,Atlas Trading Group,Thornfield Brokers Inc,47975,380.59,REJECTED
+TRD-E4DCEFA22C,,ETF,2026-02-21,Sterling Market Partners,Solaris Brokerage LLC,41927,204.6,REJECTED
+TRD-5E65031217,CPXT,Equity,2025-09-23,Harlow Securities,Colborne Capital LLC,8210,234.47,REJECTED
+TRD-04D7D8B91B,SLRS,ETF,26/08/2025,Orion Market Makers,Nexus Capital Markets,21655,468.29,PENDING
+TRD-219F207A97,CRWD,Equity,2026.02.17,Redstone Financial Corp,Westgate Securities,48437,314.32,REJECTED
+TRD-6D906BD074,CLRG,Equity,01-25-2026,Atlas Trading Group,Pinnacle Trade Partners,1206,244.88,EXECUTED
+TRD-82AA188CCA,IGTC,ETF,2026.03.07,Bluehaven Trading LLC,Vantage Securities Inc,40346,124.33,SETTLED
+TRD-64B02046A2,TRNF,Bond,2025-07-30,Bluehaven Trading LLC,Irongate Trading Co,44479,54.64,CANCELLED
+TRD-F572DC3A00,,Equity,2025-05-16,Colborne Capital LLC,Fairview Financial Inc,41104,315.84,PENDING
+TRD-66380F4090,SLVR,ETF,2026-01-19,Bluehaven Trading LLC,Pinnacle Trade Partners,20757,482.04,EXECUTED
+TRD-141868F91B,,ETF,2025-05-16,Altus Capital LLC,Crestwood Financial Group,13355,465.2,CANCELLED
+TRD-1D1C4F45D6,WGTS,Bond,2025-01-16,Everest Capital Group,Westgate Securities,21897,197.32,EXECUTED
+TRD-D26717234F,,ETF,2026-06-29,Bluehaven Trading LLC,Colborne Capital LLC,20086,233.69,SETTLED
+TRD-6410931009,STRM,ETF,2025-07-18,Crestwood Financial Group,,38718,414.05,EXECUTED
+TRD-41BEEFE46B,TRNF,Bond,2026-01-22,Everest Capital Group,Meridian Prime Brokers,22705,444.91,CANCELLED
+TRD-59AFF7737D,CRWD,Equity,2026-01-25,Claridge Securities,Thornfield Brokers Inc,44093,349.19,SETTLED
+TRD-840E6F6342,ORNM,ETF,2025-06-28,Claridge Securities,Westgate Securities,43938,78.2,SETTLED
+TRD-E439CCA6FE,CRWD,Equity,2025-11-19,Irongate Trading Co,Bluehaven Trading LLC,3903,115.89,PENDING
+TRD-C6AA9CC448,MXCP,Equity,2025-02-22,Atlas Trading Group,Crestwood Financial Group,24417,150.0,SETTLED
+TRD-D7ED048455,CLRG,Equity,2026-04-27,Redstone Financial Corp,Claridge Securities,28645,56.79,CANCELLED
+TRD-7E1523B720,BRCX,Bond,24/01/2025,Orion Market Makers,Redstone Financial Corp,7406,83.3,EXECUTED
+TRD-C879263013,BLHV,Bond,2025-08-16,Nexus Capital Markets,Orion Market Makers,41885,58.15,EXECUTED
+TRD-7BC31A8357,PNTP,Bond,2025-08-08,Vantage Securities Inc,Harlow Securities,31557,177.11,EXECUTED
+TRD-2F2111AAA8,WGTS,Bond,2025-06-26,Sterling Market Partners,Colborne Capital LLC,35287,440.26,REJECTED
+TRD-ACBCD273D0,DRVX,Bond,2025-10-10,Redstone Financial Corp,Solaris Brokerage LLC,26634,206.15,SETTLED
+TRD-B587A40E6C,IGTC,ETF,2025-07-01,Redstone Financial Corp,Altus Capital LLC,4805,436.45,SETTLED
+TRD-2EDDE19CBB,IGTC,ETF,2025-03-31,Crestwood Financial Group,Altus Capital LLC,34023,476.47,SETTLED
+TRD-02D02F5FEB,SLRS,ETF,2025-09-01,,Claridge Securities,37422,206.82,SETTLED
+TRD-C3017C9ED6,DRVX,Bond,2025-11-03,Sterling Market Partners,Nexus Capital Markets,40462,186.27,REJECTED
+TRD-475CF04DA4,VNTS,Equity,2025-09-15,Vantage Securities Inc,Orion Market Makers,44827,343.05,EXECUTED
+TRD-8F6BCD3E05,CRWD,Equity,2025-03-10,Orion Market Makers,Redstone Financial Corp,45047,60.82,PENDING
+TRD-10453F172D,BRCX,Bond,2026-03-27,Vantage Securities Inc,Claridge Securities,7544,368.72,PENDING
+TRD-30573537B8,WGTS,Bond,2025-11-07,Everest Capital Group,Altus Capital LLC,20379,397.48,SETTLED
+TRD-A4457D4807,HLWS,Equity,2025-05-08,Redstone Financial Corp,Solaris Brokerage LLC,22037,349.04,PENDING
+TRD-A976B6B206,STRM,ETF,2025.03.05,Sterling Market Partners,Everest Capital Group,14428,216.28,SETTLED
+TRD-73B3953EFB,BLHV,Bond,2025-12-29,Thornfield Brokers Inc,Everest Capital Group,14870,41.46,REJECTED
+TRD-A4D0231FB2,ANLX,Equity,2025-10-09,Pinnacle Trade Partners,Bluehaven Trading LLC,38738,230.77,EXECUTED
+TRD-B8A7383DC6,,Equity,2025-06-01,Redstone Financial Corp,Vantage Securities Inc,45656,245.46,CANCELLED
+TRD-9339644A67,ATLS,Equity,2026-06-29,Everest Capital Group,Atlas Trading Group,46443,174.94,REJECTED
+TRD-6CCC27E3BE,HLWS,Equity,2025-07-30,Sterling Market Partners,Solaris Brokerage LLC,7722,440.3,CANCELLED
+TRD-DC1A7FD0CF,GLDT,ETF,2025-10-31,Pinnacle Trade Partners,Crestwood Financial Group,18764,286.36,SETTLED
+TRD-D19F5DB1C0,CLBN,Equity,2025-01-29,Harlow Securities,Meridian Prime Brokers,3178,272.31,SETTLED
+TRD-16D3727C3A,CLRG,Equity,14/05/2026,Claridge Securities,Crestwood Financial Group,21608,395.53,SETTLED
+TRD-0C92DF68F9,EVST,Equity,2025-10-25,Vantage Securities Inc,Fairview Financial Inc,43157,36.67,EXECUTED
+TRD-C936E4CA93,FRVW,ETF,2025-12-26,Altus Capital LLC,Nexus Capital Markets,43196,89.51,CANCELLED
+TRD-2F09E44E98,NXCM,Bond,2026-01-06,Altus Capital LLC,Colborne Capital LLC,14719,176.52,CANCELLED
+TRD-9ED9D8200A,BRCX,Bond,2025-10-07,Atlas Trading Group,Nexus Capital Markets,33683,235.46,CANCELLED
+TRD-EBF7CE7CBB,DRVX,Bond,2026-06-17,Orion Market Makers,Crestwood Financial Group,2619,323.62,PENDING
+TRD-E1566DD6A6,BRCX,Bond,2025-09-10,Crestwood Financial Group,Meridian Prime Brokers,15179,280.78,EXECUTED
+TRD-A45E36A4FA,STRM,ETF,2026-05-02,Crestwood Financial Group,Westgate Securities,32992,322.74,CANCELLED
+TRD-08A178221C,FRVW,ETF,2025.03.25,Bluehaven Trading LLC,Everest Capital Group,6635,76.82,EXECUTED
+TRD-4BA1926C93,,Bond,2025-07-23,Sterling Market Partners,Colborne Capital LLC,45108,375.15,EXECUTED
+TRD-AD88E313CD,ORNM,ETF,2025-04-09,Altus Capital LLC,Irongate Trading Co,35619,227.57,REJECTED
+TRD-3B2D2B2694,NXCM,Bond,2025-04-30,Vantage Securities Inc,Solaris Brokerage LLC,14629,76.06,CANCELLED
+TRD-A723D7DF0B,STRM,ETF,2026-04-13,Altus Capital LLC,Irongate Trading Co,15666,218.71,REJECTED
+TRD-720D4C6F04,,Equity,2026-06-24,Vantage Securities Inc,Irongate Trading Co,45590,294.52,PENDING
+TRD-3825692C8D,DRVX,Bond,2025-04-05,Fairview Financial Inc,Harlow Securities,7059,260.63,PENDING
+TRD-BB34373BB5,TRDX,ETF,2025-05-10,Irongate Trading Co,Colborne Capital LLC,7758,387.36,PENDING
+TRD-034BDB8679,BRCX,Bond,2025-05-29,Thornfield Brokers Inc,Solaris Brokerage LLC,31727,315.82,CANCELLED
+TRD-94BC52320C,CRWD,Equity,2025-07-13,Pinnacle Trade Partners,Harlow Securities,43021,428.27,CANCELLED
+TRD-19ECD76CAD,STRM,ETF,2026-05-30,Orion Market Makers,Claridge Securities,30775,24.73,CANCELLED
+TRD-879A09A17A,EVST,Equity,2025-02-07,Orion Market Makers,Bluehaven Trading LLC,49345,312.18,REJECTED
+TRD-3AC28A6EE5,DRVX,Bond,2026-01-12,Pinnacle Trade Partners,Nexus Capital Markets,34071,104.06,SETTLED
+TRD-2B9E0316D6,ATLS,Equity,2025-10-22,Solaris Brokerage LLC,,34895,232.7,SETTLED
+TRD-24F258CB04,CRWD,Equity,2026-05-09,Bluehaven Trading LLC,Westgate Securities,8931,324.8,PENDING
+TRD-3FF21E7BEC,HLWS,Equity,2025-07-23,Pinnacle Trade Partners,Solaris Brokerage LLC,28416,379.36,SETTLED
+TRD-BAE7AC13D6,WGTS,Bond,2025-03-07,Westgate Securities,Bluehaven Trading LLC,31350,276.46,PENDING
+TRD-542DBBCBAF,INFX,Equity,2025-05-31,Pinnacle Trade Partners,Redstone Financial Corp,49530,282.54,REJECTED
+TRD-8DC5F8144E,SLVR,ETF,2025-05-21,Vantage Securities Inc,Claridge Securities,5987,337.2,SETTLED
+TRD-9B00796A1D,FNDX,Bond,2025-01-25,Altus Capital LLC,Meridian Prime Brokers,10693,280.94,SETTLED
+TRD-E667FC488F,,Bond,2026-06-24,Everest Capital Group,Atlas Trading Group,302,215.3,SETTLED
+TRD-C3017C9ED6,ATLS,Equity,2025.02.24,Pinnacle Trade Partners,Thornfield Brokers Inc,37974,223.52,EXECUTED
+TRD-17E11F9484,WGTS,Bond,2025-10-23,Nexus Capital Markets,Solaris Brokerage LLC,33430,152.77,EXECUTED
+TRD-939DAE6D99,ATLS,Equity,2026-03-23,Fairview Financial Inc,Vantage Securities Inc,23069,219.43,CANCELLED
+TRD-74522FC3CC,ALTF,Equity,2026-02-25,Crestwood Financial Group,Colborne Capital LLC,3621,455.81,CANCELLED
+TRD-C8E25544D9,FNDX,Bond,2025-05-24,Vantage Securities Inc,Sterling Market Partners,33483,435.06,SETTLED
+TRD-68A213C199,MRCX,Equity,2026-06-27,Bluehaven Trading LLC,Solaris Brokerage LLC,32324,110.35,PENDING
+TRD-881E1CF695,WGTS,Bond,2026-06-29,Claridge Securities,Bluehaven Trading LLC,6351,427.31,SETTLED
+TRD-71AFABB3C1,CLBN,Equity,2026-05-24,Redstone Financial Corp,Atlas Trading Group,31704,229.53,CANCELLED
+TRD-06D37A084D,EVST,Equity,2025-08-22,Thornfield Brokers Inc,Pinnacle Trade Partners,13173,445.02,EXECUTED
+TRD-5DC1D6E8E8,WGTS,Bond,2026-01-13,Sterling Market Partners,Atlas Trading Group,29870,498.12,CANCELLED
+TRD-41C61BA055,EVST,Equity,2026-02-10,Claridge Securities,Irongate Trading Co,11188,365.42,EXECUTED
+TRD-4D1F51DFB8,,Equity,2025-06-28,Colborne Capital LLC,Redstone Financial Corp,37566,218.41,SETTLED
+TRD-F252E8C770,HLWS,Equity,2025-11-28,Claridge Securities,Vantage Securities Inc,28281,231.6,PENDING
+TRD-7F15737588,STRM,ETF,2025-02-17,Westgate Securities,Redstone Financial Corp,26884,-133.92,EXECUTED
+TRD-78D91F8676,BLHV,Bond,2026-05-10,Fairview Financial Inc,Crestwood Financial Group,49545,247.72,REJECTED
+TRD-12FAA7125D,,Equity,2025-09-23,Everest Capital Group,Thornfield Brokers Inc,43441,130.89,SETTLED
+TRD-152A2AE869,MXCP,Equity,2026-03-25,Fairview Financial Inc,Harlow Securities,6961,193.54,CANCELLED
+TRD-75B1107F39,IGTC,ETF,2026-06-11,Pinnacle Trade Partners,Claridge Securities,18874,103.93,PENDING
+TRD-4F7A13DF84,ALTF,Equity,2025-10-22,Altus Capital LLC,Fairview Financial Inc,5555,374.91,CANCELLED
+TRD-2D81CD544E,FNDX,Bond,2026-05-17,Colborne Capital LLC,Nexus Capital Markets,4091,38.81,CANCELLED
+TRD-197BDA7E8F,STRM,ETF,2025-05-03,Orion Market Makers,Altus Capital LLC,25028,342.69,EXECUTED
+TRD-FED9AA4BCF,MRCX,Equity,2026-04-06,Nexus Capital Markets,Altus Capital LLC,14224,323.14,SETTLED
+TRD-4906B1BA99,BLHV,Bond,2025-05-10,Claridge Securities,Redstone Financial Corp,41506,-46.44,PENDING
+TRD-EBBFB9EFE3,TRNF,Bond,2025-09-12,Sterling Market Partners,Everest Capital Group,42603,18.34,CANCELLED
+TRD-3D8039D1DC,BLHV,Bond,2025-10-09,Thornfield Brokers Inc,Sterling Market Partners,28558,301.46,EXECUTED
+TRD-0B2E893A28,RDST,Equity,2026-04-06,Meridian Prime Brokers,Thornfield Brokers Inc,25251,374.06,PENDING
+TRD-D4DDF23190,MRCX,Equity,2025-06-11,Westgate Securities,Sterling Market Partners,38413,214.33,REJECTED
+TRD-10571B7FA4,MRCX,Equity,2025-04-04,Crestwood Financial Group,Atlas Trading Group,6426,351.39,EXECUTED
+TRD-D6668AC3E3,SLRS,ETF,2026-03-20,Everest Capital Group,Thornfield Brokers Inc,47416,487.04,EXECUTED
+TRD-B029E17BEE,IGTC,ETF,2025-02-10,Solaris Brokerage LLC,Pinnacle Trade Partners,38144,360.37,REJECTED
+TRD-346117B4BA,FNDX,Bond,2025-01-19,Altus Capital LLC,Colborne Capital LLC,31238,105.12,REJECTED
+TRD-75675B85E5,CRWD,Equity,2025-02-10,Westgate Securities,Nexus Capital Markets,24241,148.74,CANCELLED
+TRD-BF1EA615D6,VNTS,Equity,2025-11-06,Sterling Market Partners,Redstone Financial Corp,39301,489.64,EXECUTED
+TRD-0DE6FAFA99,DRVX,Bond,2025-01-07,Fairview Financial Inc,Westgate Securities,416,186.95,REJECTED
+TRD-4739118884,WGTS,Bond,2025-08-16,Sterling Market Partners,Irongate Trading Co,16503,314.35,REJECTED
+TRD-E4E735F870,ATLS,Equity,23/07/2025,Vantage Securities Inc,Everest Capital Group,5843,49.67,SETTLED
+TRD-302F9BE75F,CRWD,Equity,2025-10-25,Crestwood Financial Group,Everest Capital Group,38985,176.48,REJECTED
+TRD-913FDEEC55,WGTS,Bond,2026-03-27,Thornfield Brokers Inc,Colborne Capital LLC,33563,329.13,SETTLED
+TRD-450A6651FC,STRM,ETF,2025-11-27,Nexus Capital Markets,Solaris Brokerage LLC,45803,157.59,REJECTED
+TRD-CA4D89ACB8,GLDT,ETF,2025-05-28,,Vantage Securities Inc,7273,471.23,PENDING
+TRD-3132AF4336,FNDX,Bond,2025-07-15,Irongate Trading Co,Everest Capital Group,46872,54.0,SETTLED
+TRD-7C709B9C62,MXCP,Equity,2025-01-02,Nexus Capital Markets,Colborne Capital LLC,24610,77.37,REJECTED
+TRD-7F72751126,HLWS,Equity,2025-05-03,Thornfield Brokers Inc,Everest Capital Group,1937,139.77,CANCELLED
+TRD-97566B6778,INFX,Equity,2026-04-24,Colborne Capital LLC,Crestwood Financial Group,27678,268.86,REJECTED
+TRD-B33DD1DBB5,SLVR,ETF,02/05/2025,Vantage Securities Inc,Altus Capital LLC,21063,380.38,SETTLED
+TRD-6B1712720E,VNTS,Equity,2025-09-06,Pinnacle Trade Partners,Sterling Market Partners,22930,332.73,EXECUTED
+TRD-BE09D0715E,ATLS,Equity,2026-02-28,Colborne Capital LLC,Bluehaven Trading LLC,34522,356.69,PENDING
+TRD-CC67352624,ALTF,Equity,27/02/2025,Pinnacle Trade Partners,,28646,41.33,REJECTED
+TRD-705774EAB0,TRDX,ETF,2025-03-04,Redstone Financial Corp,Crestwood Financial Group,48125,442.36,PENDING
+TRD-27A501D8A9,GLDT,ETF,2025-01-05,Orion Market Makers,Atlas Trading Group,6110,463.34,CANCELLED
+TRD-03ADE255E0,ORNM,ETF,2025-05-05,Bluehaven Trading LLC,Nexus Capital Markets,23184,315.85,REJECTED
+TRD-28ADE85CE5,MRCX,Equity,2025-02-05,Orion Market Makers,Bluehaven Trading LLC,18738,471.22,PENDING
+TRD-BFDE1F21C4,CLBN,Equity,2025-09-03,,Atlas Trading Group,4690,81.07,CANCELLED
+TRD-F0E64A85C7,,Equity,2025-10-29,Atlas Trading Group,Fairview Financial Inc,30338,284.66,EXECUTED
+TRD-A7475CF2CB,ATLS,Equity,2025-05-21,Vantage Securities Inc,Westgate Securities,5826,99.3,CANCELLED
+TRD-38F5289DAE,DRVX,Bond,2025-09-22,Sterling Market Partners,Orion Market Makers,14605,140.94,CANCELLED
+TRD-176BEE9BBC,CPXT,Equity,2025-06-07,Harlow Securities,Thornfield Brokers Inc,40412,302.05,EXECUTED
+TRD-C8A5015992,MXCP,Equity,2025-04-25,Fairview Financial Inc,Bluehaven Trading LLC,3792,126.33,CANCELLED
+TRD-5A511F30CE,HLWS,Equity,2026-05-14,Atlas Trading Group,Solaris Brokerage LLC,43767,405.76,EXECUTED
+TRD-C06A273FB9,DRVX,Bond,2025-09-10,Thornfield Brokers Inc,Harlow Securities,27698,470.86,REJECTED
+TRD-C6A5BC67E1,WGTS,Bond,2026-03-11,Bluehaven Trading LLC,Westgate Securities,42786,377.09,CANCELLED
+TRD-8DE3C3E891,NXCM,Bond,2026-05-21,Atlas Trading Group,Orion Market Makers,8144,132.19,SETTLED
+TRD-EDBE0930A0,CLRG,Equity,2025-12-30,Solaris Brokerage LLC,Crestwood Financial Group,22802,279.53,REJECTED
+TRD-2D30FEBA2A,BRCX,Bond,07-16-2025,Irongate Trading Co,Pinnacle Trade Partners,6438,177.02,PENDING
+TRD-055778612F,MXCP,Equity,2026-02-09,Irongate Trading Co,Redstone Financial Corp,8741,144.97,EXECUTED
+TRD-F0B484B149,RDST,Equity,2025-10-13,Colborne Capital LLC,Meridian Prime Brokers,42890,92.89,PENDING
+TRD-D8865A73AE,ANLX,Equity,2025-05-15,Colborne Capital LLC,Vantage Securities Inc,49952,480.72,PENDING
+TRD-B9E93B2610,TRNF,Bond,2026-01-12,Altus Capital LLC,Solaris Brokerage LLC,22813,292.71,PENDING
+TRD-417BBC40BE,MRCX,Equity,2025.06.06,Meridian Prime Brokers,,31651,392.78,CANCELLED
+TRD-798271F03A,RDST,Equity,2026-01-10,Meridian Prime Brokers,Sterling Market Partners,11540,234.87,CANCELLED
+TRD-4391BF0A80,ATLS,Equity,2025-08-01,Thornfield Brokers Inc,Westgate Securities,8188,228.64,PENDING
+TRD-3778A00388,NXCM,Bond,2025-12-14,Thornfield Brokers Inc,Pinnacle Trade Partners,7779,-59.16,PENDING
+TRD-A642F687AE,ORNM,ETF,2025-12-31,Everest Capital Group,Harlow Securities,3438,43.81,REJECTED
+TRD-BEAF59D17F,DRVX,Bond,2025-08-30,Claridge Securities,Fairview Financial Inc,757,257.05,CANCELLED
+TRD-3F87FBD02F,,ETF,08/08/2025,Meridian Prime Brokers,Claridge Securities,31145,280.17,SETTLED
+TRD-73FC6CE0DF,VNTS,Equity,2025-08-27,Pinnacle Trade Partners,Everest Capital Group,1777,153.77,SETTLED
+TRD-D354FF9869,HLWS,Equity,2025-07-22,Everest Capital Group,Harlow Securities,45280,329.55,EXECUTED
+TRD-6DE800130F,WGTS,Bond,2025-06-07,Colborne Capital LLC,Meridian Prime Brokers,47801,489.76,PENDING
+TRD-D545DA1E71,CRWD,Equity,2025-11-02,Fairview Financial Inc,,43526,16.51,CANCELLED
+TRD-3696E4CFD7,ATLS,Equity,2025-11-14,Sterling Market Partners,Bluehaven Trading LLC,13698,195.87,EXECUTED
+TRD-C689A444BB,CLBN,Equity,2025-09-25,Everest Capital Group,Vantage Securities Inc,40810,422.03,PENDING
+TRD-46C1C672A5,HLWS,Equity,2026-04-09,Westgate Securities,Vantage Securities Inc,420,218.95,REJECTED
+TRD-52C2CABC09,VNTS,Equity,2025-09-07,Altus Capital LLC,Bluehaven Trading LLC,12310,165.42,CANCELLED
+TRD-47FFFFC2DC,ATLS,Equity,2026-05-31,Orion Market Makers,Everest Capital Group,21913,354.82,PENDING
+TRD-CFF42F08C0,INFX,Equity,2025-08-30,Meridian Prime Brokers,Thornfield Brokers Inc,18957,278.97,EXECUTED
+TRD-D28E8E7268,PNTP,Bond,2026.04.11,Harlow Securities,Westgate Securities,12729,408.19,REJECTED
+TRD-DC529A52FF,NXCM,Bond,2025-06-13,Claridge Securities,Vantage Securities Inc,167,490.53,CANCELLED
+TRD-5416C3F54A,CRWD,Equity,2025.11.22,Bluehaven Trading LLC,Orion Market Makers,34532,395.26,CANCELLED
+TRD-135B038FCE,NXCM,Bond,2025-12-19,Thornfield Brokers Inc,Irongate Trading Co,5089,292.32,SETTLED
+TRD-5A1FF5E1A7,WGTS,Bond,2026-05-06,Sterling Market Partners,Thornfield Brokers Inc,22501,61.34,REJECTED
+TRD-BE0C5C15E4,ATLS,Equity,2026-01-19,Fairview Financial Inc,Crestwood Financial Group,28994,437.74,EXECUTED
+TRD-F0BDA29F70,ANLX,Equity,2025-07-04,Bluehaven Trading LLC,Irongate Trading Co,29823,469.95,CANCELLED
+TRD-FE3E1B396C,TRDX,ETF,2025-11-27,Crestwood Financial Group,Meridian Prime Brokers,46683,364.18,CANCELLED
+TRD-CB1E9110A8,FNDX,Bond,2026-04-23,Orion Market Makers,Fairview Financial Inc,24340,33.07,EXECUTED
+TRD-EC031CB731,TRNF,Bond,2025-01-30,Harlow Securities,Bluehaven Trading LLC,5237,47.47,SETTLED
+TRD-7C08E33331,CPXT,Equity,2026-03-27,Everest Capital Group,Pinnacle Trade Partners,46761,286.27,REJECTED
+TRD-51E0E92BB5,FRVW,ETF,2025-07-29,Bluehaven Trading LLC,Solaris Brokerage LLC,29586,223.59,SETTLED
+TRD-F751E5C8F2,FNDX,Bond,2026-06-24,Irongate Trading Co,Westgate Securities,14452,429.14,PENDING
+TRD-14F213A54B,MRCX,Equity,2025-02-08,Redstone Financial Corp,Crestwood Financial Group,46240,457.83,REJECTED
+TRD-D9240F584C,EVST,Equity,2026-03-31,Thornfield Brokers Inc,Pinnacle Trade Partners,5274,430.75,CANCELLED
+TRD-B029E17BEE,CLRG,Equity,2025-06-18,Thornfield Brokers Inc,Colborne Capital LLC,1073,144.5,PENDING
+TRD-958C57DD5F,VNTS,Equity,2026-02-21,Orion Market Makers,Irongate Trading Co,36490,67.09,PENDING
+TRD-4A6C331741,BRCX,Bond,2025-12-06,Claridge Securities,Irongate Trading Co,47854,327.02,PENDING
+TRD-84D5403CF0,RDST,Equity,2025-02-20,Fairview Financial Inc,Harlow Securities,20761,167.93,EXECUTED
+TRD-139EE531BE,STRM,ETF,2025-02-16,Everest Capital Group,Redstone Financial Corp,26327,388.29,CANCELLED
+TRD-A83F6CD40A,VNTS,Equity,2025-07-14,Bluehaven Trading LLC,Crestwood Financial Group,10368,14.65,REJECTED
+TRD-A4EFA4C02E,ANLX,Equity,2025-05-23,Harlow Securities,Vantage Securities Inc,41994,82.85,CANCELLED
+TRD-92A9140142,IGTC,ETF,2025-08-08,Everest Capital Group,Irongate Trading Co,13936,22.39,PENDING
+TRD-7287AA956D,CLBN,Equity,2025-11-29,Nexus Capital Markets,Harlow Securities,28904,72.49,SETTLED
+TRD-29ACA55B46,IGTC,ETF,06-07-2026,Harlow Securities,Redstone Financial Corp,41716,179.66,PENDING
+TRD-1A38F502CC,SLVR,ETF,2026-04-25,Altus Capital LLC,Redstone Financial Corp,41491,23.12,EXECUTED
+TRD-CFC2A0779F,,ETF,11/03/2026,Crestwood Financial Group,Orion Market Makers,40514,467.3,CANCELLED
+TRD-04A132A419,GLDT,ETF,2025-05-09,Westgate Securities,Solaris Brokerage LLC,43843,65.32,REJECTED
+TRD-E970E6C23A,BRCX,Bond,2026-02-14,Fairview Financial Inc,Nexus Capital Markets,40249,91.5,SETTLED
+TRD-BAB5D70F62,EVST,Equity,2026-06-11,Claridge Securities,Westgate Securities,1426,29.8,PENDING
+TRD-BD57D5928C,RDST,Equity,2025-11-09,Thornfield Brokers Inc,Atlas Trading Group,32816,422.02,SETTLED
+TRD-E3AE319F3F,BRCX,Bond,2025-08-08,Pinnacle Trade Partners,Claridge Securities,17507,66.77,SETTLED
+TRD-07DB9C94CB,CLRG,Equity,2025-11-25,Atlas Trading Group,Bluehaven Trading LLC,36375,128.41,PENDING
+TRD-DAEF5F01A8,RDST,Equity,2025-07-29,Meridian Prime Brokers,Crestwood Financial Group,12060,220.54,CANCELLED
+TRD-DDBE55C546,DRVX,Bond,2025-03-23,Fairview Financial Inc,Everest Capital Group,27696,367.66,CANCELLED
+TRD-2FA86D4658,TRDX,ETF,2025-12-11,Westgate Securities,Fairview Financial Inc,25431,135.18,REJECTED
+TRD-47870DFB26,BLHV,Bond,2025-07-01,Fairview Financial Inc,Westgate Securities,9913,217.97,PENDING
+TRD-D39CA3D632,MXCP,Equity,2025-08-22,Sterling Market Partners,Irongate Trading Co,43875,226.28,EXECUTED
+TRD-6EBFC462BC,SLRS,ETF,2026.01.02,Harlow Securities,Claridge Securities,46382,360.67,PENDING
+TRD-48D2EB54F0,,ETF,2026-02-21,Solaris Brokerage LLC,Atlas Trading Group,14895,44.36,CANCELLED
+TRD-26C2087D46,ORNM,ETF,2025-12-26,Colborne Capital LLC,Orion Market Makers,12666,392.41,PENDING
+TRD-5C6213EFCF,EVST,Equity,2025-11-10,Nexus Capital Markets,Irongate Trading Co,48044,80.41,EXECUTED
+TRD-965F16BAE7,EVST,Equity,2025-05-06,Irongate Trading Co,Colborne Capital LLC,45707,131.89,SETTLED
+TRD-D007BA4A58,,Equity,2025-07-11,Orion Market Makers,Harlow Securities,42326,426.57,PENDING
+TRD-8F2DAD61C5,ORNM,ETF,2025-09-04,Colborne Capital LLC,Altus Capital LLC,29071,265.04,CANCELLED
+TRD-5EA0895F42,SLRS,ETF,2025-08-09,Solaris Brokerage LLC,Everest Capital Group,33796,325.58,EXECUTED
+TRD-989603B8B5,INFX,Equity,2025-06-14,Redstone Financial Corp,Fairview Financial Inc,15056,54.55,REJECTED
+TRD-777256B261,CLBN,Equity,2025-04-13,Everest Capital Group,Thornfield Brokers Inc,39663,139.48,CANCELLED
+TRD-58D164AAF4,INFX,Equity,2025-06-02,Irongate Trading Co,Pinnacle Trade Partners,16738,91.6,EXECUTED
+TRD-EF9E326086,NXCM,Bond,2025-10-21,Bluehaven Trading LLC,Fairview Financial Inc,8832,487.26,SETTLED
+TRD-7F72751126,SLVR,ETF,2026-01-20,Orion Market Makers,Altus Capital LLC,7632,292.9,CANCELLED
+TRD-FC74C02F2A,SLRS,ETF,2025-12-31,Altus Capital LLC,Fairview Financial Inc,15284,200.36,EXECUTED
+TRD-AACDEB33B5,SLVR,ETF,2026.02.24,Fairview Financial Inc,Irongate Trading Co,17808,172.8,REJECTED
+TRD-D0AAB91DF2,,Equity,2025-03-21,Everest Capital Group,Bluehaven Trading LLC,37820,330.73,EXECUTED
+TRD-03EDEEC32B,DRVX,Bond,2026-03-17,Redstone Financial Corp,Thornfield Brokers Inc,26335,395.88,REJECTED
+TRD-02FF0B5F71,,ETF,2025-10-08,Altus Capital LLC,Pinnacle Trade Partners,40387,203.63,CANCELLED
+TRD-B304D48AF2,MXCP,Equity,2025-07-28,Colborne Capital LLC,Orion Market Makers,7263,108.36,REJECTED
+TRD-D9C30718A1,ORNM,ETF,2026-03-15,Meridian Prime Brokers,Solaris Brokerage LLC,8257,353.45,SETTLED
+TRD-C0CA487071,WGTS,Bond,2025-11-22,Sterling Market Partners,Atlas Trading Group,18097,87.61,EXECUTED
+TRD-A69BCD3969,SLRS,ETF,2025-06-28,Solaris Brokerage LLC,Thornfield Brokers Inc,13404,401.02,PENDING
+TRD-1B910D3E06,CLBN,Equity,2025-09-14,Crestwood Financial Group,Claridge Securities,15299,168.3,EXECUTED
+TRD-B334D30E5A,BLHV,Bond,2025-11-04,Pinnacle Trade Partners,Bluehaven Trading LLC,10329,17.6,PENDING
+TRD-6FE0D6686C,NXCM,Bond,2025-01-14,Atlas Trading Group,Crestwood Financial Group,745,170.0,CANCELLED
+TRD-900F6289A3,FNDX,Bond,2025-04-17,Nexus Capital Markets,Westgate Securities,37006,446.11,PENDING
+TRD-6AA7613B1D,SLRS,ETF,2026-04-09,Solaris Brokerage LLC,Fairview Financial Inc,5836,58.71,SETTLED
+TRD-C46AF90722,HLWS,Equity,2026-03-16,Redstone Financial Corp,Solaris Brokerage LLC,22652,277.09,EXECUTED
+TRD-FB584C87C5,,Bond,2025-08-09,Redstone Financial Corp,Altus Capital LLC,11842,355.12,CANCELLED
+TRD-E81D0E7633,WGTS,Bond,2025-08-08,Bluehaven Trading LLC,Irongate Trading Co,35991,228.49,EXECUTED
+TRD-B1BC14934D,SLRS,ETF,2025-07-09,Vantage Securities Inc,Claridge Securities,40091,157.73,EXECUTED
+TRD-DB88117588,PNTP,Bond,2025-02-22,Irongate Trading Co,Westgate Securities,4293,409.35,REJECTED
+TRD-8F54A96BEA,CRWD,Equity,2025-07-13,Altus Capital LLC,Irongate Trading Co,30631,371.86,REJECTED
+TRD-54589A0D37,GLDT,ETF,2025-10-27,Nexus Capital Markets,Fairview Financial Inc,13912,398.59,SETTLED
+TRD-9C9255A11C,ALTF,Equity,2025-03-27,Fairview Financial Inc,Redstone Financial Corp,40893,182.28,EXECUTED
+TRD-8D5A284F6F,CLRG,Equity,2025-03-27,Atlas Trading Group,Everest Capital Group,1593,426.9,REJECTED
+TRD-811C8052BC,,Equity,2026-03-15,Colborne Capital LLC,Thornfield Brokers Inc,47557,299.15,EXECUTED
+TRD-91DE1093F7,IGTC,ETF,2025-04-10,Westgate Securities,Vantage Securities Inc,17803,105.13,EXECUTED
+TRD-E984F688EC,ANLX,Equity,2026-01-11,Everest Capital Group,Harlow Securities,46315,10.53,REJECTED
+TRD-D41B6E0736,BRCX,Bond,2026-05-01,Bluehaven Trading LLC,Meridian Prime Brokers,30056,17.61,REJECTED
+TRD-45FD861C3B,IGTC,ETF,2025-11-14,Colborne Capital LLC,Claridge Securities,3382,419.5,CANCELLED
+TRD-A92CFFBC6C,CRWD,Equity,2025-08-05,Thornfield Brokers Inc,Westgate Securities,14406,489.79,SETTLED
+TRD-DB04A97FF7,FNDX,Bond,2025-10-25,Colborne Capital LLC,Solaris Brokerage LLC,10506,236.86,CANCELLED
+TRD-4FBB011E9D,ORNM,ETF,2025-06-22,Claridge Securities,Harlow Securities,32942,167.36,PENDING
+TRD-334DD95498,HLWS,Equity,2025-04-23,Pinnacle Trade Partners,Everest Capital Group,5116,188.76,REJECTED
+TRD-AA94187458,IGTC,ETF,2025-03-31,Colborne Capital LLC,Redstone Financial Corp,8989,369.53,REJECTED
+TRD-189D6D653A,MRCX,Equity,2026-05-13,Altus Capital LLC,Meridian Prime Brokers,34450,380.39,REJECTED
+TRD-81A8A2BAE5,CLRG,Equity,2026-01-27,Orion Market Makers,Irongate Trading Co,13422,273.09,EXECUTED
+TRD-B40F411F28,SLVR,ETF,2025-03-24,Harlow Securities,Bluehaven Trading LLC,39265,50.56,REJECTED
+TRD-ECD5052413,MRCX,Equity,2025-01-20,Fairview Financial Inc,Orion Market Makers,30838,393.15,EXECUTED
+TRD-60EFFFF685,PNTP,Bond,2026-01-28,Bluehaven Trading LLC,Vantage Securities Inc,10231,348.05,PENDING
+TRD-DD772117C3,,ETF,2025-03-01,Meridian Prime Brokers,Crestwood Financial Group,35129,449.18,PENDING
+TRD-EE684C3FBB,SLVR,ETF,2025-04-21,Everest Capital Group,Irongate Trading Co,26718,467.8,SETTLED
+TRD-83197ECC8F,SLVR,ETF,2025-01-13,Nexus Capital Markets,Vantage Securities Inc,40517,106.85,PENDING
+TRD-5045FBE573,ORNM,ETF,2025-02-20,Meridian Prime Brokers,Vantage Securities Inc,29284,397.09,SETTLED
+TRD-CE1833892C,CRWD,Equity,2025-07-31,Atlas Trading Group,Orion Market Makers,25154,383.32,SETTLED
+TRD-4AFF0C743D,CLRG,Equity,2026-02-06,Nexus Capital Markets,Harlow Securities,43689,263.86,CANCELLED
+TRD-66EDC0A211,,Bond,2026-05-06,Altus Capital LLC,Sterling Market Partners,16343,367.63,SETTLED
+TRD-6D912BE655,FNDX,Bond,2026.02.10,Sterling Market Partners,Redstone Financial Corp,26710,307.31,REJECTED
+TRD-2CFDC6016C,EVST,Equity,2025-06-18,Colborne Capital LLC,Pinnacle Trade Partners,46141,326.76,EXECUTED
+TRD-237C6A8ED3,CLRG,Equity,2025-02-03,,Redstone Financial Corp,28072,389.93,EXECUTED
+TRD-B9E200C4FF,EVST,Equity,2025-07-03,Orion Market Makers,Colborne Capital LLC,24947,84.66,SETTLED
+TRD-0A6691B92A,CRWD,Equity,11-22-2025,Crestwood Financial Group,Colborne Capital LLC,25038,124.48,REJECTED
+TRD-CF0429B1F3,,ETF,2025-10-04,Solaris Brokerage LLC,Orion Market Makers,31805,14.21,CANCELLED
+TRD-B5E2E5AB92,MXCP,Equity,2026-01-21,Atlas Trading Group,Irongate Trading Co,33559,70.38,REJECTED
+TRD-213A92F4B7,GLDT,ETF,2026-01-14,Fairview Financial Inc,Redstone Financial Corp,33189,450.66,EXECUTED
+TRD-078A935149,GLDT,ETF,2025-08-25,Westgate Securities,Solaris Brokerage LLC,14690,85.3,EXECUTED
+TRD-34D858B76F,MXCP,Equity,09/07/2025,Meridian Prime Brokers,Redstone Financial Corp,45207,80.35,EXECUTED
+TRD-2D9DE95C7E,ALTF,Equity,2025-02-11,Fairview Financial Inc,Crestwood Financial Group,22260,191.13,EXECUTED
+TRD-3C53A4A5B7,CRWD,Equity,2025-02-07,Westgate Securities,Sterling Market Partners,8571,432.93,REJECTED
+TRD-F8A253F2B3,DRVX,Bond,2025-07-24,Pinnacle Trade Partners,Altus Capital LLC,10510,415.78,SETTLED
+TRD-A0EB99EDA8,CLRG,Equity,05-13-2025,Nexus Capital Markets,Irongate Trading Co,28219,39.23,EXECUTED
+TRD-98308F7EAF,WGTS,Bond,2025-08-02,Harlow Securities,Sterling Market Partners,14377,445.89,EXECUTED
+TRD-4441E4E2B9,BRCX,Bond,2025-04-05,Solaris Brokerage LLC,Claridge Securities,23276,51.86,PENDING
+TRD-F22687B610,CRWD,Equity,2026-01-23,Fairview Financial Inc,Altus Capital LLC,23045,-497.46,SETTLED
+TRD-7A7AA71C2C,CLRG,Equity,2026-01-21,Nexus Capital Markets,Altus Capital LLC,45065,467.71,EXECUTED
+TRD-B5B674F51A,,Equity,2025.06.09,Redstone Financial Corp,Claridge Securities,35319,338.17,SETTLED
+TRD-A57D6777E5,CLBN,Equity,2025-03-17,Irongate Trading Co,Altus Capital LLC,13720,255.67,REJECTED
+TRD-AC6F79286A,,ETF,2025-05-19,Redstone Financial Corp,Meridian Prime Brokers,26481,150.73,SETTLED
+TRD-C855A8611E,,Bond,2026-01-16,Crestwood Financial Group,Everest Capital Group,21858,362.21,PENDING
+TRD-140DF89653,INFX,Equity,2025-11-20,Colborne Capital LLC,Pinnacle Trade Partners,33940,326.39,SETTLED
+TRD-E3F7AC3C8B,CPXT,Equity,2025-08-08,Vantage Securities Inc,Meridian Prime Brokers,21423,291.68,PENDING
+TRD-65231A5177,STRM,ETF,2025-06-13,Fairview Financial Inc,Sterling Market Partners,39681,159.96,SETTLED
+TRD-07C1D0EC5F,VNTS,Equity,2025-12-15,Nexus Capital Markets,Atlas Trading Group,16290,161.98,SETTLED
+TRD-E9782201EC,BLHV,Bond,2025-11-06,Nexus Capital Markets,Meridian Prime Brokers,5668,434.36,REJECTED
+TRD-079761ACBA,ANLX,Equity,2026-01-28,Claridge Securities,Redstone Financial Corp,42805,84.73,SETTLED
+TRD-6B7542C335,MXCP,Equity,2026-03-31,Atlas Trading Group,,34519,251.26,SETTLED
+TRD-4739118884,IGTC,ETF,2025-08-27,Crestwood Financial Group,Claridge Securities,18557,442.3,SETTLED
+TRD-010B33EA3F,FNDX,Bond,2026-04-06,Fairview Financial Inc,Pinnacle Trade Partners,15684,429.88,CANCELLED
+TRD-5045FBE573,,ETF,2025-04-02,Altus Capital LLC,Orion Market Makers,35459,330.0,PENDING
+TRD-5AE74956DF,PNTP,Bond,2025-10-09,Crestwood Financial Group,Claridge Securities,36084,19.97,PENDING
+TRD-A044C6DC9B,,Equity,2025-09-20,Irongate Trading Co,Sterling Market Partners,33431,100.7,CANCELLED
+TRD-C51F0AFD1D,,Equity,2025-11-27,Bluehaven Trading LLC,Harlow Securities,9179,495.38,REJECTED
+TRD-2174138703,ALTF,Equity,2025-07-04,Solaris Brokerage LLC,Orion Market Makers,24265,385.48,PENDING
+TRD-0C9C491085,ALTF,Equity,2026-02-10,Everest Capital Group,Pinnacle Trade Partners,27718,58.85,SETTLED
+TRD-A47CE73B67,ANLX,Equity,2026-04-21,Harlow Securities,Redstone Financial Corp,10231,122.42,PENDING
+TRD-A6DC29E1F3,CLBN,Equity,2025-02-11,Bluehaven Trading LLC,Vantage Securities Inc,15000,157.33,EXECUTED
+TRD-1608928B5D,FRVW,ETF,2026-03-31,Claridge Securities,Colborne Capital LLC,25980,307.62,PENDING
+TRD-5C6213EFCF,BLHV,Bond,2025-11-02,Orion Market Makers,Sterling Market Partners,11631,278.3,SETTLED
+TRD-6059B6B757,INFX,Equity,2025-01-31,Harlow Securities,Meridian Prime Brokers,45348,-146.3,CANCELLED
+TRD-6AC621AA60,HLWS,Equity,2025-08-15,Colborne Capital LLC,Westgate Securities,24690,383.05,CANCELLED
+TRD-5193EBF6B2,ALTF,Equity,2025.10.18,Pinnacle Trade Partners,,31226,214.05,REJECTED
+TRD-672CE5E252,CPXT,Equity,2025-05-15,Altus Capital LLC,Harlow Securities,8161,15.53,CANCELLED
+TRD-0A9C4C21E8,CLRG,Equity,2026-02-07,Harlow Securities,Irongate Trading Co,28483,356.21,PENDING
+TRD-A242D7B49E,ALTF,Equity,2026-06-14,Sterling Market Partners,Orion Market Makers,14412,18.45,REJECTED
+TRD-7B2EC1451E,FNDX,Bond,2025-01-24,Colborne Capital LLC,Vantage Securities Inc,21594,335.59,CANCELLED
+TRD-B646D08A96,ALTF,Equity,2026-01-16,Harlow Securities,Colborne Capital LLC,35940,51.81,PENDING
+TRD-2F36C6E2F6,BRCX,Bond,2025-04-04,Meridian Prime Brokers,Fairview Financial Inc,42746,203.5,REJECTED
+TRD-60C4DF93D7,STRM,ETF,2025-06-13,Nexus Capital Markets,Meridian Prime Brokers,49327,145.28,CANCELLED
+TRD-4C93AA523F,TRNF,Bond,2025-12-02,Solaris Brokerage LLC,Pinnacle Trade Partners,4215,471.68,REJECTED
+TRD-BA83B41F8D,ORNM,ETF,2026-06-07,Colborne Capital LLC,Bluehaven Trading LLC,936,352.98,SETTLED
+TRD-266969991A,RDST,Equity,2025-05-04,Atlas Trading Group,Claridge Securities,42613,364.11,CANCELLED
+TRD-8F17F73638,TRDX,ETF,2025-04-03,Irongate Trading Co,Redstone Financial Corp,22715,214.42,PENDING
+TRD-90414C746B,RDST,Equity,2025-04-21,Westgate Securities,Everest Capital Group,1726,-353.7,PENDING
+TRD-A166321490,STRM,ETF,2025-07-09,Fairview Financial Inc,Nexus Capital Markets,8017,350.75,EXECUTED
+TRD-5FCDE3D6A8,TRDX,ETF,2026-04-18,Bluehaven Trading LLC,Colborne Capital LLC,34375,142.29,CANCELLED
+TRD-D589625684,BLHV,Bond,2025-03-09,Bluehaven Trading LLC,Redstone Financial Corp,48686,160.26,EXECUTED
+TRD-506E4CC177,CLBN,Equity,2025-06-22,Harlow Securities,Claridge Securities,37311,349.54,REJECTED
+TRD-2B30316CE8,IGTC,ETF,2025-06-12,Sterling Market Partners,Vantage Securities Inc,20766,296.7,CANCELLED
+TRD-3DB0A0FFF5,ANLX,Equity,2026-01-29,Vantage Securities Inc,Harlow Securities,20717,331.68,EXECUTED
+TRD-2F485B3A04,CPXT,Equity,2025-11-29,Crestwood Financial Group,Harlow Securities,16229,49.58,PENDING
+TRD-E9C2EAAECE,IGTC,ETF,2025-10-19,Crestwood Financial Group,Altus Capital LLC,8001,238.18,EXECUTED
+TRD-74BBB7CB84,ALTF,Equity,2025-02-18,Vantage Securities Inc,Meridian Prime Brokers,15150,399.94,CANCELLED
+TRD-5C9604BD1D,CLBN,Equity,2025-04-17,Thornfield Brokers Inc,Meridian Prime Brokers,16794,475.57,SETTLED
+TRD-A42B8BEE8E,CLBN,Equity,2025-06-01,Atlas Trading Group,Nexus Capital Markets,38034,171.68,CANCELLED
+TRD-4E8830D251,WGTS,Bond,2026-05-18,Crestwood Financial Group,Altus Capital LLC,24300,344.64,EXECUTED
+TRD-7F5AAF3368,FNDX,Bond,2025-02-18,Everest Capital Group,Nexus Capital Markets,24378,385.8,EXECUTED
+TRD-E9CFF12437,FRVW,ETF,25/11/2025,Atlas Trading Group,Fairview Financial Inc,12916,341.92,EXECUTED
+TRD-E14D32D7B6,,ETF,2025-05-13,Pinnacle Trade Partners,Altus Capital LLC,5442,460.63,REJECTED
+TRD-B27440449B,DRVX,Bond,2025-11-29,Sterling Market Partners,Pinnacle Trade Partners,42001,241.03,CANCELLED
+TRD-36B4DDD0EF,INFX,Equity,2025-04-30,Colborne Capital LLC,Nexus Capital Markets,19655,328.11,CANCELLED
+TRD-138346F1E6,MRCX,Equity,2025-05-11,Atlas Trading Group,Pinnacle Trade Partners,40997,201.32,CANCELLED
+TRD-9C288BB46E,,Bond,2025-11-12,Nexus Capital Markets,Vantage Securities Inc,45959,103.02,PENDING
+TRD-EF0B151DA4,,Bond,2025-04-05,Pinnacle Trade Partners,Everest Capital Group,11475,358.61,EXECUTED
+TRD-8A95AE456F,MXCP,Equity,2025-12-14,Pinnacle Trade Partners,Colborne Capital LLC,49890,483.02,PENDING
+TRD-7C98BE4307,MRCX,Equity,2026-01-08,Crestwood Financial Group,Nexus Capital Markets,21858,228.82,CANCELLED
+TRD-800FD141E4,,Bond,2025-10-09,Sterling Market Partners,Colborne Capital LLC,1318,121.84,SETTLED
+TRD-E1AD2028C5,BRCX,Bond,2026-03-10,Solaris Brokerage LLC,Sterling Market Partners,43909,153.39,SETTLED
+TRD-BA97271C50,SLVR,ETF,2025-08-31,Colborne Capital LLC,Solaris Brokerage LLC,20847,31.36,REJECTED
+TRD-9194436B5D,RDST,Equity,2025-05-21,Westgate Securities,Bluehaven Trading LLC,29524,35.4,CANCELLED
+TRD-94115B5981,SLVR,ETF,2025-10-21,Westgate Securities,Colborne Capital LLC,25035,86.47,REJECTED
+TRD-F9A07F1800,WGTS,Bond,08/03/2026,Crestwood Financial Group,Sterling Market Partners,4235,121.55,EXECUTED
+TRD-35FD7F4F3D,ATLS,Equity,2025-05-03,Pinnacle Trade Partners,Irongate Trading Co,42019,110.47,CANCELLED
+TRD-A7475CF2CB,GLDT,ETF,2026-01-04,Claridge Securities,Irongate Trading Co,43244,433.88,CANCELLED
+TRD-9857CD5078,RDST,Equity,2025-12-06,Atlas Trading Group,Fairview Financial Inc,42249,219.55,SETTLED
+TRD-137A05BDD7,FNDX,Bond,2025-09-08,Harlow Securities,,8100,-35.18,CANCELLED
+TRD-A8DD601DAD,WGTS,Bond,2025-08-13,Harlow Securities,Irongate Trading Co,30427,294.56,EXECUTED
+TRD-704418BEAC,ORNM,ETF,2025-01-14,Vantage Securities Inc,Thornfield Brokers Inc,23554,239.93,PENDING
+TRD-CA390E47AD,CLRG,Equity,2025-04-04,Vantage Securities Inc,Sterling Market Partners,601,-134.18,CANCELLED
+TRD-B41B34DF56,FNDX,Bond,2026-05-21,Vantage Securities Inc,Crestwood Financial Group,24817,102.61,CANCELLED
+TRD-D766663DBF,NXCM,Bond,2026-01-24,Colborne Capital LLC,Pinnacle Trade Partners,48568,157.43,SETTLED
+TRD-0D52624DBC,MRCX,Equity,2025-09-30,Harlow Securities,Westgate Securities,4515,148.51,SETTLED
+TRD-5E1939E077,CRWD,Equity,2025-06-05,Crestwood Financial Group,Meridian Prime Brokers,27382,111.3,EXECUTED
+TRD-DCAAA3EE8C,EVST,Equity,2025-12-31,Crestwood Financial Group,,42734,327.63,EXECUTED
+TRD-C7835586A7,GLDT,ETF,2025-01-30,Irongate Trading Co,Bluehaven Trading LLC,48169,257.27,SETTLED
+TRD-8BB8C5D1CA,DRVX,Bond,2025-06-20,Claridge Securities,Fairview Financial Inc,29025,421.07,PENDING
+TRD-87EC249A01,ATLS,Equity,2025-09-24,Atlas Trading Group,Bluehaven Trading LLC,35562,146.62,EXECUTED
+TRD-E4BC6CF895,SLRS,ETF,2026-06-01,Sterling Market Partners,Meridian Prime Brokers,7276,217.2,EXECUTED
+TRD-1320BE3CFD,,Equity,2025.03.24,Thornfield Brokers Inc,Everest Capital Group,13668,80.31,REJECTED
+TRD-2874D728BB,,ETF,2026.04.27,Claridge Securities,Harlow Securities,20448,133.12,EXECUTED
+TRD-B5B43D8AAE,STRM,ETF,2025-08-24,Meridian Prime Brokers,Westgate Securities,43412,157.38,EXECUTED
+TRD-FB89A718DE,WGTS,Bond,2025-08-08,Westgate Securities,Fairview Financial Inc,39000,207.84,PENDING
+TRD-768ED941EF,TRNF,Bond,2025-11-03,Redstone Financial Corp,,33323,225.14,SETTLED
+TRD-B0C06D26AE,MXCP,Equity,2026-01-25,Colborne Capital LLC,Westgate Securities,38219,324.13,SETTLED
+TRD-DCF57E5804,INFX,Equity,2025-09-28,Nexus Capital Markets,Colborne Capital LLC,28257,293.46,PENDING
+TRD-CD9FE1DA3B,ANLX,Equity,2025-10-23,Meridian Prime Brokers,Harlow Securities,20620,344.44,EXECUTED
+TRD-7FC6B505B0,CRWD,Equity,2025-10-28,Altus Capital LLC,Orion Market Makers,9030,150.82,SETTLED
+TRD-E32CAF6DAD,CLBN,Equity,2025-05-16,Atlas Trading Group,Nexus Capital Markets,27999,252.14,CANCELLED
+TRD-78CC0F2352,ORNM,ETF,2025-07-20,Thornfield Brokers Inc,Redstone Financial Corp,29994,452.54,SETTLED
+TRD-2BF0F02007,RDST,Equity,2026-06-03,Sterling Market Partners,Thornfield Brokers Inc,24409,92.57,SETTLED
+TRD-9020D3B87A,PNTP,Bond,2025-03-16,Westgate Securities,Pinnacle Trade Partners,3365,172.26,EXECUTED
+TRD-0D23594278,STRM,ETF,2025-06-12,Pinnacle Trade Partners,Harlow Securities,22429,182.28,CANCELLED
+TRD-2F36C6E2F6,ALTF,Equity,2025-12-27,Thornfield Brokers Inc,Meridian Prime Brokers,11257,398.87,EXECUTED
+TRD-831353F856,WGTS,Bond,2025-11-05,Solaris Brokerage LLC,Crestwood Financial Group,10236,90.22,REJECTED
+TRD-81C4109A4F,ATLS,Equity,2025-05-24,Westgate Securities,Thornfield Brokers Inc,20721,164.82,PENDING
+TRD-D1C0EBBDEC,CPXT,Equity,2025-06-15,Claridge Securities,Altus Capital LLC,47968,55.22,EXECUTED
+TRD-E08CB19D2C,VNTS,Equity,2026-05-29,Redstone Financial Corp,Westgate Securities,42868,355.25,PENDING
+TRD-813907ED40,,ETF,2025-05-21,Solaris Brokerage LLC,Harlow Securities,37977,270.74,CANCELLED
+TRD-1834AAE907,DRVX,Bond,2025-03-01,Colborne Capital LLC,Pinnacle Trade Partners,35510,93.24,EXECUTED
+TRD-3938200B84,ALTF,Equity,2025-12-05,Meridian Prime Brokers,Solaris Brokerage LLC,20035,97.35,REJECTED
+TRD-F66B07ED4E,ALTF,Equity,2025-05-07,Orion Market Makers,Everest Capital Group,27985,251.42,EXECUTED
+TRD-ACDF5AD88F,DRVX,Bond,2025-02-06,Crestwood Financial Group,Nexus Capital Markets,42177,150.6,EXECUTED
+TRD-13E16EB979,CPXT,Equity,2025-08-29,Westgate Securities,Claridge Securities,20547,185.66,PENDING
+TRD-CB451EFE3D,TRNF,Bond,2026-01-26,Bluehaven Trading LLC,Irongate Trading Co,31143,241.89,SETTLED
+TRD-EBD9E2C218,VNTS,Equity,2025-10-09,Nexus Capital Markets,Solaris Brokerage LLC,14919,380.93,PENDING
+TRD-7C03C9ECB9,FNDX,Bond,2026-01-24,Altus Capital LLC,Westgate Securities,8803,42.15,CANCELLED
+TRD-C815962F0A,FRVW,ETF,2025-01-23,Pinnacle Trade Partners,Fairview Financial Inc,42432,68.26,SETTLED
+TRD-6993FD49FB,DRVX,Bond,2025-10-09,Redstone Financial Corp,Claridge Securities,5982,28.37,REJECTED
+TRD-544C171E6C,BRCX,Bond,2025-12-30,Everest Capital Group,Vantage Securities Inc,46685,467.59,REJECTED
+TRD-4CE702550A,,Bond,2025-06-14,Claridge Securities,Irongate Trading Co,29179,373.36,EXECUTED
+TRD-4A508C0067,BLHV,Bond,2025-06-06,Colborne Capital LLC,Everest Capital Group,2274,249.67,EXECUTED
+TRD-42EBCA1E37,IGTC,ETF,2025-03-23,Westgate Securities,Bluehaven Trading LLC,47056,198.54,CANCELLED
+TRD-F2F03C381E,BLHV,Bond,2025-06-11,Nexus Capital Markets,Everest Capital Group,19974,79.66,REJECTED
+TRD-02706FEBA5,ALTF,Equity,2025-02-22,Pinnacle Trade Partners,Crestwood Financial Group,11625,461.29,CANCELLED
+TRD-840E37A5D2,HLWS,Equity,2025-09-02,Altus Capital LLC,Crestwood Financial Group,10973,489.57,PENDING
+TRD-34843553F7,BLHV,Bond,2025-04-29,Bluehaven Trading LLC,Everest Capital Group,8236,314.16,CANCELLED
+TRD-786D61EC18,,Bond,2025-09-21,Nexus Capital Markets,Westgate Securities,24313,391.6,REJECTED
+TRD-BDA50674AD,FRVW,ETF,2025-09-14,Westgate Securities,Pinnacle Trade Partners,44507,410.59,EXECUTED
+TRD-FFC17108F1,,ETF,2025-02-10,Vantage Securities Inc,Orion Market Makers,24016,255.56,REJECTED
+TRD-B4FFB684B1,,Equity,2026-01-19,Bluehaven Trading LLC,Altus Capital LLC,15063,136.74,SETTLED
+TRD-C8ED5ADE29,RDST,Equity,2025-06-03,Colborne Capital LLC,Solaris Brokerage LLC,33767,411.97,PENDING
+TRD-9B7E96BCF6,TRNF,Bond,01-12-2025,Nexus Capital Markets,Harlow Securities,2918,98.46,SETTLED
+TRD-D99EA7794C,ORNM,ETF,2025-01-29,Sterling Market Partners,Claridge Securities,31842,-92.79,REJECTED
+TRD-79AA3C1F5B,CLBN,Equity,2025-06-30,Crestwood Financial Group,,22258,139.91,REJECTED
+TRD-B168D49324,BLHV,Bond,2025-11-06,Solaris Brokerage LLC,Crestwood Financial Group,39158,312.35,PENDING
+TRD-9A2FC5EAB5,,Equity,2025-01-28,Nexus Capital Markets,Colborne Capital LLC,21764,235.8,REJECTED
+TRD-D211659B3E,FRVW,ETF,2025-10-04,Nexus Capital Markets,Claridge Securities,47649,154.62,REJECTED
+TRD-2DD83106FA,INFX,Equity,2025-01-06,Fairview Financial Inc,Westgate Securities,5621,360.38,PENDING
+TRD-737E80A84B,GLDT,ETF,2025-07-23,Vantage Securities Inc,Bluehaven Trading LLC,24204,90.78,SETTLED
+TRD-7BAB0E920E,VNTS,Equity,2025-11-14,Redstone Financial Corp,Sterling Market Partners,9011,123.36,EXECUTED
+TRD-2B15E69742,CPXT,Equity,2025-11-24,Irongate Trading Co,Harlow Securities,25554,314.34,CANCELLED
+TRD-4E39C85920,BRCX,Bond,2025-06-05,Atlas Trading Group,Irongate Trading Co,45854,261.54,PENDING
+TRD-DA4DCB8D03,RDST,Equity,2025-06-27,Everest Capital Group,Solaris Brokerage LLC,29328,387.7,PENDING
+TRD-7662392506,MXCP,Equity,2025-08-11,Sterling Market Partners,Orion Market Makers,17416,208.94,EXECUTED
+TRD-62ED6D8242,ATLS,Equity,2026-04-26,Atlas Trading Group,Redstone Financial Corp,23759,204.0,EXECUTED
+TRD-0586C35A2D,FNDX,Bond,11/05/2026,Solaris Brokerage LLC,Redstone Financial Corp,47795,121.11,SETTLED
+TRD-F7DD506A18,CPXT,Equity,17/03/2026,Atlas Trading Group,Bluehaven Trading LLC,43596,293.08,PENDING
+TRD-DD85F376F2,NXCM,Bond,2025-02-05,Thornfield Brokers Inc,,31537,414.56,PENDING
+TRD-4C4D14F3C8,GLDT,ETF,2026.03.18,Bluehaven Trading LLC,Everest Capital Group,19585,255.24,REJECTED
+TRD-7DF69447E3,CRWD,Equity,2026-05-22,Vantage Securities Inc,Orion Market Makers,15243,197.61,EXECUTED
+TRD-FB3C65B0B3,,ETF,2025-07-23,Harlow Securities,Orion Market Makers,16126,103.74,REJECTED
+TRD-E07E9D1B2B,NXCM,Bond,2025-04-04,Solaris Brokerage LLC,Orion Market Makers,14597,288.69,CANCELLED
+TRD-DCAAA3EE8C,,Bond,2026-03-21,Atlas Trading Group,Vantage Securities Inc,27522,112.8,CANCELLED
+TRD-AA16C7EC99,,Equity,2026-01-21,Claridge Securities,Pinnacle Trade Partners,2090,77.57,REJECTED
+TRD-640066F286,SLVR,ETF,2026-05-07,Everest Capital Group,Solaris Brokerage LLC,43537,59.73,CANCELLED
+TRD-24D4D983E0,IGTC,ETF,2025-10-09,Atlas Trading Group,Bluehaven Trading LLC,44426,198.54,SETTLED
+TRD-9F41AB9297,FNDX,Bond,10-31-2025,Harlow Securities,Sterling Market Partners,27772,344.84,REJECTED
+TRD-91F1350A8D,SLVR,ETF,2025-12-03,Colborne Capital LLC,Thornfield Brokers Inc,12484,319.35,PENDING
+TRD-1D753EA71B,,Equity,2025-09-03,Bluehaven Trading LLC,Vantage Securities Inc,11523,328.73,REJECTED
+TRD-E2B5F0F948,ANLX,Equity,2025-03-17,Altus Capital LLC,Orion Market Makers,25019,47.09,EXECUTED
+TRD-D955E7995E,CRWD,Equity,2025-02-02,Altus Capital LLC,Meridian Prime Brokers,27385,18.95,PENDING
+TRD-91ED1CE725,ORNM,ETF,2026-04-24,Vantage Securities Inc,Colborne Capital LLC,19994,96.01,REJECTED
+TRD-D493B191AF,ALTF,Equity,2026-04-30,Pinnacle Trade Partners,Colborne Capital LLC,13565,-282.7,REJECTED
+TRD-46D872111D,FNDX,Bond,2025-11-05,Crestwood Financial Group,Altus Capital LLC,18894,170.21,SETTLED
+TRD-93887684EA,ALTF,Equity,12/07/2025,Harlow Securities,Thornfield Brokers Inc,10845,145.12,SETTLED
+TRD-57FF27CA28,DRVX,Bond,2025-03-24,Colborne Capital LLC,Irongate Trading Co,14901,449.46,CANCELLED
+TRD-70A89E8DED,GLDT,ETF,2025-02-08,Orion Market Makers,Irongate Trading Co,193,154.01,SETTLED
+TRD-A3DB5BD492,MRCX,Equity,2025-05-25,Harlow Securities,Thornfield Brokers Inc,38814,310.25,REJECTED
+TRD-DBFE75B0D8,INFX,Equity,2025-10-04,Meridian Prime Brokers,Claridge Securities,7991,226.64,SETTLED
+TRD-A9D424430F,CPXT,Equity,2025-11-19,Crestwood Financial Group,Orion Market Makers,3990,138.79,REJECTED
+TRD-C6B8F13A01,RDST,Equity,2025-09-29,Harlow Securities,Colborne Capital LLC,12310,261.16,CANCELLED
+TRD-BE2DF672F6,EVST,Equity,2025-09-07,Claridge Securities,Everest Capital Group,41184,27.61,EXECUTED
+TRD-3696E4CFD7,STRM,ETF,2025-08-04,Everest Capital Group,Claridge Securities,14113,17.26,REJECTED
+TRD-2F2558673D,IGTC,ETF,15/06/2026,Nexus Capital Markets,Westgate Securities,16091,210.75,CANCELLED
+TRD-BDD5B4DAE3,TRDX,ETF,2026-06-12,Everest Capital Group,Redstone Financial Corp,49283,487.39,CANCELLED
+TRD-BA3B2DE0D8,MRCX,Equity,2026-02-17,Meridian Prime Brokers,Westgate Securities,10277,100.04,SETTLED
+TRD-F986123558,BRCX,Bond,2025-02-19,Colborne Capital LLC,Everest Capital Group,22641,356.68,EXECUTED
+TRD-B69A83A911,ATLS,Equity,2026-05-22,Claridge Securities,Meridian Prime Brokers,31022,133.32,CANCELLED
+TRD-BC554D1ADA,VNTS,Equity,2025-01-25,Sterling Market Partners,Everest Capital Group,42550,328.91,CANCELLED
+TRD-560FFE725F,ATLS,Equity,2025-11-28,Westgate Securities,Atlas Trading Group,25935,440.91,CANCELLED
+TRD-347839BFF3,SLRS,ETF,2025-05-29,Altus Capital LLC,Sterling Market Partners,45703,115.03,SETTLED
+TRD-5A74BFF82F,TRNF,Bond,2025-07-12,Nexus Capital Markets,Colborne Capital LLC,31542,50.72,PENDING
+TRD-FD477148E1,ANLX,Equity,2025-12-12,Vantage Securities Inc,Crestwood Financial Group,20381,460.68,SETTLED
+TRD-2DD5E18A2C,ANLX,Equity,2025-08-04,Redstone Financial Corp,Vantage Securities Inc,9475,74.48,SETTLED
+TRD-A3C1ACFB85,TRDX,ETF,27/02/2026,Pinnacle Trade Partners,Solaris Brokerage LLC,13390,205.84,CANCELLED
+TRD-D5B479DDE4,IGTC,ETF,2026-05-27,Pinnacle Trade Partners,Nexus Capital Markets,27115,66.28,SETTLED
+TRD-F139E052C6,BRCX,Bond,2026-02-04,Colborne Capital LLC,Atlas Trading Group,49243,201.03,REJECTED
+TRD-293D9A8D2B,SLVR,ETF,2025-05-03,Redstone Financial Corp,Nexus Capital Markets,22008,387.37,EXECUTED
+TRD-03EDEEC32B,TRDX,ETF,2025-09-10,Claridge Securities,Altus Capital LLC,4959,-448.67,SETTLED
+TRD-0F237667B1,ORNM,ETF,2025-01-27,Fairview Financial Inc,Irongate Trading Co,44437,263.61,EXECUTED
+TRD-533EFADEB6,TRNF,Bond,2025-11-01,Meridian Prime Brokers,Vantage Securities Inc,24079,460.75,CANCELLED
+TRD-7F7467A857,CPXT,Equity,2025-01-05,Fairview Financial Inc,Westgate Securities,774,325.2,PENDING
+TRD-302C8FA1F2,CLBN,Equity,2025-04-21,Irongate Trading Co,Solaris Brokerage LLC,19764,481.46,CANCELLED
+TRD-347011A2A2,MRCX,Equity,2026-01-08,Fairview Financial Inc,Solaris Brokerage LLC,10330,413.5,EXECUTED
+TRD-44D787991E,IGTC,ETF,07/06/2025,Redstone Financial Corp,Nexus Capital Markets,3744,376.76,EXECUTED
+TRD-8883C0B7BB,PNTP,Bond,2026-02-21,Orion Market Makers,Westgate Securities,13917,79.6,SETTLED
+TRD-F2E797C880,RDST,Equity,2025-02-23,Atlas Trading Group,Fairview Financial Inc,30065,101.78,REJECTED
+TRD-00FA40E589,GLDT,ETF,2025-05-25,Colborne Capital LLC,Everest Capital Group,1564,19.97,CANCELLED
+TRD-41A1B3A630,BRCX,Bond,2025-05-27,Vantage Securities Inc,Everest Capital Group,34872,301.38,EXECUTED
+TRD-71A069195D,BLHV,Bond,2026-01-08,Irongate Trading Co,Westgate Securities,16606,68.02,PENDING
+TRD-FCF41339EE,GLDT,ETF,2026-06-10,Solaris Brokerage LLC,Colborne Capital LLC,21458,473.14,REJECTED
+TRD-31DB69455F,VNTS,Equity,2025-02-27,Atlas Trading Group,Thornfield Brokers Inc,43632,352.69,CANCELLED
+TRD-05B0FE62C6,CPXT,Equity,2026-03-19,Atlas Trading Group,Altus Capital LLC,26479,498.26,PENDING
+TRD-E1C4174ACC,TRNF,Bond,2025-07-18,Crestwood Financial Group,Fairview Financial Inc,33473,207.21,REJECTED
+TRD-2F90288CE9,IGTC,ETF,2025-06-04,Bluehaven Trading LLC,Orion Market Makers,38181,191.06,SETTLED
+TRD-345EB5121A,IGTC,ETF,2026-02-24,Nexus Capital Markets,Claridge Securities,26770,366.52,PENDING
+TRD-7197C0B0F8,ANLX,Equity,2025-01-18,Everest Capital Group,Claridge Securities,3769,392.51,CANCELLED
+TRD-51E921EDE5,ALTF,Equity,2025.09.04,Orion Market Makers,Solaris Brokerage LLC,13533,-403.01,SETTLED
+TRD-3E6E5CFF9F,CRWD,Equity,2025-11-27,Redstone Financial Corp,Claridge Securities,31273,172.41,EXECUTED
+TRD-B504BCEABE,CRWD,Equity,2025.03.07,Colborne Capital LLC,Claridge Securities,9203,163.1,SETTLED
+TRD-8A5E370798,IGTC,ETF,2025-07-19,Atlas Trading Group,Harlow Securities,36211,154.53,CANCELLED
+TRD-D4E4760E10,MXCP,Equity,2026-03-14,Solaris Brokerage LLC,Pinnacle Trade Partners,17817,192.39,EXECUTED
+TRD-2412B5C814,SLRS,ETF,2025-12-25,Atlas Trading Group,Claridge Securities,30331,105.56,REJECTED
+TRD-0F237667B1,MXCP,Equity,2025-05-15,Sterling Market Partners,Claridge Securities,8957,28.77,SETTLED
+TRD-8AC5E00141,ANLX,Equity,2026-01-10,Thornfield Brokers Inc,Atlas Trading Group,36788,105.66,REJECTED
+TRD-D48652C419,HLWS,Equity,2025-07-15,Orion Market Makers,Atlas Trading Group,5623,389.0,PENDING
+TRD-46EB3780E4,MRCX,Equity,02/07/2025,Fairview Financial Inc,Harlow Securities,45429,478.27,CANCELLED
+TRD-A47F40328E,CLBN,Equity,2026-03-21,Pinnacle Trade Partners,Vantage Securities Inc,4890,292.02,REJECTED
+TRD-63E0A9833C,CPXT,Equity,2025-09-08,Everest Capital Group,Bluehaven Trading LLC,10747,120.12,EXECUTED
+TRD-E693E3695E,IGTC,ETF,2025-01-13,Vantage Securities Inc,Altus Capital LLC,38011,68.18,EXECUTED
+TRD-C018C789C8,BRCX,Bond,2025-02-20,Colborne Capital LLC,Fairview Financial Inc,25741,79.0,PENDING
+TRD-2E1596C421,FNDX,Bond,2025-10-20,Meridian Prime Brokers,Colborne Capital LLC,5767,262.29,CANCELLED
+TRD-218BCE7815,INFX,Equity,2026-02-18,Sterling Market Partners,Altus Capital LLC,19856,487.2,PENDING
+TRD-42C4727B7B,GLDT,ETF,2025-06-30,Irongate Trading Co,Orion Market Makers,23017,443.32,EXECUTED
+TRD-2E14BAB5DF,FRVW,ETF,2025-04-13,Atlas Trading Group,Orion Market Makers,48765,468.95,SETTLED
+TRD-B09CEBB07B,ATLS,Equity,2025-03-25,Pinnacle Trade Partners,Fairview Financial Inc,31940,267.6,PENDING
+TRD-F6C70CFB60,,Bond,2026-04-20,Solaris Brokerage LLC,Thornfield Brokers Inc,46602,462.22,SETTLED
+TRD-ABC264F436,FRVW,ETF,2025-12-10,Harlow Securities,Solaris Brokerage LLC,35412,216.72,EXECUTED
+TRD-2287864005,PNTP,Bond,2025-02-08,Vantage Securities Inc,Redstone Financial Corp,37949,305.35,REJECTED
+TRD-80A2382722,ANLX,Equity,2026-05-07,Vantage Securities Inc,Redstone Financial Corp,25588,128.87,SETTLED
+TRD-650C6AF8D0,STRM,ETF,2025-08-05,Fairview Financial Inc,Sterling Market Partners,17271,405.0,PENDING
+TRD-4CF19ACF9D,MRCX,Equity,2025-03-27,Everest Capital Group,Harlow Securities,24436,263.44,EXECUTED
+TRD-30B0AE759A,RDST,Equity,2025-01-12,Crestwood Financial Group,Westgate Securities,41483,18.2,REJECTED
+TRD-98A2273EC4,,Equity,2025-09-18,Atlas Trading Group,Fairview Financial Inc,15986,134.81,SETTLED
+TRD-6532430A62,CRWD,Equity,2025-03-11,Crestwood Financial Group,Pinnacle Trade Partners,4266,340.37,SETTLED
+TRD-A66398ACB5,MRCX,Equity,2026-01-11,Colborne Capital LLC,Nexus Capital Markets,13681,226.1,CANCELLED
+TRD-A0BA5D0E4D,SLRS,ETF,2025-08-14,Atlas Trading Group,Crestwood Financial Group,28858,483.38,SETTLED
+TRD-79D7CCF14E,VNTS,Equity,2026-02-04,Redstone Financial Corp,Westgate Securities,43810,420.63,CANCELLED
+TRD-E0F860D23B,CLBN,Equity,2025-02-02,Altus Capital LLC,Sterling Market Partners,16989,44.8,SETTLED
+TRD-CFCEE94FB3,CLBN,Equity,2025-12-26,Sterling Market Partners,Colborne Capital LLC,18007,498.02,SETTLED
+TRD-E830FD7274,ALTF,Equity,2025-11-19,Colborne Capital LLC,Orion Market Makers,8035,360.61,CANCELLED
+TRD-B745764774,FNDX,Bond,2026-06-10,Fairview Financial Inc,Altus Capital LLC,29321,321.15,CANCELLED
+TRD-E4876D9443,HLWS,Equity,2026-02-15,Everest Capital Group,Claridge Securities,21854,306.81,SETTLED
+TRD-A4360F7FC7,GLDT,ETF,2025-10-19,Redstone Financial Corp,Pinnacle Trade Partners,11252,271.59,CANCELLED
+TRD-61354683AA,SLVR,ETF,2025-08-06,Bluehaven Trading LLC,Harlow Securities,1382,142.11,REJECTED
+TRD-8AF8BA8573,VNTS,Equity,2026-02-18,Altus Capital LLC,Atlas Trading Group,39333,324.03,PENDING
+TRD-08325E994C,SLRS,ETF,2025-12-03,Everest Capital Group,Fairview Financial Inc,30723,91.88,REJECTED
+TRD-E8B238D669,,Equity,2025-04-17,Sterling Market Partners,Altus Capital LLC,44032,211.42,CANCELLED
+TRD-0CC38D140C,,Equity,04-13-2025,Atlas Trading Group,Fairview Financial Inc,2183,190.03,CANCELLED
+TRD-64C6A46971,,Equity,2025-10-18,Everest Capital Group,Claridge Securities,19685,189.76,SETTLED
+TRD-D808E71598,IGTC,ETF,2025-07-17,Irongate Trading Co,Bluehaven Trading LLC,5928,450.58,EXECUTED
+TRD-A2F955E843,WGTS,Bond,2026-06-28,Orion Market Makers,Bluehaven Trading LLC,12853,227.83,CANCELLED
+TRD-5FDF44EDFB,ANLX,Equity,2025-01-06,Vantage Securities Inc,Solaris Brokerage LLC,40265,462.88,REJECTED
+TRD-8DC6464A14,DRVX,Bond,2026-03-02,Solaris Brokerage LLC,Westgate Securities,647,389.38,REJECTED
+TRD-FA4FBC008C,NXCM,Bond,15/02/2025,Altus Capital LLC,Pinnacle Trade Partners,17675,106.5,PENDING
+TRD-0E684B062B,TRNF,Bond,2025-04-21,Orion Market Makers,Vantage Securities Inc,3736,18.0,EXECUTED
+TRD-1CC22857C7,PNTP,Bond,2025-09-20,Westgate Securities,Nexus Capital Markets,34373,119.87,CANCELLED
+TRD-5A74BFF82F,NXCM,Bond,2025-03-21,Fairview Financial Inc,Irongate Trading Co,32808,446.32,EXECUTED
+TRD-1822448A40,TRDX,ETF,2025.10.02,Pinnacle Trade Partners,Atlas Trading Group,36120,197.53,EXECUTED
+TRD-B5421526D9,,Equity,2025-12-31,Atlas Trading Group,Crestwood Financial Group,34825,103.9,REJECTED
+TRD-54C5CC3D7B,BRCX,Bond,2026.02.26,Everest Capital Group,Harlow Securities,14577,267.68,SETTLED
+TRD-39A49D93E4,CLBN,Equity,2025-03-25,Claridge Securities,Solaris Brokerage LLC,4699,481.19,SETTLED
+TRD-7FF565920F,DRVX,Bond,2025-12-23,Thornfield Brokers Inc,Irongate Trading Co,25873,233.15,EXECUTED
+TRD-33F667AFC1,MRCX,Equity,2025-02-27,Orion Market Makers,Colborne Capital LLC,11353,272.4,REJECTED
+TRD-0F7D6AADC2,,Bond,2025-06-27,Vantage Securities Inc,Claridge Securities,16710,170.73,CANCELLED
+TRD-ECAEADE8B4,ATLS,Equity,2026-06-28,Fairview Financial Inc,Vantage Securities Inc,14553,21.05,SETTLED
+TRD-D88E97C3E5,PNTP,Bond,2025-04-02,Meridian Prime Brokers,Redstone Financial Corp,31674,269.75,PENDING
+TRD-BCBF071161,BLHV,Bond,2025-11-22,Meridian Prime Brokers,Solaris Brokerage LLC,37734,217.67,PENDING
+TRD-F02D609199,ATLS,Equity,2025-01-25,Crestwood Financial Group,Harlow Securities,1988,258.78,REJECTED
+TRD-4B4AD3E035,TRNF,Bond,2025-05-28,Sterling Market Partners,,46613,105.88,REJECTED
+TRD-A9E0273317,MXCP,Equity,2025-10-03,Pinnacle Trade Partners,Harlow Securities,31001,309.45,REJECTED
+TRD-11EEF4637C,,Equity,2025-01-10,Pinnacle Trade Partners,Atlas Trading Group,20659,432.65,PENDING
+TRD-7A00180FAE,FNDX,Bond,2026-01-03,Meridian Prime Brokers,Sterling Market Partners,1177,275.59,CANCELLED
+TRD-E185850E99,ORNM,ETF,2026-01-16,Solaris Brokerage LLC,Westgate Securities,31217,-369.51,PENDING
+TRD-95D4EBD239,HLWS,Equity,2026-01-15,Meridian Prime Brokers,Thornfield Brokers Inc,32859,332.3,CANCELLED
+TRD-402FDEB50A,MRCX,Equity,2025-05-29,Orion Market Makers,Pinnacle Trade Partners,26001,429.99,PENDING
+TRD-31C59F70EB,FRVW,ETF,2026-05-27,Sterling Market Partners,Meridian Prime Brokers,42859,384.16,EXECUTED
+TRD-C21263D893,MRCX,Equity,2026-02-22,Nexus Capital Markets,Altus Capital LLC,24193,57.53,EXECUTED
+TRD-A6985BECF4,,Equity,2026-04-07,Everest Capital Group,Nexus Capital Markets,45368,353.38,EXECUTED
+TRD-EB70E3720E,CLRG,Equity,2026-02-21,Fairview Financial Inc,Pinnacle Trade Partners,10459,489.58,SETTLED
+TRD-90B6A7E25D,STRM,ETF,2025-01-26,Solaris Brokerage LLC,Altus Capital LLC,10737,62.27,SETTLED
+TRD-D30ECE5291,TRNF,Bond,2026-03-13,Solaris Brokerage LLC,Altus Capital LLC,15093,178.24,EXECUTED
+TRD-FB8905ADB6,INFX,Equity,2026.05.27,Claridge Securities,Redstone Financial Corp,23258,107.88,SETTLED
+TRD-01CCB1EB82,NXCM,Bond,2025-02-15,Altus Capital LLC,,43280,161.22,REJECTED
+TRD-996D3D14DD,,Equity,2025-05-12,Irongate Trading Co,Sterling Market Partners,19965,161.91,PENDING
+TRD-769008F825,DRVX,Bond,2025-04-26,Sterling Market Partners,Harlow Securities,28807,115.6,PENDING
+TRD-5DE5D0896D,BLHV,Bond,2025-09-18,Nexus Capital Markets,Sterling Market Partners,33088,355.23,REJECTED
+TRD-892A6E9E16,IGTC,ETF,2025-02-24,Sterling Market Partners,Harlow Securities,45773,153.69,SETTLED
+TRD-295A71E5A1,BLHV,Bond,2026-01-28,Thornfield Brokers Inc,Westgate Securities,2399,182.17,CANCELLED
+TRD-CACB3D12A7,VNTS,Equity,2025-07-25,Atlas Trading Group,Colborne Capital LLC,43698,84.71,PENDING
+TRD-FC2DA29D00,RDST,Equity,2025-08-07,Thornfield Brokers Inc,Bluehaven Trading LLC,7972,254.13,EXECUTED
+TRD-9B17F92744,GLDT,ETF,2025-07-27,Everest Capital Group,Irongate Trading Co,24442,419.9,CANCELLED
+TRD-BECC96C3E4,IGTC,ETF,2025-06-08,Pinnacle Trade Partners,Fairview Financial Inc,38736,132.53,CANCELLED
+TRD-D2DAC00F21,SLVR,ETF,2026-01-21,Pinnacle Trade Partners,Nexus Capital Markets,4331,219.29,EXECUTED
+TRD-39D4714D35,FNDX,Bond,2025-01-07,Westgate Securities,Vantage Securities Inc,24436,396.8,SETTLED
+TRD-A4ED8F2156,CLRG,Equity,2026-06-04,Pinnacle Trade Partners,Redstone Financial Corp,19120,164.5,CANCELLED
+TRD-CDD07922C0,ORNM,ETF,2026-04-25,Atlas Trading Group,Irongate Trading Co,21820,458.95,PENDING
+TRD-56899FC68D,IGTC,ETF,2025-10-12,Fairview Financial Inc,Atlas Trading Group,39519,453.31,PENDING

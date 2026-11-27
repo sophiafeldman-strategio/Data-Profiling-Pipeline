@@ -1,0 +1,50 @@
+# Meridian Data Profiling Pipeline 
+Pipeline loads and assesses securities trade blotter data from **Meridian Capital Markets** building a profiler for data quality assessment 
+
+# Installation 
+Clone repo and install dependencies
+```bash
+git clone https://github.com/sophiafeldman-strategio/Data-Profiling-Pipeline.git
+cd Data-Profiling-Pipeline
+pip install -r requirements.txt
+python src/main.py
+```
+# Usage 
+Run `Main.py` profiler outputs to `/output/summary_stats.md` for user review 
+
+# Data 
+`input files: tests/data/meridian_trades_small.csv`
+`tests/data/meridian_trades_small.json`
+`data_info/SCHEMA.md`
+
+*Note: data is synthetic*
+
+# Project structure
+```text
+.
+├── src/
+│   ├── main.py            # loads data, combines it, writes the report
+│   ├── load_trades.py     # reads the CSV and JSON files
+│   ├── transform_df.py    # combines the two datasets
+│   └── profiler.py        # data quality checks
+├── tests/
+│   ├── tests.py
+│   └── data/
+│       ├── meridian_trades_small.csv
+│       └── meridian_trades_small.json
+├── data_info/             # schema and field notes
+│   ├── SCHEMA.md
+│   ├── DATA_DOCUMENTATION.md
+│   └── meridian_reference_data.csv
+├── output/
+│   └── summary_stats.md   # profiling report
+├── requirements.txt
+├── PRD.md
+└── README.md
+```
+
+# Author
+**Sophia Feldman**
+Data profiling pipeline for Meridian Capital Markets.
+
+[GitHub](https://github.com/sophiafeldman-strategio)

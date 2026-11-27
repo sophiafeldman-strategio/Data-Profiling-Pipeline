@@ -1,0 +1,31 @@
+instrument_id,instrument_name,asset_class,instrument_type,trading_venue,issuer,currency,status
+MRCX,Meridian Capital Corp,Equities,Equity,NYSE,Meridian Capital Group LLC,USD,Active
+ALTF,Altus Financial Group,Equities,Equity,NASDAQ,Altus Holdings Inc,USD,Active
+VNTS,Vantage Securities Fund,Equities,Equity,NYSE,Vantage Asset Management,USD,Active
+CRWD,Crestwood Diversified,Equities,Equity,NASDAQ,Crestwood Financial Group,USD,Active
+IGTC,Irongate Total Market ETF,Exchange Traded Funds,ETF,NYSE Arca,Irongate Investment Advisors,USD,Active
+SLRS,Solaris Growth ETF,Exchange Traded Funds,ETF,NASDAQ,Solaris Fund Management,USD,Active
+NXCM,Nexus Capital Markets Bond 2028,Fixed Income,Bond,OTC,Nexus Capital Markets LLC,USD,Active
+PNTP,Pinnacle Trade Partners Note 2027,Fixed Income,Bond,OTC,Pinnacle Trade Partners Inc,USD,Active
+HLWS,Harlow Securities Class A,Equities,Equity,NYSE,Harlow Group Holdings,USD,Active
+RDST,Redstone Financial Corp,Equities,Equity,NASDAQ,Redstone Financial Corp,USD,Active
+ORNM,Orion Market Makers ETF,Exchange Traded Funds,ETF,NYSE Arca,Orion Investment Management,USD,Active
+BLHV,Bluehaven Corporate Bond 2029,Fixed Income,Bond,OTC,Bluehaven Trading LLC,USD,Active
+EVST,Everest Capital Group,Equities,Equity,NYSE,Everest Capital Group Inc,USD,Active
+CLRG,Claridge Securities Inc,Equities,Equity,NASDAQ,Claridge Holdings Corp,USD,Active
+TRNF,Thornfield Senior Note 2030,Fixed Income,Bond,OTC,Thornfield Brokers Inc,USD,Active
+STRM,Sterling Market ETF,Exchange Traded Funds,ETF,NYSE Arca,Sterling Market Partners LLC,USD,Active
+ATLS,Atlas Trading Group,Equities,Equity,NYSE,Atlas Trading Group Inc,USD,Active
+CLBN,Colborne Capital Class B,Equities,Equity,NASDAQ,Colborne Capital LLC,USD,Active
+WGTS,Westgate Fixed Income Note 2028,Fixed Income,Bond,OTC,Westgate Securities Corp,USD,Active
+FRVW,Fairview Multi-Asset ETF,Exchange Traded Funds,ETF,NYSE Arca,Fairview Financial Inc,USD,Active
+MXCP,Maxcap Equity Fund,Equities,Equity,NYSE,Maxcap Investment Group,USD,Active
+BRCX,Barcrest Corporate Bond 2031,Fixed Income,Bond,OTC,Barcrest Capital LLC,USD,Active
+GLDT,Goldtree Commodity ETF,Exchange Traded Funds,ETF,NYSE Arca,Goldtree Asset Management,USD,Active
+SLVR,Silverton Diversified ETF,Exchange Traded Funds,ETF,NASDAQ,Silverton Fund Advisors,USD,Active
+CPXT,Capstone Equity Partners,Equities,Equity,NYSE,Capstone Financial Group,USD,Active
+DRVX,Dervex Senior Secured Note 2029,Fixed Income,Bond,OTC,Dervex Capital Markets,USD,Active
+INFX,Infrax Holdings Corp,Equities,Equity,NASDAQ,Infrax Global Inc,USD,Active
+TRDX,Tradex Balanced ETF,Exchange Traded Funds,ETF,NYSE Arca,Tradex Investment Management,USD,Active
+FNDX,Fondex Government Bond 2032,Fixed Income,Bond,OTC,Fondex Capital LLC,USD,Active
+ANLX,Analytix Technology Group,Equities,Equity,NASDAQ,Analytix Corp,USD,Active
